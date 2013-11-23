@@ -28,19 +28,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-/*
-
-X-ray
-
-*/
-
-x* {
-	background: rgba(255, 0, 0, .1);
-}
-
 
 html {
 	-webkit-text-size-adjust: 100%;
+	min-height: 100%;
 }
 
 body {
@@ -48,7 +39,7 @@ body {
     font: 0.875rem/1.5em Inconsolata, monospace;
     color: #333;
 	-webkit-text-size-adjust: 100%;
-	padding: 4rem;
+	min-height: 100%;
 }
 
 h1, p {
@@ -75,6 +66,32 @@ a:visited {
 a:hover {
     color: #333;
     background: #fff;
+}
+
+iframe {
+    width: 1100px;
+    height: 200%;
+    display: inline;
+    -webkit-transform: scale(.5);
+    -webkit-transform-origin: 0 0;
+}
+
+#container {
+    width: 960px;
+    margin: 0;
+}
+
+#website {
+    width: 550px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#txt {
+    margin: 4rem;
+    float: right;
 }
 
 @media only screen 
