@@ -60,12 +60,15 @@ a {
 
 a:visited {
     color: #999;
-    background: #fff;
 }
 
 a:hover {
-    color: #333;
-    background: #fff;
+    color: #444;
+}
+
+a.selected {
+    background: #e00;
+    color: #e00;
 }
 
 iframe {
@@ -77,8 +80,9 @@ iframe {
 }
 
 #container {
-    width: 960px;
-    margin: 0;
+    width: 1000px;
+    -webkit-transition: margin-left .4s ease-in-out;
+    transition: margin-left .4s ease-in-out;
 }
 
 #website {
@@ -86,13 +90,24 @@ iframe {
     height: 100%;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 0px;
+    -webkit-transition: margin-left .4s ease-in-out;
+    transition: margin-left .4s ease-in-out;
 }
 
 #txt {
     margin: 4rem;
     float: right;
 }
+
+.hide {
+    margin-left: -550px;
+}
+
+.show {
+    margin-left: 0;
+}
+
 
 @media only screen 
 and (min-device-width : 768px) 
