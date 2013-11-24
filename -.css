@@ -68,7 +68,9 @@ a:hover {
 
 a.selected {
     background: #e00;
-    color: #e00;
+    color: #fff;
+    padding: 3px 6px;
+    text-decoration: none;
 }
 
 iframe {
@@ -82,7 +84,7 @@ iframe {
 #container {
     width: 1000px;
     -webkit-transition: margin-left .4s ease-in-out;
-    transition: margin-left .4s ease-in-out;
+    transition: margin-left .3s ease-in-out;
 }
 
 #website {
@@ -92,7 +94,7 @@ iframe {
     top: 0;
     left: 0px;
     -webkit-transition: margin-left .4s ease-in-out;
-    transition: margin-left .4s ease-in-out;
+    transition: margin-left .3s ease-in-out;
 }
 
 #txt {
