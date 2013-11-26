@@ -121,6 +121,10 @@ iframe {
     width: 320px;
 }
 
+#mobiletxt {
+    display: none;
+}
+
 .hide {
     margin-left: -550px;
 }
@@ -137,6 +141,15 @@ and (orientation : landscape) {
 html {
 	font-size: 1.2rem;
 	}
+body {
+	padding: 3rem 0 4rem 4rem;
+	}
+#container {
+    display: none;
+}
+#mobiletxt {
+    display: block;
+}
 }
 
 @media only screen 
@@ -146,11 +159,20 @@ and (orientation : portrait) {
 html {
 	font-size: 1.6rem;
 	}
+body {
+	padding: 4rem 0 4rem 6rem;
+	}
+#container {
+    display: none;
+}
+#mobiletxt {
+    display: block;
+}
 }
 
 @media only screen 
 and (min-device-width : 320px) 
-and (max-device-width : 480px)
+and (max-device-width : 480px), (max-device-width: 568px)
 and (orientation : landscape) {
 html {
 	font-size: 2.6rem;
@@ -158,11 +180,17 @@ html {
 body {
 	padding: 2rem 0 4rem 2rem;
 	}
+#container {
+    display: none;
+}
+#mobiletxt {
+    display: block;
+}
 }
 
 @media only screen 
 and (min-device-width : 320px) 
-and (max-device-width : 480px)
+and (max-device-width : 480px), (max-device-width: 568px)
 and (orientation : portrait) {
 html {
 	font-size: 3rem;
@@ -170,4 +198,10 @@ html {
 body {
 	padding: 2rem 0 4rem 1rem;
 	}
+#container {
+    display: none;
+}
+#mobiletxt {
+    display: block;
+}
 }
