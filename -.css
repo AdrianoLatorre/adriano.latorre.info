@@ -42,8 +42,13 @@ body {
 	min-height: 100%;
 }
 
-h1, p {
-    margin: 2em 0;
+p, ul {
+    margin: 1em 0 2em;
+}
+
+h1, h2 {
+    margin: 1em 0;
+    text-transform: uppercase;
 }
 
 ul {
@@ -67,7 +72,13 @@ a:hover {
 }
 
 a.selected {
-    background: #e00;
+    background: -webkit-linear-gradient(left, #fff 0%, #e00 1%, #e00 100%) no-repeat;
+    background: -moz-linear-gradient(left, #fff 0%, #e00 1%, #e00 100%) no-repeat;
+    -webkit-transition: background .3s ease-out;
+    -moz-transition: background .3s ease-out;
+    transition: background .3s ease-out;
+    background-size: 500px 50px;
+    background-position: -500px 0;
     color: #fff;
     padding: 3px 6px;
     text-decoration: none;
@@ -78,12 +89,17 @@ iframe {
     height: 200%;
     display: inline;
     -webkit-transform: scale(.5);
+    -moz-transform: scale(.5);
+    transform: scale(.5);
     -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
 }
 
 #container {
     width: 1000px;
     -webkit-transition: margin-left .4s ease-in-out;
+    -moz-transition: margin-left .4s ease-in-out;
     transition: margin-left .3s ease-in-out;
 }
 
@@ -94,12 +110,14 @@ iframe {
     top: 0;
     left: 0px;
     -webkit-transition: margin-left .4s ease-in-out;
+    -moz-transition: margin-left .4s ease-in-out;
     transition: margin-left .3s ease-in-out;
 }
 
 #txt {
     margin: 4rem;
     float: right;
+    z-index: 999;
 }
 
 .hide {
