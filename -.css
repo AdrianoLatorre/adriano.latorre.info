@@ -1,8 +1,8 @@
 
-/* 
+/*
 
 Eric Meyer's Aprox Reset
-http://meyerweb.com/eric/tools/css/reset/ 
+http://meyerweb.com/eric/tools/css/reset/
 
 */
 
@@ -15,8 +15,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -27,7 +27,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
 
 html {
 	-webkit-text-size-adjust: 100%;
@@ -133,75 +132,74 @@ iframe {
     margin-left: 0;
 }
 
-
-@media only screen 
-and (min-device-width : 768px) 
+@media only screen
+and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : landscape) {
-html {
-	font-size: 1.2rem;
+	html {
+		font-size: 1.2rem;
+		}
+	body {
+		padding: 3rem 0 4rem 4rem;
+		}
+	#container {
+	    display: none;
 	}
-body {
-	padding: 3rem 0 4rem 4rem;
+	#mobiletxt {
+	    display: block;
 	}
-#container {
-    display: none;
-}
-#mobiletxt {
-    display: block;
-}
 }
 
-@media only screen 
-and (min-device-width : 768px) 
+@media only screen
+and (min-device-width : 768px)
 and (max-device-width : 1024px)
 and (orientation : portrait) {
-html {
-	font-size: 1.6rem;
+	html {
+		font-size: 1.6rem;
+		}
+	body {
+		padding: 4rem 0 4rem 6rem;
+		}
+	#container {
+	    display: none;
 	}
-body {
-	padding: 4rem 0 4rem 6rem;
+	#mobiletxt {
+	    display: block;
 	}
-#container {
-    display: none;
-}
-#mobiletxt {
-    display: block;
-}
 }
 
-@media only screen 
-and (min-device-width : 320px) 
+@media only screen
+and (min-device-width : 320px)
 and (max-device-width : 480px), (max-device-width: 568px)
 and (orientation : landscape) {
-html {
-	font-size: 2.6rem;
+	html {
+		font-size: 2.6rem;
+		}
+	body {
+		padding: 2rem 0 4rem 2rem;
+		}
+	#container {
+	    display: none;
 	}
-body {
-	padding: 2rem 0 4rem 2rem;
+	#mobiletxt {
+	    display: block;
 	}
-#container {
-    display: none;
-}
-#mobiletxt {
-    display: block;
-}
 }
 
-@media only screen 
-and (min-device-width : 320px) 
+@media only screen
+and (min-device-width : 320px)
 and (max-device-width : 480px), (max-device-width: 568px)
 and (orientation : portrait) {
-html {
-	font-size: 3rem;
+	html {
+		font-size: 3rem;
+		}
+	body {
+		padding: 2rem 0 4rem 1rem;
+		}
+	#container {
+	    display: none;
 	}
-body {
-	padding: 2rem 0 4rem 1rem;
+	#mobiletxt {
+	    display: block;
 	}
-#container {
-    display: none;
-}
-#mobiletxt {
-    display: block;
-}
 }
