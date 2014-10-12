@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+  {% if page.title == "Home" %}
+  <div class="head-container"><img src="{{ paginator.posts[0].image }}" class="head-image" alt="" /></div>
+  {% else %}
+  <div class="head-container"><img src="{{ page.image }}" class="head-image" alt="" /></div>
+  {% endif %}
+  <div class="container content">
+    {{ content }}
+    {% include footer.html %}
+  </div>
+</body>
+</html>

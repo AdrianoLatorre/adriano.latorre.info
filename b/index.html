@@ -1,0 +1,35 @@
+---
+layout: default
+title: Home
+---
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+    <span class="post-date">{{ post.date | date: "%y%m%d" }}</span>
+    {{ post.content }}
+  </div>
+  {% endfor %}
+</div>
+<p class="page-nav">
+  {% if paginator.previous_page %}
+  {% if paginator.page == 2 %}
+  <a href="{{ site.baseurl }}/">&nbsp;&nbsp;&#8593;&nbsp;&nbsp;</a><br>
+  {% else %}
+  <a href="{{ site.baseurl }}/+{{paginator.previous_page}}/">&nbsp;&nbsp;&#8593;&nbsp;&nbsp;</a><br>
+  {% endif %}
+  {% endif %}
+  {% if paginator.next_page %}
+  {% if paginator.page == 1 %}
+  {% for post in paginator.posts %}
+  <a href="https://twitter.com/intent/tweet?&text={{ post.title }}.&url=http://adriano.latorre.info/b{{ post.url }}" target="_blank">Tweet</a><br>
+  {% endfor %}
+  {% endif %}
+  <a href="{{ site.baseurl }}/+{{paginator.next_page}}/">&nbsp;&nbsp;&#8595;&nbsp;&nbsp;</a>
+  {% endif %}
+</p>

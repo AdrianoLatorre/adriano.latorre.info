@@ -1,0 +1,27 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
+
+# Permalinks
+permalink:        /:title/
+
+# Setup
+title:            /b
+tagline:          adriano.latorre.info
+url:              http://adriano.latorre.info/b/
+paginate:         1
+paginate_path:    /+:num/
+baseurl:          /b
+author:
+name:             Adriano Latorre
+url:              https://twitter.com/adrianolatorre
+email:          
+
+# Custom vars
+version:          1.0.0
+github:
+repo:             https://github.com/adrianolatorre/b
+pages_list:       
+  Info: 'http://adriano.latorre.info/'
+  Archivo: '/b/archivo/'
+  Feed: '/b/atom.xml'
