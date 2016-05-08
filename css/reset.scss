@@ -1,11 +1,6 @@
+// reset.scss: ground-zero styles (resets, box-sizing).
 
-/*
-
-Eric Meyer's Aprox Reset
-http://meyerweb.com/eric/tools/css/reset/
-
-*/
-
+// Eric Meyer's Aprox Reset – http://meyerweb.com/eric/tools/css/reset/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,17 +21,4 @@ time, mark, audio, video {
   line-height: 150%;
   font: inherit;
   vertical-align: baseline;
-}
-
-html {
-  -webkit-text-size-adjust: 100%;
-  min-height: 100%;
-}
-
-body {
-  background: #fff;
-  font: 0.875rem/1.5em Inconsolata, monospace;
-  color: #333;
-  -webkit-text-size-adjust: 100%;
-  min-height: 100%;
 }

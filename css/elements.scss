@@ -1,0 +1,12 @@
+// elements.scss: unclassed HTML elements (type selectors).
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background: $w;
+  color: $g;
+  font: .875rem/1.5em Inconsolata, monospace;
+  min-height: 100%;
+}
