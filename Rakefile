@@ -3,10 +3,10 @@ task :serve do
   sh 'jekyll serve --watch'
 end
 
-desc 'Git status'
-task :status do
-  sh 'git status'
+desc 'Open url'
+task :open do
+  sh 'open http://0.0.0.0:4000/'
 end
 
-desc 'Concat example'
-task :all => [:status, :serve]
+desc 'Serve and view'
+task :all => [:open, :serve]
