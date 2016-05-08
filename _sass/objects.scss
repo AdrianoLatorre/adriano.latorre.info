@@ -1,1 +1,7 @@
 // objects.scss: cosmetic-free design patterns (OOCSS).
+
+.main-container {
+  background-color: $bg;
+  margin: 4rem auto 0;
+  max-width: 90%;
+}
