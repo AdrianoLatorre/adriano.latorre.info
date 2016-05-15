@@ -6,6 +6,12 @@ url: "http://adriano.latorre.info"
 twitter_username: adrianolatorre
 github_username:  adrianolatorre
 
+# Collections
+collections:
+  the_wick:
+    output: true
+    permalink: /w/:path/
+
 # Build settings
 markdown: kramdown
 permalink: pretty
