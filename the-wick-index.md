@@ -15,3 +15,6 @@ permalink: /w/
   {% endfor %}
   {% endfor %}
 </dl>
+
+{% assign current = site.the_wick | last %}
+<p><a href="{{ current.edition | minus: 1 }}">Previous</a></p>
