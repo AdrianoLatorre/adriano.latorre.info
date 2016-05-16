@@ -18,3 +18,7 @@ permalink: /w/
 
 {% assign current = site.the_wick | last %}
 <p><a href="{{ current.edition | minus: 1 }}">Previous</a></p>
+
+<br><br><br><br>
+<p><a href="/w/archive/">ARCHIVE</a></p>
+<p><a href="/w/tags/">TAGS</a></p>
