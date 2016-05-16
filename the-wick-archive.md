@@ -4,11 +4,14 @@ title: The Wick Archive
 permalink: /w/archive/
 ---
 
-{% assign current = site.the_wick | last %}
+<!-- {% assign current = site.the_wick | last %}
+  {% if editions.year == current.year %}
+  {% endif %}   -->
 
 <dl>
-  {% for editions in site.the_wick %}
-  {% if editions.year == current.year %}
+  {% assign sorted_editions = site.the_wick | sort: 'year' %}
+  {% for editions in sorted_editions reversed %}
+  <dt>{{ editions.year }}</dt>
   <dt><h3><a href="/w/{{ editions.edition }}/">#{{ editions.edition }}</a> {{ editions.title }}</h3></dt>
   {% for link in editions.links %}
   <dt><a href="{{ link.url }}">{{ link.title }}</a></dt>
@@ -16,7 +19,6 @@ permalink: /w/archive/
 <!--   <dd>{% for tag in link.tags %}
   {{ tag }} {% endfor %}</dd> -->
   {% endfor %}
-  {% endif %}  
   {% endfor %}
 </dl>
 
