@@ -1,16 +1,16 @@
 ---
-layout: the-wick-index
+layout: the-wick
 ---
 
-<h1>{{ page.title }}</h1>
-
+<dl>
+<dt><h3><a href="/w/{{ page.edition }}/">#{{ page.edition }}</a> {{ page.title }}</h3></dt>
 {% for link in page.links %}
 <dt><a href="{{ link.url }}">{{ link.title }}</a></dt>
-<dd><a href="/w/{{ page.edition }}/">Permalink {{ page.edition }}</a></dd>
 <dd>{{ link.description }}</dd>
-<dd>{% for tag in link.tags %}
-{{ tag }} {% endfor %}</dd>
+<!-- <dd>{% for tag in link.tags %}
+{{ tag }} {% endfor %}</dd> -->
 {% endfor %}
+</dl>
 
 {% assign current = site.the_wick | last %}
 {% if page.edition < current.edition %}
@@ -20,7 +20,4 @@ layout: the-wick-index
 <p><a href="/w/{{ page.edition | minus: 1 }}">Previous</a></p>
 {% endif %}
 
-<br><br><br><br>
-<p><a href="/w/">INDEX</a></p>
-<p><a href="/w/archive/">ARCHIVE</a></p>
-<p><a href="/w/tags/">TAGS</a></p>
+{% include the-wick-footer.html %}
