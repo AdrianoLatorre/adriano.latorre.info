@@ -2,13 +2,7 @@
 layout: the-wick
 ---
 
-<div class="xxxxxxxx">
-  <header class="xxxxxxxx">
-    <h1>{{ page.title }}</h1>
-  </header>
-  <article class="xxxxxxxx">
-    {{ content }}
-  </article>
+<h1>{{ page.title }}</h1>
 {% assign current = site.the_wick | last %}
 {% if page.edition < current.edition %}
 <p><a href="/w/{{ page.edition | plus: 1 }}">Next</a></p>
@@ -16,5 +10,4 @@ layout: the-wick
 {% if page.edition > 1 %}
 <p><a href="/w/{{ page.edition | minus: 1 }}">Previous</a></p>
 {% endif %}
-</div>
   
