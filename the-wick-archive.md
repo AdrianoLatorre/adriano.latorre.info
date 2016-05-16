@@ -1,5 +1,5 @@
 ---
-layout: the-wick-edition
+layout: the-wick
 title: The Wick Archive
 permalink: /w/archive/
 ---
