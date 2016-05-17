@@ -12,7 +12,8 @@ layout: the-wick
 {% endfor %}
 </dl>
 
-{% assign current = site.the_wick | last %}
+{% assign all_sorted = site.the_wick | sort: "edition" %}
+{% assign current = all_sorted | last %}
 {% if page.edition < current.edition %}
 <p><a href="/w/{{ page.edition | plus: 1 }}">Next</a></p>
 {% endif %}

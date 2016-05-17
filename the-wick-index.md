@@ -5,7 +5,8 @@ permalink: /w/
 ---
 
 <dl>
-  {% assign current = site.the_wick | last %}
+  {% assign all_sorted = site.the_wick | sort: "edition" %}
+  {% assign current = all_sorted | last %}
   <dt><h3><a href="/w/{{ current.edition }}/">#{{ current.edition }}</a> {{ current.title }}</h3></dt>
   {% for link in current.links %}  
   <dt><a href="{{ link.url }}">{{ link.title }}</a></dt>
@@ -15,7 +16,6 @@ permalink: /w/
   {% endfor %}
 </dl>
 
-{% assign current = site.the_wick | last %}
 <p><a href="{{ current.edition | minus: 1 }}">Previous</a></p>
 
 {% include the-wick-footer.html %}
