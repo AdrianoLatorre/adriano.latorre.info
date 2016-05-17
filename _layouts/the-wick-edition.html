@@ -14,11 +14,15 @@ layout: the-wick
 
 {% assign all_sorted = site.the_wick | sort: "edition" %}
 {% assign current = all_sorted | last %}
+{% assign next_page = page.edition | plus: 1 %}
+{% assign previous_page = page.edition | minus: 1 %}
+{% assign next_title = page.edition %}
+{% assign previous_title = page.edition | minus: 2 %}
 {% if page.edition < current.edition %}
-<p><a href="/w/{{ page.edition | plus: 1 }}">Next</a></p>
+<p><a href="/w/{{ next_page }}">Next: {{ all_sorted[next_title].title }}</a></p>
 {% endif %}
 {% if page.edition > 1 %}
-<p><a href="/w/{{ page.edition | minus: 1 }}">Previous</a></p>
+<p><a href="/w/{{ previous_page }}">Previous: {{ all_sorted[previous_title].title }}</a></p>
 {% endif %}
 
 {% include the-wick-footer.html %}
