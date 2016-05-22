@@ -10,3 +10,20 @@ body {
   font: 100%/1.5em 'Source Sans Pro', sans-serif;
   min-height: 100%;
 }
+
+a {
+  color: $fg;
+  font-weight: 300;
+  text-decoration: none;
+  &:hover {
+    background-color: $fg;
+    color: $bg;
+  }
+}
+
+dd {
+  font-size: 4rem;
+  > a {
+    line-height: 120%;
+  }
+}

@@ -11,8 +11,8 @@ permalink: /w/
   {% assign previous_title = current.edition | minus: 2 %}
   <dt><h3><a href="/w/{{ current.edition }}/">#{{ current.edition }}</a> {{ current.title }}</h3></dt>
   {% for link in current.links %}  
-  <dt><a href="{{ link.url }}">{{ link.title }}</a></dt>
-  <dd>{{ link.description }}</dd>
+  <dt>{{ link.description }}</dt>
+  <dd><a href="{{ link.url }}">{{ link.title }}</a></dd>
 <!--   <dd>{% for tag in link.tags %}
   {{ tag }} {% endfor %}</dd> -->
   {% endfor %}

@@ -5,8 +5,8 @@ layout: the-wick
 <dl>
 <dt><h3><a href="/w/{{ page.edition }}/">#{{ page.edition }}</a> {{ page.title }}</h3></dt>
 {% for link in page.links %}
-<dt><a href="{{ link.url }}">{{ link.title }}</a></dt>
-<dd>{{ link.description }}</dd>
+<dt>{{ link.description }}</dt>
+<dd><a href="{{ link.url }}">{{ link.title }}</a></dd>
 <!-- <dd>{% for tag in link.tags %}
   <a href="/w/tag/{{ tag }}/">{{ tag }}</a>
 {% endfor %}</dd> -->

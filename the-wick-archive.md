@@ -14,8 +14,8 @@ permalink: /w/archive/
   <dt>{{ editions.year }}</dt>
   <dt><h3><a href="/w/{{ editions.edition }}/">#{{ editions.edition }}</a> {{ editions.title }}</h3></dt>
   {% for link in editions.links %}
-  <dt><a href="{{ link.url }}">{{ link.title }}</a></dt>
-  <dd>{{ link.description }}</dd>
+  <dt>{{ link.description }}</dt>
+  <dd><a href="{{ link.url }}">{{ link.title }}</a></dd>
 <!--   <dd>{% for tag in link.tags %}
   {{ tag }} {% endfor %}</dd> -->
   {% endfor %}
