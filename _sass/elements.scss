@@ -5,19 +5,19 @@ html {
 }
 
 body {
-  background-color: $g;
-  color: $fg;
+  background-color: $g95;
+  color: $g25;
   font: 100%/1.5em 'Source Sans Pro', sans-serif;
   min-height: 100%;
 }
 
 a {
-  color: $fg;
+  color: $g25;
   font-weight: 300;
   text-decoration: none;
   &:hover {
-    background-color: $fg;
-    color: $bg;
+    background-color: $g25;
+    color: $g99;
   }
 }
 
