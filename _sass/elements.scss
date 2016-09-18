@@ -10,13 +10,3 @@ body {
   font: 100%/1.5em 'Source Sans Pro', sans-serif;
   min-height: 100%;
 }
-
-a {
-  color: $g25;
-  font-weight: 300;
-  text-decoration: none;
-  &:hover {
-    background-color: $g25;
-    color: $g99;
-  }
-}

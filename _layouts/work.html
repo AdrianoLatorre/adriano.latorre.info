@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+  {% include header.html %}
+  <div class="main-container">
+    <div class="wrap">
+      <h3>{{ page.title }}</h3>
+      <p><a href="{{ page.main_url }}">{{ page.address }}</a></p>
+      <p>{{ page.description }}</p>
+      <p>{% for task in page.tasks %}<span>{{ task }}</span>{% endfor %}</p>
+    </div>
+    {% include footer.html %}
+  </div>
+</body>
+</html>

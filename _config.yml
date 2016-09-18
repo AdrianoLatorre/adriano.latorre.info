@@ -9,22 +9,19 @@ github_username:  adrianolatorre
 # Collections
 collections:
   books:
-    output: false
+    output: true
     permalink: /books/:path/
   links:
-    output: false
+    output: true
     permalink: /links/:path/
   people:
-    output: false
+    output: true
     permalink: /people/:path/
   projects:
-    output: false
+    output: true
     permalink: /projects/:path/
-  the_wick:
-    output: false
-    permalink: /w/:path/
   work:
-    output: false
+    output: true
     permalink: /work/:path/
 
 # Build settings

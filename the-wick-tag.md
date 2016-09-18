@@ -1,4 +1,4 @@
----
+
 layout: the-wick-tag
 title: The Wick
 permalink: /w/tag/

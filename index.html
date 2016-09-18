@@ -3,14 +3,52 @@ layout: default
 ---
 
 <div class="home">
+  <dl>
+    <dt>Work</dt>
+    {% assign work_by_date = site.work | sort: 'date' %}
+    {% for work in work_by_date reversed %}
+    <a href="{{ work.permalink }}">
+      <dt>{{ work.title }}</dt>
+      <dd>{{ work.brief }}</dd>
+    </a>
+    {% endfor %}
+  </dl>
 
   <dl>
-  <dt>Work</dt>
-  {% for work in site.work %}
-  <dt>{{ work.info.title }}</dt>
-  <dd>{{ work.info.brief }}</dd>
-  {% endfor %}
+    <dt>Projects</dt>
+    {% assign project_by_date = site.projects | sort: 'date' %}
+    {% for project in project_by_date reversed %}
+    <a href="{{ project.permalink }}">
+      <dt>{{ project.title }}</dt>
+      <dd>{{ project.brief }}</dd>
+    </a>
+    {% endfor %}
   </dl>
+
+  <dl>
+    <dt>Info</dt>
+    <a href="#">
+      <dt>Profile</dt>
+      <dd>About me</dd>
+    </a>
+    <a href="#">
+      <dt>Contact</dt>
+      <dd>Say hello via mail or Twitter</dd>
+    </a>
+    <a href="#">
+      <dt>People</dt>
+      <dd>Found in the street</dd>
+    </a>
+    <a href="#">
+      <dt>Books</dt>
+      <dd>Ready thingies</dd>
+    </a>
+    <a href="#">
+      <dt>Links</dt>
+      <dd>Clicky thingies</dd>
+    </a>
+  </dl>
+
 
   
   <br><br><br><br><br><br><br><br><br><br>
