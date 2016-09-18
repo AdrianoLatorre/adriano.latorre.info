@@ -9,9 +9,11 @@ github_username:  adrianolatorre
 # Collections
 collections:
   the_wick:
-    output: true
+    output: false
     permalink: /w/:path/
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+exclude:
+    - node_modules
