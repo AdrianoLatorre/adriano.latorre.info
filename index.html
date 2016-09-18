@@ -4,8 +4,16 @@ layout: default
 
 <div class="home">
 
-  <h1>Posts</h1>
+  <dl>
+  <dt>Work</dt>
+  {% for work in site.work %}
+  <dt>{{ work.info.title }}</dt>
+  <dd>{{ work.info.brief }}</dd>
+  {% endfor %}
+  </dl>
 
+  
+  <br><br><br><br><br><br><br><br><br><br>
   <ul class="posts">
     {% for post in site.posts %}
       <li>
