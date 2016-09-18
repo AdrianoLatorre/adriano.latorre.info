@@ -8,9 +8,24 @@ github_username:  adrianolatorre
 
 # Collections
 collections:
+  books:
+    output: false
+    permalink: /books/:path/
+  links:
+    output: false
+    permalink: /links/:path/
+  people:
+    output: false
+    permalink: /people/:path/
+  projects:
+    output: false
+    permalink: /projects/:path/
   the_wick:
     output: false
     permalink: /w/:path/
+  work:
+    output: false
+    permalink: /work/:path/
 
 # Build settings
 markdown: kramdown
