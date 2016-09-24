@@ -2,8 +2,14 @@
 layout: default
 ---
 
-{% assign links_by_year = site.people | sort: 'year' %}
-{% for link in links_by_year reversed %}
-<a href="{{ link.permalink }}">{{ link.year }}</a>
-{% endfor %}
-{{ content }}
+<dl>
+  {% assign all_people = site.people | sort: 'name' %}
+  {% assign persons = all_people.mates %}
+  {% for person in persons %}
+  {{ mate.name }} ***
+  <dt>{{ everyone.name }}</dt>
+  <dd><a href="{{ everyone.link }}">{{ everyone.site }}</a></dd>
+  <dd><a href="https://twitter.com/{{ everyone.twitter }}">@{{ everyone.twitter }}</a></dd>
+  <br>
+  {% endfor %}
+</dl>

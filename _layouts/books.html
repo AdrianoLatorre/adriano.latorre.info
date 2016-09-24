@@ -2,9 +2,11 @@
 layout: default
 ---
 
-{% assign links_by_year = site.books | sort: 'nav' %}
-{% for link in links_by_year reversed %}
-<a href="{{ link.nav }}">{{ link.nav }}</a>
-{{ site.books }}
-{% endfor %}
-{{ content }}
+<dl>
+  {% assign books = site.books | sort: 'year' %}
+  {% for book in books.titles reversed %}
+  <dt><a href="{{ book.link }}">{{ book.title }}</a></dt>
+  <dd>{{ book.author }}</dd>
+  <br>
+  {% endfor %}
+</dl>

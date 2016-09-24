@@ -1,6 +1,6 @@
 // objects.scss: cosmetic-free design patterns (OOCSS).
 
-.main-container {
+ .container, .footer, .main-container, .main-nav {
   margin: 8rem auto;
   max-width: 64rem;
 }
