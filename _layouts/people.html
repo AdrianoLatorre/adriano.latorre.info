@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign links_by_year = site.links | sort: 'year' %}
+{% assign links_by_year = site.people | sort: 'year' %}
 {% for link in links_by_year reversed %}
 <a href="{{ link.permalink }}">{{ link.year }}</a>
 {% endfor %}
