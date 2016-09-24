@@ -5,6 +5,10 @@
   {% include header.html %}
   <div class="main-container">
     <div class="wrap">
+      {% assign links_by_year = site.links | sort: 'year' %}
+      {% for link in links_by_year reversed %}
+      <a href="{{ link.permalink }}">{{ link.year }}</a>
+      {% endfor %}
       {{ content }}
     </div>
     {% include footer.html %}
