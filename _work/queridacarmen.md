@@ -1,6 +1,7 @@
 ---
 layout: work
 id: "queridacarmen"
+nav: "Work"
 permalink: /work/queridacarmen/
 date: 2010-10-01
 title: "Querida Carmen"

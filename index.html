@@ -1,16 +1,15 @@
 ---
 layout: default
+nav: "Web architecture, copywriting and design."
 ---
 
-<div class="home">
+<nav class="home">
   <dl>
     <dt>Work</dt>
     {% assign work_by_date = site.work | sort: 'date' %}
     {% for work in work_by_date reversed %}
-    <a href="{{ work.permalink }}">
-      <dt>{{ work.title }}</dt>
-      <dd>{{ work.brief }}</dd>
-    </a>
+    <dt><a href="{{ work.permalink }}">{{ work.title }}</a></dt>
+    <dd>{{ work.brief }}</dd>
     {% endfor %}
   </dl>
 
@@ -18,69 +17,42 @@ layout: default
     <dt>Projects</dt>
     {% assign project_by_date = site.projects | sort: 'date' %}
     {% for project in project_by_date reversed %}
-    <a href="{{ project.permalink }}">
-      <dt>{{ project.title }}</dt>
-      <dd>{{ project.brief }}</dd>
-    </a>
+    <dt><a href="{{ project.permalink }}">{{ project.title }}</a></dt>
+    <dd>{{ project.brief }}</dd>
     {% endfor %}
   </dl>
 
   <dl>
     <dt>Info</dt>
-    <a href="#">
-      <dt>Profile</dt>
-      <dd>About me</dd>
-    </a>
-    <a href="#">
-      <dt>Contact</dt>
-      <dd><script type="text/javascript">
-                //<![CDATA[
-                <!--
-                var x="function f(x,y){var i,o=\"\",l=x.length;for(i=0;i<l;i++){if(i>(81+y))" +
-                "y*=2;y%=127;o+=String.fromCharCode(x.charCodeAt(i)^(y++));}return o;}f(\"7'" +
-                "=7!?86y<s$t%)\\001\\023B\\nH\\n[EJE\\005\\007Q\\025@\\003\\025\\037\\025\\0" +
-                "07\\034Y\\032J\\027\\025A\\014\\024\\024\\022e)z-gmguKfnnMy&c? !:5(\\\"/1bn" +
-                "ieff4\\035Y\\031O\\017\\030J\\034UJK_OE\\006J\\031JONRZD\\037Q\\004V\\026\\" +
-                "r\\006W\\001}qy*iho<'bw3b.&.\\\"\\020&{=|m**<...3~0N\\022\\027\\001\\027\\0" +
-                "21\\024OXE\\005\\007EV\\023\\tXS[FFY*U:16$+7L22ZRCsI32ZR-\\016N\\\\^4>.b\\\""+
-                "036RB\\nN0^ZE-\\014N\\\\^6?.b\\\";[B7[P\\\"\\\\24>BbK02ZR?\\tI1^Z|,\\016I?3" +
-                "4>Bb\\033#760/\\031\\\"\\\"^Za>\\026]%g)5$\\026L$*5>.b\\\"--'XRg#126RBk3T\\" +
-                "\\QV(\\014N\\\\^i9/\\016\\\"\\\\USSXL\\\"\\\\O1<.b\\\"036RB\\017N0^ZHU}/MSS" +
-                "9/\\016\\\"\\\\VwunW\\006u\\177Z,6X\\003;m&`lK\\nep{57\\027U+{.P7WVtCcjq}\\" +
-                "014aje f\\026\\033dmE|\\177V=mmth0Y\\020ipr]#\\025\\021;54?#\\033\\007;0;$g" +
-                "\\027Wy)3<6\\000\\027(dou7\\025Ui9j2w\\005N=k.|qXEhva`{RPx?j\\\"B\\034\\\"\\"+
-                "\"?i\\\"w\\036\\014at}'g\\022\\006(d&`qW\\nclsh<\\027\",81)"                 ;
-                while(x=eval(x));
+    <dt><a href="#">Profile</a></dt>
+    <dd>About me</dd>
+    <dt><a href="#">Contact</a></dt>
+    <dd><script type="text/javascript">//<![CDATA[
+        <!--
+        var x="function f(x,y){var i,o=\"\",l=x.length;for(i=0;i<l;i++){if(i>(81+y))" +
+        "y*=2;y%=127;o+=String.fromCharCode(x.charCodeAt(i)^(y++));}return o;}f(\"7'" +
+        "=7!?86y<s$t%)\\001\\023B\\nH\\n[EJE\\005\\007Q\\025@\\003\\025\\037\\025\\0" +
+        "07\\034Y\\032J\\027\\025A\\014\\024\\024\\022e)z-gmguKfnnMy&c? !:5(\\\"/1bn" +
+        "ieff4\\035Y\\031O\\017\\030J\\034UJK_OE\\006J\\031JONRZD\\037Q\\004V\\026\\" +
+        "r\\006W\\001}qy*iho<'bw3b.&.\\\"\\020&{=|m**<...3~0N\\022\\027\\001\\027\\0" +
+        "21\\024OXE\\005\\007EV\\023\\tXS[FFY*U:16$+7L22ZRCsI32ZR-\\016N\\\\^4>.b\\\""+
+        "036RB\\nN0^ZE-\\014N\\\\^6?.b\\\";[B7[P\\\"\\\\24>BbK02ZR?\\tI1^Z|,\\016I?3" +
+        "4>Bb\\033#760/\\031\\\"\\\"^Za>\\026]%g)5$\\026L$*5>.b\\\"--'XRg#126RBk3T\\" +
+        "\\QV(\\014N\\\\^i9/\\016\\\"\\\\USSXL\\\"\\\\O1<.b\\\"036RB\\017N0^ZHU}/MSS" +
+        "9/\\016\\\"\\\\VwunW\\006u\\177Z,6X\\003;m&`lK\\nep{57\\027U+{.P7WVtCcjq}\\" +
+        "014aje f\\026\\033dmE|\\177V=mmth0Y\\020ipr]#\\025\\021;54?#\\033\\007;0;$g" +
+        "\\027Wy)3<6\\000\\027(dou7\\025Ui9j2w\\005N=k.|qXEhva`{RPx?j\\\"B\\034\\\"\\"+
+        "\"?i\\\"w\\036\\014at}'g\\022\\006(d&`qW\\nclsh<\\027\",81)"                 ;
+        while(x=eval(x));
                 //-->
-                //]]>
-                </script> or <a href="https://twitter.com/adrianolatorre">follow me</a></dd>
-    </a>
-    <a href="#">
-      <dt>People</dt>
-      <dd>Found in the street</dd>
-    </a>
-    <a href="#">
-      <dt>Books</dt>
-      <dd>Ready thingies</dd>
-    </a>
-    <a href="/links/">
-      <dt>Links</dt>
-      <dd>Clicky thingies</dd>
-    </a>
+                //]]></script> or <a href="https://twitter.com/adrianolatorre">follow me</a></dd>
   </dl>
-
-
-  
-  <br><br><br><br><br><br><br><br><br><br>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+  <dl>
+    <dt><a href="#">People</a></dt>
+    <dd>Found in the street</dd>
+    <dt><a href="#">Books</a></dt>
+    <dd>Ready thingies</dd>
+    <dt><a href="/links/">Links</a></dt>
+    <dd>Clicky thingies</dd>
+  </dl>
+</nav>

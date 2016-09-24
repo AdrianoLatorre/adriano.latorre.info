@@ -1,6 +1,7 @@
 ---
 layout: project
 id: "thewick"
+nav: "Projects"
 permalink: /project/thewick/
 date: 2014-10-01
 title: "The Wick"

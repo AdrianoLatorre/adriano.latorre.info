@@ -1,7 +1,8 @@
-<header class="site-header">
-  <div class="wrap">
-    <nav class="site-nav">
-      <a href="/">Adriano Latorre</a>
-    </nav>
-  </div>
+<header class="header">
+  <nav class="main-nav">
+    <ul>
+      <li>{% if page.nav contains "copywriting" %}<a href="/profile/">{% else %}<a href="/">{% endif %}Adriano Latorre</a></li>
+      <li>{{ page.nav }}</li>
+    </ul>
+  </nav>
 </header>

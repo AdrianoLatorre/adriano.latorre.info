@@ -1,6 +1,7 @@
 ---
 layout: work
 id: "msf"
+nav: "Work"
 permalink: /work/msf/
 date: 2008-04-01
 title: "Médicos Sin Fronteras"

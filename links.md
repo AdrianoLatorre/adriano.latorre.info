@@ -1,5 +1,6 @@
 ---
 layout: links
+nav: "Links"
 permalink: /links/
 ---
 
