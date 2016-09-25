@@ -4,7 +4,7 @@ layout: default
 
 <dl>
   {% assign books = site.books | sort: 'year' %}
-  {% for book in books.titles reversed %}
+  {% for book in books reversed %}
   <dt><a href="{{ book.link }}">{{ book.title }}</a></dt>
   <dd>{{ book.author }}</dd>
   <br>
