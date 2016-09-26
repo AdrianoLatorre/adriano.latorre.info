@@ -3,12 +3,12 @@ layout: default
 ---
 
 <dl>
-  {% assign people = site.people | sort: 'name' %}
-  {% for person in people %}
-  {{ person.everybody }}
+  {% for people in site.people %}
+  {% for person in people.people %}
   <dt>{{ person.name }}</dt>
   <dd><a href="{{ person.link }}">{{ person.site }}</a></dd>
   <dd><a href="https://twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a></dd>
   <br>
+  {% endfor %}
   {% endfor %}
 </dl>

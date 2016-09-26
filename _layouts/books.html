@@ -3,10 +3,15 @@ layout: default
 ---
 
 <dl>
-  {% assign books = site.books | sort: 'year' %}
-  {% for book in books reversed %}
+  {% for library in site.books %}
+  {% for decades in library %}
+  {% for books in decades %}
+  {% for book in books %}
   <dt><a href="{{ book.link }}">{{ book.title }}</a></dt>
   <dd>{{ book.author }}</dd>
   <br>
+  {% endfor %}
+  {% endfor %}
+  {% endfor %}
   {% endfor %}
 </dl>
