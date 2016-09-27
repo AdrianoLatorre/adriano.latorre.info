@@ -6,4 +6,21 @@ layout: default
 {% for link in links_by_year reversed %}
 <a href="{{ link.permalink }}">{{ link.year }}</a>
 {% endfor %}
+
 {{ content }}
+
+<dl>
+  {% for sources in site.sources %}
+  {% for categories in sources.sources %}
+  {% for category in categories %}
+  {% for links in category %}
+  {% for source in links %}
+  <dt><a href="{{ source.url }}">{{ source.title }}</a></dt>
+  <dd>{{ source.icon }}</dd>
+  <br>
+  {% endfor %}
+  {% endfor %}
+  {% endfor %}
+  {% endfor %}
+  {% endfor %}
+</dl>

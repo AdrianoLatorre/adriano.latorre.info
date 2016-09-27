@@ -20,6 +20,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  sources:
+    output: true
+    permalink: /sources/:path/
   work:
     output: true
     permalink: /work/:path/
