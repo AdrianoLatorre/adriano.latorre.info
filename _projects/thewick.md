@@ -1,8 +1,8 @@
 ---
-layout: project
+layout: projects
 id: "thewick"
 nav: "Projects"
-permalink: /project/thewick/
+permalink: /projects/thewick/
 date: 2014-10-01
 title: "The Wick"
 brief: "Three wonderful links, once a week"

@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% if page.url == "/projects/" %}
+
 {% assign projects = site.projects | sort: 'date' %}
 {% for project in projects reversed %}
 <dl>
@@ -10,3 +12,12 @@ layout: default
   <dd>{{ project.description }}</dd>
 </dl>
 {% endfor %}
+
+{% else %}
+
+<h3>{{ page.title }}</h3>
+<p><a href="{{ page.main_url }}">{{ page.address }}</a></p>
+<p>{{ page.description }}</p>
+<p>{% for task in page.tasks %}<span>{{ task }}</span>{% endfor %}</p>
+
+{% endif %}
