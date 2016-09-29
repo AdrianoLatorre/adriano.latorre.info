@@ -10,15 +10,13 @@ layout: default
 {{ content }}
 
 <dl>
-  {% for sources in site.sources %}
-  {% for categories in sources.sources %}
+  {% for categories in site.sources %}
   {% for category in categories %}
   {% for links in category %}
   {% for source in links %}
   <dt><a href="{{ source.url }}">{{ source.title }}</a></dt>
   <dd>{{ source.icon }}</dd>
   <br>
-  {% endfor %}
   {% endfor %}
   {% endfor %}
   {% endfor %}

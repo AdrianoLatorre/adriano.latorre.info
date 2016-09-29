@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+{% assign projects = site.projects | sort: 'date' %}
+{% for project in projects reversed %}
+<dl>
+  <dt><a href="{{ project.permalink }}">{{ project.title }}</a></dt>
+  <dd>{{ project.brief }}</dd>
+  <dd>{{ project.description }}</dd>
+</dl>
+{% endfor %}
