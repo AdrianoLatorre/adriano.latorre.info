@@ -4,22 +4,25 @@ layout: default
 
 {% assign links_by_year = site.links | sort: 'year' %}
 {% for link in links_by_year reversed %}
+{% if page.url == link.permalink %}
+{{ link.year }}
+{% else %}
 <a href="{{ link.permalink }}">{{ link.year }}</a>
-{{ page.url }}
+{% endif %}
 {% endfor %}
 
 {{ content }}
 
+  {% for all_sources in site.sources %}
+  {% for every_category in all_sources %}
+  {% for all_links in every_category %}
+  {% for source in all_links %}
 <dl>
-  {% for categories in site.sources %}
-  {% for category in categories %}
-  {% for links in category %}
-  {% for source in links %}
   <dt><a href="{{ source.url }}">{{ source.title }}</a></dt>
   <dd>{{ source.icon }}</dd>
   <br>o
-  {% endfor %}
-  {% endfor %}
-  {% endfor %}
-  {% endfor %}
 </dl>
+  {% endfor %}
+  {% endfor %}
+  {% endfor %}
+  {% endfor %}

@@ -3,15 +3,10 @@ layout: default
 ---
 
 <dl>
-  {% for library in site.books %}
-  {% for decades in library %}
-  {% for books in decades %}
-  {% for book in books %}
+  {% for library in site.books reversed %}
+  {% for book in library.books %}
   <dt><a href="{{ book.link }}">{{ book.title }}</a></dt>
   <dd>{{ book.author }}</dd>
-  <br>
-  {% endfor %}
-  {% endfor %}
   {% endfor %}
   {% endfor %}
 </dl>
