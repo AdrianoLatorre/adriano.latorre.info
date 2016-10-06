@@ -2,11 +2,18 @@
 layout: default
 ---
 
-<dl>
-  {% for library in site.books reversed %}
-  {% for book in library.books %}
-  <dt><a href="{{ book.link }}">{{ book.title }}</a></dt>
-  <dd>{{ book.author }}</dd>
-  {% endfor %}
-  {% endfor %}
-</dl>
+{% if page.url == '/books/' %}
+Latest
+{% else %}
+<a href="/books/">Latest</a>
+{% endif %}
+{% assign decades = site.books %}
+{% for book in decades reversed %}
+{% if page.url == book.permalink %}
+{{ book.year }}
+{% else %}
+<a href="{{ book.permalink }}">{{ book.year }}</a>
+{% endif %}
+{% endfor %}
+
+{{ content }}
