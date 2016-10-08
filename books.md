@@ -4,11 +4,8 @@ nav: "Books"
 permalink: /books/
 ---
 
-> MAKE BOOKS LIKE LINKS:
-
-- This page should display _recent_.
-
 {% assign decades = site.books %}
-{% for books in decades reversed limit:3 %}
+{% assign last_two = decades.size | minus:2 %}
+{% for books in decades reversed offset:last_two limit:2 %}
 {{ books.content }}
 {% endfor %}

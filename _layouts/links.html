@@ -13,16 +13,13 @@ layout: default
 
 {{ content }}
 
-  {% for all_sources in site.sources %}
-  {% for every_category in all_sources %}
-  {% for all_links in every_category %}
-  {% for source in all_links %}
+---
+
 <dl>
+  {% for sorted in site.sources | sort:'category' %}
+  {% for source in sorted.sources %}
   <dt><a href="{{ source.url }}">{{ source.title }}</a></dt>
   <dd>{{ source.icon }}</dd>
-  <br>o
+  {% endfor %}
+  {% endfor %}
 </dl>
-  {% endfor %}
-  {% endfor %}
-  {% endfor %}
-  {% endfor %}

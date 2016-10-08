@@ -1,16 +1,19 @@
 ---
-blog:
-  - title: "Another title"
+sources:
+  - title: "This is a blog"
     url: "http://whatever.org/"
     icon: "http://gravatar.org/"
-  - title: "A second one"
+    category: blog
+  - title: "A second blog"
     url: "http://second.org/"
     icon: "http://gravatar.org/"
-css:
-  - title: "Some title"
+    category: blog
+  - title: "Some css"
     url: "http://kottke.org/"
     icon: "http://gravatar.org/"
-  - title: "Filler Crap"
+    category: css
+  - title: "More CSS Filler Crap"
     url: "http://crap.org/"
     icon: "http://gravatar.org/"
+    category: css
 ---
