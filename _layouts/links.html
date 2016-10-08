@@ -16,10 +16,12 @@ layout: default
 ---
 
 <dl>
-  {% for sorted in site.sources | sort:'category' %}
-  {% for source in sorted.sources %}
-  <dt><a href="{{ source.url }}">{{ source.title }}</a></dt>
-  <dd>{{ source.icon }}</dd>
+  {% assign sorted = site.sources | group_by:'category' | sort:'name' %}
+  {% for category in sorted %}
+  {{ category.name }}
+  {% for source in category.items %}
+  <dt><a href="{{ source.www }}">{{ source.title }}</a></dt>
+  <dd><small>{% for tag in source.tags %}{{ tag }} {% endfor %}</small></dd>
   {% endfor %}
   {% endfor %}
 </dl>
