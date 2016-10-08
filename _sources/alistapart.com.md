@@ -1,6 +1,6 @@
 ---
 title: "A List Apart"
 www: "http://alistapart.com/"
-category: Magazines
-tags: [magazine, web]
+category: Magazine
+tags: [web, design, css]
 ---
