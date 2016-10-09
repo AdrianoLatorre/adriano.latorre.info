@@ -3,7 +3,7 @@ layout: default
 nav: "Web architecture, copywriting and design."
 ---
 
-<nav class="grid">
+<nav class="grid gutter">
   <dl class="grid-25">
     <dt>Work</dt>
     {% assign work_by_date = site.work | sort: 'date' %}
@@ -22,8 +22,8 @@ nav: "Web architecture, copywriting and design."
     {% endfor %}
   </dl>
 
-  <dl>
-    <dt class="grid-25">Info</dt>
+  <dl class="grid-25">
+    <dt>Info</dt>
     <dt><a href="/profile/">Profile</a></dt>
     <dd>About me</dd>
     <dt><a href="/profile/">Contact</a></dt>
@@ -48,6 +48,7 @@ nav: "Web architecture, copywriting and design."
                 //]]></script> or <a href="https://twitter.com/adrianolatorre">Twitter</a></dd>
   </dl>
   <dl class="grid-25">
+    <dt>Links</dt>
     <dt><a href="/people/">People</a></dt>
     <dd>Found in the street</dd>
     <dt><a href="/books/">Books</a></dt>

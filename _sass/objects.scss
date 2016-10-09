@@ -13,12 +13,17 @@
   }
 }
 
-.index {
-
-}
-
 .grid {
   display: flex;
+}
+
+.gutter {
+  margin: 0 0 0 -1em;
+}
+
+.gutter > .grid-1,
+.gutter > .grid-25, {
+  padding: 0 0 0 1em;
 }
 
 .grid-1 {
