@@ -1,8 +1,8 @@
 <header class="header">
-  <nav class="main-nav">
-    <ul>
-      <li>{% if page.nav contains "copywriting" %}<a href="/profile/">{% else %}<a href="/">{% endif %}Adriano Latorre</a></li>
-      <li>{{ page.nav }}</li>
+  <nav>
+    <ul class="main-nav grid">
+      <li class="grid-25">{% if page.nav contains "copywriting" %}<a href="/profile/">{% else %}<a href="/">{% endif %}Adriano Latorre</a></li>
+      <li class="grid-1">{{ page.nav }}</li>
     </ul>
   </nav>
 </header>

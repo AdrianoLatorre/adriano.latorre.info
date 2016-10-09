@@ -1,6 +1,30 @@
 // objects.scss: cosmetic-free design patterns (OOCSS).
 
- .container, .footer, .main-container, .main-nav {
+.container, .footer, .main-container, .main-nav, .home {
   margin: 8rem auto;
-  max-width: 64rem;
+  max-width: 60rem;
+}
+
+.main-nav {
+  padding: 0;
+  li {
+    display: inline-block;
+    padding: 0;
+  }
+}
+
+.index {
+
+}
+
+.grid {
+  display: flex;
+}
+
+.grid-1 {
+  flex: 1;
+}
+
+.grid-25 {
+  flex: 0 0 25%;
 }
