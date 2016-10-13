@@ -3,9 +3,9 @@ layout: default
 nav: "Web architecture, copywriting and design."
 ---
 
-<nav class="grid gutter">
+<nav class="index grid gutter">
   <dl class="grid-25">
-    <dt>Work</dt>
+    <lh>Work</lh>
     {% assign work_by_date = site.work | sort: 'date' %}
     {% for work in work_by_date reversed %}
     <dt><a href="{{ work.permalink }}">{{ work.title }}</a></dt>
@@ -14,7 +14,7 @@ nav: "Web architecture, copywriting and design."
 </dl>
 
 <dl class="grid-25">
-    <dt>Projects</dt>
+    <lh>Projects</lh>
     {% assign project_by_date = site.projects | sort: 'date' %}
     {% for project in project_by_date reversed %}
     <dt><a href="{{ project.permalink }}">{{ project.title }}</a></dt>
@@ -23,7 +23,7 @@ nav: "Web architecture, copywriting and design."
 </dl>
 
 <dl class="grid-25">
-    <dt>Info</dt>
+    <lh>Info</lh>
     <dt><a href="/profile/">Profile</a></dt>
     <dd>About me</dd>
     <dt><a href="/profile/">Contact</a></dt>
@@ -45,12 +45,12 @@ nav: "Web architecture, copywriting and design."
 or <a href="https://twitter.com/adrianolatorre">Twitter</a></dd>
 </dl>
 <dl class="grid-25">
-    <dt>Links</dt>
+    <lh>Special</lh>
     <dt><a href="/people/">People</a></dt>
     <dd>Found in the street</dd>
     <dt><a href="/books/">Books</a></dt>
-    <dd>Ready thingies</dd>
+    <dd>Recommended reading</dd>
     <dt><a href="/links/">Links</a></dt>
-    <dd>Clicky thingies</dd>
+    <dd>Hypertext all the things!</dd>
 </dl>
 </nav>

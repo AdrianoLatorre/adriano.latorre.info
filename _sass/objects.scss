@@ -1,35 +1,101 @@
 // objects.scss: cosmetic-free design patterns (OOCSS).
 
-.container, .footer, .main-container, .main-nav, .home {
-  margin: 8rem auto;
-  max-width: 60rem;
+.container {
+  // background-color: $red;
+  margin: 0 auto 10em;
+  max-width: 60em;
 }
 
-.main-nav {
-  padding: 0;
-  li {
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-1 {
+  flex: 1;
+  // outline: 1px solid $red;
+}
+
+.grid-25 {
+  flex: 0 0 25%;
+  // outline: 1px solid $red;
+}
+
+.grid-50 {
+  flex: 0 0 50%;
+  // outline: 1px solid $red;
+}
+
+.gutter {
+  margin: 0 0 0 -1em;
+  > .grid-1,
+  > .grid-25,
+  > .grid-50 {
+    padding: 0 0 0 1em;
+  }
+}
+
+.header-nav {
+  font-size: $f18;
+  margin-top: 3em;
+  a {
+    font-weight: 600;
+    text-decoration: none;
+  }
+  > ul {
+    padding: 0;
+  }
+  > li {
     display: inline-block;
     padding: 0;
   }
 }
 
-.grid {
-  display: flex;
+.index {
+  font-size: $f18;
+  margin-top: 6em;
+  > dl {
+    > lh {
+      font-weight: 600;
+    }
+    > dt {
+      border-top: .5px solid $g90;
+      margin-top: 1em;
+      padding-top: 1em;
+    }
+    > dd {
+      color: $g50;
+      font-size: $f14;
+    }
+  }
 }
 
-.gutter {
-  margin: 0 0 0 -1em;
+.people {
+  font-size: $f18;
+  margin-top: 6em;
+  > dl {
+    &:first-child {
+      opacity: 32;
+    }
+    > dt {
+      border-top: .5px solid $g90;
+      margin: 1em 0;
+      padding-top: 1em;
+    }
+    > dd {
+      color: $g50;
+      font-size: $f14;
+    }
+  }
 }
 
-.gutter > .grid-1,
-.gutter > .grid-25, {
-  padding: 0 0 0 1em;
+.books {
+  
 }
 
-.grid-1 {
-  flex: 1;
-}
-
-.grid-25 {
-  flex: 0 0 25%;
+.footer {
+  color: $g50;
+  font-size: $f12;
+  margin-top: 6em;
+  text-align: center;
 }

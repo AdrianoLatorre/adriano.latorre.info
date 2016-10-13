@@ -2,12 +2,15 @@
 layout: default
 ---
 
-<dl>
-  {% for all in site.people %}
-  {% for person in all.people %}
-  <dt>{{ person.name }}</dt>
-  <dd><a href="{{ person.link }}">{{ person.site }}</a></dd>
-  <dd><a href="https://twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a></dd>
-  {% endfor %}
-  {% endfor %}
-</dl>
+<div class="people grid gutter">
+    {% for all in site.people %}
+    {% for person in all.people %}
+  <dl class="grid-25">
+    <dt>{{ person.name }}</dt>
+    <!-- <dd><img src="/-/people/{{ person.image }}" style="max-width: 100%;"></dd> -->
+    <dd><a href="{{ person.link }}">{{ person.site }}</a></dd>
+    <dd><a href="https://twitter.com/{{ person.twitter }}">{{ person.twitter }}</a></dd>
+  </dl>
+    {% endfor %}
+    {% endfor %}
+</div>
