@@ -1,7 +1,7 @@
 <header>
   <nav class="header-nav">
     <ul class="grid gutter">
-      <li class="grid-25">{% if page.nav contains "copywriting" %}<a href="/profile/">{% else %}<a href="/">{% endif %}Adriano Latorre</a></li>
+      <li class="grid-25"><a href="/{% if page.nav contains 'copywriting' %}profile/{% endif %}">Adriano Latorre</a></li>
       <li class="grid-1">{{ page.nav }}</li>
     </ul>
   </nav>

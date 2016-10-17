@@ -2,6 +2,17 @@
 layout: default
 ---
 
+<div class="books grid gutter">
+{% assign library = site.books | sort: 'date' %}
+  {% for book in library reversed %}
+  <dl>
+    <dt><a href="{{ book.link }}"><img src="/-/books/{{ book.cover }}" style="width: 224px; height: 336px;" /></a></dt>
+    <dd><a href="{{ book.link }}">{{ book.title }}</a></dd>
+    <dd>{{ book.author }}</dd>
+  </dl>
+  {% endfor %}
+</div>
+
 {% if page.url == '/books/' %}
 Latest
 {% else %}
@@ -10,10 +21,8 @@ Latest
 {% assign decades = site.books %}
 {% for book in decades reversed %}
 {% if page.url == book.permalink %}
-{{ book.year }}
+{{ book.folder }}
 {% else %}
-<a href="{{ book.permalink }}">{{ book.year }}</a>
+<a href="{{ book.permalink }}">{{ book.folder }}</a>
 {% endif %}
 {% endfor %}
-
-{{ content }}

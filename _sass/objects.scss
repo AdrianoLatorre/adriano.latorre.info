@@ -75,7 +75,7 @@
   margin-top: 6em;
   > dl {
     &:first-child {
-      opacity: 32;
+      opacity: .32;
     }
     > dt {
       border-top: .5px solid $g90;
@@ -90,7 +90,19 @@
 }
 
 .books {
-  
+  font-size: $f18;
+  margin-top: 6em;
+  padding: 0 0 0 1em;
+  > dl {
+    flex: 0 0 25%;
+    > dt {
+      margin: 1em 0;
+    }
+    > dd {
+      color: $g50;
+      font-size: $f16;
+    }
+  }
 }
 
 .footer {
