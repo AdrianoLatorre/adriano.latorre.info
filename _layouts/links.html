@@ -11,9 +11,10 @@ layout: default
 {% endif %}
 {% endfor %}
 
-{{ content }}
+<div class="links grid gutter">
+  {{ content }}
+</div>
 
----
 
 <dl>
   {% assign sorted = site.sources | group_by:'category' | sort:'name' %}

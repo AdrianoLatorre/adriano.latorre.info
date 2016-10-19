@@ -105,6 +105,32 @@
   }
 }
 
+.links {
+  font-size: $f18;
+  margin-top: 6em;
+  > h3 {
+    background: $g99;
+    border-bottom: .5px solid $g90;
+    border-top: .5px solid $g90;
+    flex: 0 0 50%;
+    font-size: $f18;
+    font-weight: 400;
+    margin: 1em 0;
+    padding: 1em 0;
+    position: -webkit-sticky;
+    top: -1px;
+  }
+  > dl {
+    > dt {
+      margin: 1em 0 0;
+    }
+    > dd {
+      color: $g50;
+      font-size: $f14;
+    }
+  }
+}
+
 .footer {
   color: $g50;
   font-size: $f12;
