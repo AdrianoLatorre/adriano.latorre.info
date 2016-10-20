@@ -9,4 +9,4 @@ task :open do
 end
 
 desc 'Serve and view'
-task :all => [:open, :serve]
+task :s => [:open, :serve]
