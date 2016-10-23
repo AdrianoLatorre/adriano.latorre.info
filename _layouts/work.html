@@ -7,17 +7,22 @@ layout: default
 {% assign portfolio = site.work | sort: 'date' %}
 {% for work in portfolio reversed %}
 <dl>
-  <dt><a href="{{ work.permalink }}">{{ work.title }}</a></dt>
-  <dd>{{ work.brief }}</dd>
-  <dd>{{ work.description }}</dd>
+  <dt><a href="{{ work.permalink }}"><img src="/-/work/{{ work.id }}/{{ work.media.cover }}"/></a></dt>
+  <dd>{{ work.title }}</dd>
 </dl>
 {% endfor %}
 
 {% else %}
 
+{% if page.online == 1 %}
+iframe src="{{ page.main_url }}"></iframe>
+{% else %}
+<p><img src="/-/work/{{ page.id }}/{{ page.media.cover }}"/></p>
+{% endif %}
 <h3>{{ page.title }}</h3>
-<p><a href="{{ page.main_url }}">{{ page.address }}</a></p>
+{% if page.online == 1 %}<p><a href="{{ page.main_url }}">{{ page.address }}</a></p>{% endif %}
 <p>{{ page.description }}</p>
 <p>{% for task in page.tasks %}<span>{{ task }}</span>{% endfor %}</p>
+<p>{% for image in page.media.images %}<span><img src="/-/work/{{ page.id }}/{{ image }}"/></span>{% endfor %}</p>
 
 {% endif %}

@@ -7,17 +7,22 @@ layout: default
 {% assign projects = site.projects | sort: 'date' %}
 {% for project in projects reversed %}
 <dl>
-  <dt><a href="{{ project.permalink }}">{{ project.title }}</a></dt>
-  <dd>{{ project.brief }}</dd>
-  <dd>{{ project.description }}</dd>
+  <dt><a href="{{ project.permalink }}"><img src="/-/projects/{{ project.id }}/{{ project.media.cover }}"/></a></dt>
+  <dd>{{ project.title }}</dd>
 </dl>
 {% endfor %}
 
 {% else %}
 
+{% if page.online == 1 %}
+<iframe src="{{ page.main_url }}"></iframe>
+{% else %}
+<p><img src="/-/projects/{{ page.id }}/{{ page.media.cover }}"/></p>
+{% endif %}
 <h3>{{ page.title }}</h3>
-<p><a href="{{ page.main_url }}">{{ page.address }}</a></p>
+{% if page.online == 1 %}<p><a href="{{ page.main_url }}">{{ page.address }}</a></p>{% endif %}
 <p>{{ page.description }}</p>
 <p>{% for task in page.tasks %}<span>{{ task }}</span>{% endfor %}</p>
+<p>{% for image in page.media.images %}<span><img src="/-/projects/{{ page.id }}/{{ image }}"/></span>{% endfor %}</p>
 
 {% endif %}

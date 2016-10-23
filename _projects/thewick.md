@@ -13,14 +13,14 @@ tasks:
   - "Copywriting"
   - "Graphic design"
 address: "medium.com/the-wick"
-main_url: "https://medium.com/the-wick"
+main_url: "http://kottke.org/"
 demo_url: "https://medium.com/the-wick"
 media:
-  cover: "00.jpg"
+  cover: "00.png"
   images:
-    - "01.jpg"
-    - "02.jpg"
-    - "03.jpg"
+    - "01.png"
+    - "02.png"
+    - "03.png"
     - "04.jpg"
     - "05.jpg"
 online: 1

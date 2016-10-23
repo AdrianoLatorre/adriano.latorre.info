@@ -14,14 +14,14 @@ tasks:
   - "Copywriting"
   - "Graphic design"
 address: "msf.es"
-main_url: "http://msf.es/"
-demo_url: "http://msf.es/"
+main_url: "https://www.msf.es/"
+demo_url: "https://www.msf.es/"
 media:
-  cover: "00.jpg"
+  cover: "00.png"
   images:
-    - "01.jpg"
-    - "02.jpg"
-    - "03.jpg"
+    - "01.png"
+    - "02.png"
+    - "03.png"
     - "04.jpg"
     - "05.jpg"
 online: 1

@@ -27,3 +27,18 @@ a:hover {
 dd {
   margin: 0;
 }
+
+iframe {
+  border: 0;
+  border-radius: 6px;
+  box-shadow: 0px 2px 4px 0px rgba(64, 64, 64, .3);
+  display: inline;
+  height: 78em;
+  -webkit-transform: scale(.5);
+  -moz-transform: scale(.5);
+  transform: scale(.5);
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  transform-origin: 0 0;
+  width: 58em;
+}
