@@ -2,7 +2,12 @@
 
 .container {
   margin: 0 auto 10em;
-  max-width: 60em;
+}
+
+@media all and (min-width: 60em) {
+  .container {
+    max-width: 60em;
+  }
 }
 
 .grid {
@@ -10,23 +15,31 @@
   flex-wrap: wrap;
 }
 
-.grid-1 {
-  flex: 1;
+.grid-width {
+  flex: 0 0 100%;
 }
 
-.grid-25 {
+@media all and (min-width: 30em) {
+  .grid-width {
+  flex: 0 0 50%;
+}
+}
+
+@media all and (min-width: 40em) {
+  .grid-width {
+  flex: 0 0 33.3333%;
+}
+}
+
+@media all and (min-width: 50em) {
+  .grid-width {
   flex: 0 0 25%;
 }
-
-.grid-50 {
-  flex: 0 0 50%;
 }
 
 .gutter {
   margin: 0 0 0 -1em;
-  > .grid-1,
-  > .grid-25,
-  > .grid-50 {
+  > .grid-width {
     padding: 0 0 0 1em;
   }
 }

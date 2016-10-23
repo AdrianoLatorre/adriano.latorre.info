@@ -5,7 +5,7 @@ layout: default
 <div class="people grid gutter">
     {% for all in site.people %}
     {% for person in all.people %}
-  <dl class="grid-25">
+  <dl class="grid-width">
     <dt>{{ person.name }}</dt>
     <!-- <dd><img src="/-/people/{{ person.image }}" style="max-width: 100%;"></dd> -->
     <dd><a href="{{ person.link }}">{{ person.site }}</a></dd>

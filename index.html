@@ -4,7 +4,7 @@ nav: "Web architecture, copywriting and design."
 ---
 
 <nav class="index grid gutter">
-  <dl class="grid-25">
+  <dl class="grid-width">
     <lh>Work</lh>
     {% assign work_by_date = site.work | sort: 'date' %}
     {% for work in work_by_date reversed %}
@@ -13,7 +13,7 @@ nav: "Web architecture, copywriting and design."
     {% endfor %}
 </dl>
 
-<dl class="grid-25">
+<dl class="grid-width">
     <lh>Projects</lh>
     {% assign project_by_date = site.projects | sort: 'date' %}
     {% for project in project_by_date reversed %}
@@ -22,7 +22,7 @@ nav: "Web architecture, copywriting and design."
     {% endfor %}
 </dl>
 
-<dl class="grid-25">
+<dl class="grid-width">
     <lh>Info</lh>
     <dt><a href="/profile/">Profile</a></dt>
     <dd>About me</dd>
@@ -44,7 +44,7 @@ nav: "Web architecture, copywriting and design."
 </script>
 or <a href="https://twitter.com/adrianolatorre">Twitter</a></dd>
 </dl>
-<dl class="grid-25">
+<dl class="grid-width">
     <lh>Special</lh>
     <dt><a href="/people/">People</a></dt>
     <dd>Found in the street</dd>
