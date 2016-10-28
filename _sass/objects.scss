@@ -21,20 +21,20 @@
 
 @media all and (min-width: 30em) {
   .grid-width {
-  flex: 0 0 50%;
-}
+    flex: 0 0 50%;
+  }
 }
 
 @media all and (min-width: 40em) {
   .grid-width {
-  flex: 0 0 33.3333%;
-}
+    flex: 0 0 33.3333%;
+  }
 }
 
 @media all and (min-width: 50em) {
   .grid-width {
-  flex: 0 0 25%;
-}
+    flex: 0 0 25%;
+  }
 }
 
 .gutter {
@@ -106,10 +106,26 @@
     flex: 0 0 25%;
     > dt {
       margin: 1em 0;
+      > a {
+        background-position: 0 100%;
+        background-size: contain;
+        display: block;
+        height: 21rem;
+        width: 14rem;
+      }
     }
     > dd {
-      color: $g50;
       font-size: $f16;
+      line-height: 1.375;
+      padding-right: 1em;
+      &.author {
+        font-size: $f14;
+        line-height: 1.25;
+        margin-top: .26em;
+      }
+      > .info {
+        color: $g50;
+      }
     }
   }
 }

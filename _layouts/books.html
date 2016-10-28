@@ -6,9 +6,9 @@ layout: default
 {% assign library = site.books | sort: 'date' %}
   {% for book in library reversed %}
   <dl>
-    <dt><a href="{{ book.link }}"><img src="/-/books/{{ book.cover }}" style="width: 224px; height: 336px;" /></a></dt>
+    <dt><a href="{{ book.link }}" style="background-image: url('/-/books/{{ book.cover }}');"></a></dt>
     <dd><a href="{{ book.link }}">{{ book.title }}</a></dd>
-    <dd>{{ book.author }}</dd>
+    <dd class="author"><a href="{{ book.info }}" class="info">{{ book.author }}</a></dd>
   </dl>
   {% endfor %}
 </div>

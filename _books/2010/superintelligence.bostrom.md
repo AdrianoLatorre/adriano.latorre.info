@@ -1,7 +1,8 @@
 ---
 title: "Superintelligence"
 author: "Nick Bostrom"
-cover: "superintelligence.bostrom.jpg"
 link: "https://en.wikipedia.org/wiki/Superintelligence"
+info: "https://en.wikipedia.org/wiki/Nick_Bostrom"
+cover: "superintelligence.bostrom.jpg"
 date: 2015-09-01
 ---
