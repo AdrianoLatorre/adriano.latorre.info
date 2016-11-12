@@ -3,10 +3,7 @@
 .container {
   margin: 0 auto 10em;
   padding: 0 1em;
-}
-
-@media all and (min-width: 64em) {
-  .container {
+  @media all and (min-width: 64em) {
     max-width: 64em;
   }
 }
@@ -18,38 +15,20 @@
 
 .grid-width {
   flex: 0 0 100%;
-}
-
-html {
-    font-size: 100%;
-  }
-
-@media all and (min-width: 32em) {
-  html {
-    font-size: 100%;
-  }
-  .grid-width {
+  @media all and (min-width: 24em) {
     flex: 0 0 50%;
   }
-}
-
-@media all and (min-width: 48em) {
-  html {
-    font-size: 100%;
-  }
-  .grid-width {
+  @media all and (min-width: 45em) {
     flex: 0 0 25%;
   }
 }
 
-@media all and (min-width: 96em) {
-  html {
+html {
+  font-size: 100%;
+  @media all and (min-width: 96em) {
     font-size: 150%;
   }
-}
-
-@media all and (min-width: 144em) {
-  html {
+  @media all and (min-width: 144em) {
     font-size: 200%;
   }
 }
@@ -103,9 +82,7 @@ html {
   font-size: $f18;
   margin-top: 6em;
   > dl {
-    &:first-child {
-      xopacity: .32;
-    }
+    margin: 0 0 2em;
     > dt {
       border-top: .5px solid $g90;
       margin: 1em 0;
