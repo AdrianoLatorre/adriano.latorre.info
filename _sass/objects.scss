@@ -2,10 +2,8 @@
 
 .container {
   margin: 0 auto 10em;
-  padding: 0 1em;
-  @media all and (min-width: 64em) {
-    max-width: 64em;
-  }
+  padding: 0 2em;
+  max-width: 64em;
 }
 
 .grid {
@@ -20,16 +18,6 @@
   }
   @media all and (min-width: 45em) {
     flex: 0 0 25%;
-  }
-}
-
-html {
-  font-size: 100%;
-  @media all and (min-width: 96em) {
-    font-size: 150%;
-  }
-  @media all and (min-width: 144em) {
-    font-size: 200%;
   }
 }
 
@@ -61,8 +49,9 @@ html {
 
 .index {
   font-size: $f18;
-  margin-top: 6em;
+  margin-top: 4em;
   > dl {
+    margin-top: 3em;
     > lh {
       font-weight: 600;
     }
@@ -80,7 +69,7 @@ html {
 
 .people {
   font-size: $f18;
-  margin-top: 6em;
+  margin-top: 8.5em;
   > dl {
     margin: 0 0 2em;
     > dt {
@@ -97,7 +86,7 @@ html {
 
 .books {
   font-size: $f18;
-  margin-top: 6em;
+  margin-top: 8em;
   align-items: flex-end;
   > dl {
     > dt {
@@ -126,7 +115,7 @@ html {
 
 .links {
   font-size: $f18;
-  margin-top: 6em;
+  margin-top: 5em;
   > h3 {
     background: $g99;
     border-bottom: .5px solid $g90;

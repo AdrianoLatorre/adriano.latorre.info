@@ -7,6 +7,13 @@
 html {
   font: 100%/1.5 'Source Sans Pro', Helvetica, sans-serif;
   min-height: 100%;
+  font-size: 100%;
+  @media all and (min-width: 96em) {
+    font-size: 150%;
+  }
+  @media all and (min-width: 144em) {
+    font-size: 200%;
+  }
 }
 
 body {
