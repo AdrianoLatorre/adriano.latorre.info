@@ -1,8 +1,9 @@
 // elements.scss: unclassed HTML elements (type selectors).
 
-// * {
-//   background-color: $red !important;
-// }
+*:hover {
+  background-color: $red !important;
+}
+
 
 html {
   font: 100%/1.5 'Source Sans Pro', Helvetica, sans-serif;

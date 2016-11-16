@@ -74,6 +74,11 @@
   > dl {
     margin: 0 0 2em;
     min-width: 12em;
+    xmax-width: 25%;
+    &:nth-child(3) {
+      background-color: gold;
+      flex-grow: 25%;
+    }
     > dt {
       border-top: .5px solid $g90;
       margin: 1em 0;
