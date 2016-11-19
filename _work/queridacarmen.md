@@ -3,7 +3,7 @@ layout: work
 id: "queridacarmen"
 nav: "Work"
 permalink: /work/queridacarmen/
-date: 2010-10-01
+date: 2011-10-01
 title: "Querida Carmen"
 brief: "Cocer y cantar"
 description: "Packaging for the new Biggans Bold Böckling paste, a fish paste made of smoked herring. Biggans is a small family owned company who has been serving their culinary delicacies to the Swedes since 1952."

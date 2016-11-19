@@ -5,7 +5,7 @@ nav: "Work"
 permalink: /work/msf/
 date: 2008-04-01
 title: "Médicos Sin Fronteras"
-brief: "First edition of the 100 km walk"
+brief: "Acción médico-humanitaria"
 description: "Packaging for the new Biggans Bold Böckling paste, a fish paste made of smoked herring. Biggans is a small family owned company who has been serving their culinary delicacies to the Swedes since 1952."
 made_in: "httpcomunicació"
 type: "Website"
