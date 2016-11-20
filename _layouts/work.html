@@ -15,14 +15,24 @@ layout: default
 {% else %}
 
 {% if page.online == 1 %}
-<iframe src="{{ page.demo_url }}"></iframe>
+<div class="work-cover">
+  <iframe src="{{ page.demo_url }}"></iframe>
+</div>
 {% else %}
-<p><img src="/-/work/{{ page.id }}/{{ page.media.cover }}"/></p>
+<div class="work-cover">
+  <img src="/-/work/{{ page.id }}/{{ page.media.cover }}"/>
+</div>
 {% endif %}
-<h3>{{ page.title }}</h3>
-{% if page.online == 1 %}<p><a href="{{ page.main_url }}">{{ page.address }}</a></p>{% endif %}
-<p>{{ page.description }}</p>
-<p>{% for task in page.tasks %}<span>{{ task }}</span>{% endfor %}</p>
-<p>{% for image in page.media.images %}<span><img src="/-/work/{{ page.id }}/{{ image }}"/></span>{% endfor %}</p>
-
+<div class="work-info">
+  <h3>{{ page.title }}</h3>
+  {% if page.online == 1 %}
+  <p><a href="{{ page.main_url }}">{{ page.address }}</a></p>{% endif %}
+  <p>{{ page.description }}</p>
+  <p>{% for task in page.tasks %}<span>{{ task }}</span>{% endfor %}</p>
+</div>
+<div class="work-media">
+  {% for image in page.media.images %}
+  <img src="/-/work/{{ page.id }}/{{ image }}"/>
+  {% endfor %}
+</div>
 {% endif %}

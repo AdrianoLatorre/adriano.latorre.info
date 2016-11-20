@@ -3,7 +3,7 @@ layout: work
 id: "spinesme"
 nav: "Work"
 permalink: /work/spines.me/
-date: 2016-01-01
+date: 2015-01-01
 title: "spines.me"
 brief: "Aprendizaje conectado"
 description: "Spines ayuda a instituciones educativas, empresas y personas a construir conocimiento profundo y duradero."
@@ -15,7 +15,7 @@ tasks:
   - "Graphic design"
 address: "spines.me"
 main_url: "https://spines.me/"
-demo_url: "https://spines.me/es/"
+demo_url: "http://waxy.org/"
 media:
   cover: "00.png"
   images:

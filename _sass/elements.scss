@@ -6,6 +6,7 @@
 
 
 html {
+  box-sizing: border-box;
   font: 100%/1.5 'Source Sans Pro', Helvetica, sans-serif;
   min-height: 100%;
   font-size: 100%;
@@ -15,6 +16,10 @@ html {
   @media all and (min-width: 144em) {
     font-size: 200%;
   }
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {

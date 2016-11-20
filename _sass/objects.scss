@@ -149,3 +149,33 @@
   margin-top: 8em;
   text-align: center;
 }
+
+.work-cover {
+  height: 40em;
+  margin: 2.5em auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2em;
+  width: 32em;
+  > img {
+    max-width: 100%;
+  }
+}
+
+.work-info {
+  background-color: $g99;
+  border-top: .5px solid $g90;
+  height: 40em;
+  margin: 1em auto;
+  padding: 2em 2em;
+  position: relative;
+  width: 36em;
+}
+
+.work-media {
+  position: relative;
+  > img {
+    margin-top: 2em;
+    max-width: 100%;
+  }
+}
