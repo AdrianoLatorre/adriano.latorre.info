@@ -157,29 +157,43 @@
 }
 
 .work-cover {
-  height: 40em;
-  margin: 2.5em auto;
   position: -webkit-sticky;
   position: sticky;
   top: 2em;
+}
+
+.cover-frame {
+  height: 40em;
+  margin: 2.5em auto;
+  overflow: hidden;
+  padding: .5em;
+  width: 33em;
+}
+
+.cover-img {
+  margin: 2.5em auto;
   width: 32em;
   > img {
+    display: block;
     max-width: 100%;
   }
 }
 
-.work-info {
+.work-body {
   background-color: $g99;
+  border-bottom: .5px solid $g90;
   border-top: .5px solid $g90;
-  height: 40em;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.work-info {
   margin: 1em auto;
-  padding: 2em 2em;
-  position: relative;
+  padding: 2em;
   width: 36em;
 }
 
 .work-media {
-  position: relative;
   > img {
     margin-top: 2em;
     max-width: 100%;
