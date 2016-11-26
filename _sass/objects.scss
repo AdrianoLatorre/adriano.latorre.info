@@ -69,6 +69,12 @@
 
 .all-items {
   font-size: $f16;
+  a {
+    transition: margin .25s ease-out;
+    &:hover {
+      margin-right: .375em;
+    }
+  }
 }
 
 .people {
