@@ -26,6 +26,9 @@
   > .grid-width {
     padding: 0 0 0 1em;
   }
+  > .grid-gutter {
+    padding: 0 0 0 1em;
+  }
 }
 
 .header-nav {
@@ -70,9 +73,10 @@
 .all-items {
   font-size: $f16;
   a {
+    margin-right: .25em;
     transition: margin .25s ease-out;
     &:hover {
-      margin-right: .375em;
+      margin-right: .625em;
     }
   }
 }
@@ -157,43 +161,59 @@
 }
 
 .work-cover {
+  display: flex;
   position: -webkit-sticky;
   position: sticky;
-  top: 2em;
+  top: 0;
 }
 
 .cover-frame {
+  flex: 0 0 60%;
   height: 40em;
-  margin: 2.5em auto;
+  margin: 2.5em 0;
   overflow: hidden;
   padding: .5em;
   width: 33em;
 }
 
 .cover-img {
-  margin: 2.5em auto;
-  width: 32em;
+  background-size: cover;
+  background-position: 1em 50%;
+  flex: 0 0 60%;
+  height: 40em;
+  margin: 2.5em 0;
   > img {
     display: block;
     max-width: 100%;
   }
 }
 
+.work-info {
+  flex: 0 0 40%;
+  margin: 1em auto;
+  padding: 2em;
+  width: 36em;
+  h3 {
+    font-size: $f40;
+    font-weight: 300;
+  }
+  p {
+    font-size: $f18;
+    a {
+      font-size: $f14;
+    }
+  }
+}
+
 .work-body {
   background-color: $g99;
-  border-bottom: .5px solid $g90;
   border-top: .5px solid $g90;
   position: -webkit-sticky;
   position: sticky;
 }
 
-.work-info {
-  margin: 1em auto;
-  padding: 2em;
-  width: 36em;
-}
-
 .work-media {
+  border-top: .5px solid $g90;
   > img {
     margin-top: 2em;
     max-width: 100%;

@@ -5,8 +5,8 @@ nav: "Work"
 permalink: /work/spines.me/
 date: 2015-01-01
 title: "spines.me"
-brief: "Aprendizaje conectado"
-description: "Spines ayuda a instituciones educativas, empresas y personas a construir conocimiento profundo y duradero."
+brief: "Connected learning"
+description: "Spines helps educational institutions, companies and people to build deep, enduring knowledge."
 made_in: "Spines"
 type: "Website"
 tasks:
@@ -22,7 +22,7 @@ media:
     - "01.png"
     - "02.png"
     - "03.png"
-    - "04.jpg"
-    - "05.jpg"
+    - "04.png"
+    - "05.png"
 online: 1
 ---

@@ -9,11 +9,12 @@ nav: "Web architecture, copywriting and design."
     {% assign work_by_date = site.work | sort: 'date' %}
     {% assign work_offset = site.work.size | minus: 4 %}    
     {% for work in work_by_date reversed limit:4 offset:work_offset %}
-    <dt><a href="{{ work.permalink }}">{{ work.title }}</a></dt>
+    <dt><a href="{{ work.permalink }}">{{ work.title }}</a>
+</dt>
     <dd>{{ work.brief }}</dd>
     {% endfor %}
     {% if site.work.size > 4 %}
-    <dt class="all-items"><a href="/work/">All work</a> &rarr;</dt>
+    <dt class="all-items"><a href="/work/">All work</a>&rarr;</dt>
     {% endif %}
 </dl>
 

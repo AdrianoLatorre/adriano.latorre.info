@@ -28,7 +28,7 @@ people:
     twitter: "@laurasss"
     id: "ls"
   - name: "Mariela Balbona"
-    site: "about.me/marielabalbona"
+    site: "about.me"
     link: "https://about.me/marielabalbona"
     twitter: "@marielabalbona"
     id: "mb"

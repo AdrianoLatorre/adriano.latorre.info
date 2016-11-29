@@ -13,26 +13,32 @@ layout: default
 {% endfor %}
 
 {% else %}
-
-<div class="work-cover">
-  {% if page.online == 1 %}
-  <div class="cover-frame"><iframe src="{{ page.demo_url }}"></iframe></div>
-  {% else %}
-  <div class="cover-img"><img src="/-/work/{{ page.id }}/{{ page.media.cover }}"/></div>
-  {% endif %}
-</div>
-<div class="work-body">
-  <div class="work-info">
-    <h3>{{ page.title }}</h3>
+<article>
+  <header class="work-cover gutter">
     {% if page.online == 1 %}
-    <p><a href="{{ page.main_url }}">{{ page.address }}</a></p>{% endif %}
-    <p>{{ page.description }}</p>
-    <p>{% for task in page.tasks %}<span>{{ task }}</span>{% endfor %}</p>
-  </div>
-  <div class="work-media">
-    {% for image in page.media.images %}
-    <img src="/-/work/{{ page.id }}/{{ image }}"/>
-    {% endfor %}
-  </div>
-</div>
+    <div class="cover-frame grid-gutter"><iframe src="{{ page.demo_url }}"></iframe></div>
+    {% else %}
+    <div class="cover-img grid-gutter" style="background-image: url('/-/work/{{ page.id }}/{{ page.media.cover }}')"></div>
+    {% endif %}
+    <div class="work-info grid-gutter">
+      <h3>{{ page.title }}</h3>
+      {% if page.online == 1 %}
+      <p>
+        <a href="{{ page.main_url }}">{{ page.address }}</a>
+        {% else %}
+        {{ page.address }}
+      </p>
+      {% endif %}
+      <p>{{ page.description }}</p>
+      <ul>{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
+    </div>
+  </header>
+  <section class="work-body">
+    <div class="work-media">
+      {% for image in page.media.images %}
+      <img src="/-/work/{{ page.id }}/{{ image }}"/>
+      {% endfor %}
+    </div>
+  </section>
+</article>
 {% endif %}
