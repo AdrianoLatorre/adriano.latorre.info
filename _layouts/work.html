@@ -14,14 +14,13 @@ layout: default
 
 {% else %}
 <article>
-  <header class="work-cover gutter">
-    {% if page.online == 1 %}
-    <div class="cover-frame grid-gutter"><iframe src="{{ page.demo_url }}"></iframe></div>
-    {% else %}
-    <div class="cover-img grid-gutter" style="background-image: url('/-/work/{{ page.id }}/{{ page.media.cover }}')"></div>
-    {% endif %}
-    <div class="work-info grid-gutter">
+  <header class="work-cover">
+    <div class="work-info">
       <h3>{{ page.title }}</h3>
+      <p>{{ page.brief }}</p>
+      <p>{{ page.description }}</p>
+    </div>
+    <div class="work-meta">
       {% if page.online == 1 %}
       <p>
         <a href="{{ page.main_url }}">{{ page.address }}</a>
@@ -29,16 +28,57 @@ layout: default
         {{ page.address }}
       </p>
       {% endif %}
-      <p>{{ page.description }}</p>
       <ul>{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
     </div>
   </header>
   <section class="work-body">
-    <div class="work-media">
+    <div class="work-media media-column">
+      {% if page.online == 1 %}
+      <div class="cover-frame"><iframe src="{{ page.demo_url }}"></iframe></div>
+      {% else %}
+      <img src="/-/work/{{ page.id }}/{{ page.media.cover }}"/>
+      {% endif %}
       {% for image in page.media.images %}
+      {% if image contains 'a' %}
+      <div class="media-pair"><div>
+      {% endif %}
+      {% if image contains 'b' %}
+      <div>
+      {% endif %}
       <img src="/-/work/{{ page.id }}/{{ image }}"/>
+      {% if image contains 'a' %}
+      </div>
+      {% endif %}
+      {% if image contains 'b' %}
+      </div></div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <div class="work-media media-column">
+      {% for image in page.media.images %}
+      {% if image contains 'a' %}
+      <div class="media-pair"><div>
+      {% endif %}
+      {% if image contains 'b' %}
+      <div>
+      {% endif %}
+      <img src="/-/work/{{ page.id }}/{{ image }}"/>
+      {% if image contains 'a' %}
+      </div>
+      {% endif %}
+      {% if image contains 'b' %}
+      </div></div>
+      {% endif %}
       {% endfor %}
     </div>
   </section>
+  <nav>
+  <div class="work-previous">
+    Previous
+  </div>
+  <div class="work-next">
+    Next
+  </div>
+  </nav>
 </article>
 {% endif %}

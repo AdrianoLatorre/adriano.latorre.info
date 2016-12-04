@@ -15,14 +15,14 @@ tasks:
   - "Graphic design"
 address: "spines.me"
 main_url: "https://spines.me/"
-demo_url: "http://waxy.org/"
+demo_url: "https://spines.me/"
 media:
   cover: "00.png"
   images:
-    - "01.png"
+    - "01a.png"
+    - "01b.png"
     - "02.png"
     - "03.png"
     - "04.png"
-    - "05.png"
 online: 1
 ---

@@ -162,40 +162,31 @@
 
 .work-cover {
   display: flex;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+  margin: 4em 0 0;
 }
 
 .cover-frame {
-  flex: 0 0 60%;
-  height: 40em;
-  margin: 2.5em 0;
+  position: relative;
+  height: 0;
   overflow: hidden;
-  padding: .5em;
-  width: 33em;
-}
-
-.cover-img {
-  background-size: cover;
-  background-position: 1em 50%;
-  flex: 0 0 60%;
-  height: 40em;
-  margin: 2.5em 0;
-  > img {
-    display: block;
-    max-width: 100%;
+  padding-bottom: 150%;
+  > iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 200%;
+    height: 200%;
   }
 }
 
 .work-info {
-  flex: 0 0 40%;
-  margin: 1em auto;
-  padding: 2em;
-  width: 36em;
+  background-color: gold;
+  flex: 0 0 75%;
+  padding-right: 1em;
   h3 {
     font-size: $f40;
     font-weight: 300;
+    margin: 0;
   }
   p {
     font-size: $f18;
@@ -205,17 +196,33 @@
   }
 }
 
+.work-meta {
+  background-color: silver;
+  flex: 0 0 25%;
+}
+
 .work-body {
-  background-color: $g99;
-  border-top: .5px solid $g90;
-  position: -webkit-sticky;
-  position: sticky;
+  display: flex;
 }
 
 .work-media {
-  border-top: .5px solid $g90;
   > img {
-    margin-top: 2em;
+    display: block;
+    max-width: 100%;
+  }
+}
+
+.media-column {
+  flex: 0 0 50%;
+}
+
+.media-pair {
+  display: flex;
+  > div {
+    flex: 0 0 50%;
+  }
+  img {
+    display: block;
     max-width: 100%;
   }
 }
