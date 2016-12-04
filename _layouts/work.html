@@ -17,12 +17,12 @@ layout: default
   <header class="work-cover">
     <div class="work-info">
       <h3>{{ page.title }}</h3>
-      <p>{{ page.brief }}</p>
+      <p><em>{{ page.brief }}</em></p>
       <p>{{ page.description }}</p>
     </div>
     <div class="work-meta">
-      {% if page.online == 1 %}
       <p>
+      {% if page.online == 1 %}
         <a href="{{ page.main_url }}">{{ page.address }}</a>
         {% else %}
         {{ page.address }}

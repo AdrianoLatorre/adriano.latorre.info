@@ -15,7 +15,7 @@ tasks:
   - "Graphic design"
 address: "spines.me"
 main_url: "https://spines.me/"
-demo_url: "https://spines.me/"
+demo_url: "http://elpais.com/"
 media:
   cover: "00.png"
   images:

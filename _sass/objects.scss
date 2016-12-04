@@ -162,6 +162,7 @@
 
 .work-cover {
   display: flex;
+  flex-wrap: wrap;
   margin: 4em 0 0;
 }
 
@@ -170,6 +171,8 @@
   height: 0;
   overflow: hidden;
   padding-bottom: 150%;
+  overflow: auto;
+  -webkit-overflow-scrolling:touch;
   > iframe {
     position: absolute;
     top:0;
@@ -180,12 +183,19 @@
 }
 
 .work-info {
-  background-color: gold;
-  flex: 0 0 75%;
+  flex: 0 0 100%;
+  @media all and (min-width: 47em) {
+    flex: 0 0 50%;
+  }
+  @media all and (min-width: 57em) {
+    flex: 0 0 75%;
+  }
   padding-right: 1em;
+
   h3 {
     font-size: $f40;
     font-weight: 300;
+    line-height: 1.25;
     margin: 0;
   }
   p {
@@ -197,15 +207,26 @@
 }
 
 .work-meta {
-  background-color: silver;
-  flex: 0 0 25%;
+  border-top: .5px solid $g90;
+  flex: 0 0 100%;
+  margin: 1em 0 0;
+  padding: 1em 0;
+  @media all and (min-width: 47em) {
+    flex: 0 0 50%;
+  }
+  @media all and (min-width: 57em) {
+    flex: 0 0 25%;
+  }
 }
 
 .work-body {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .work-media {
+  border-top: .5px solid $g90;
+  padding-top: 2em;
   > img {
     display: block;
     max-width: 100%;
@@ -213,7 +234,10 @@
 }
 
 .media-column {
-  flex: 0 0 50%;
+  flex: 0 0 100%;
+  @media all and (min-width: 47em) {
+    flex: 0 0 50%;
+  }
 }
 
 .media-pair {
