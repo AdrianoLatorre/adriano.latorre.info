@@ -23,7 +23,7 @@ nav: "Web architecture, copywriting and design."
     {% assign project_by_date = site.projects | sort: 'date' %}
     {% assign projects_offset = site.projects.size | minus: 4 %}    
     {% for project in project_by_date reversed limit:4 offset:projects_offset %}
-    <dt><a href="{{ project.permalink }}">{{ project.title }}</a></dt>
+    <dt><a href="{{ project.permalink }}">{{ project.title }}</a> <sup style="color: red;">•</sup></dt>
     <dd>{{ project.brief }}</dd>
     {% endfor %}
     {% if site.projects.size > 4 %}
