@@ -2,7 +2,7 @@
 
 .container {
   margin: 0 auto 10em;
-  padding: 0 2em;
+  padding: 0 1em;
   max-width: 64em;
 }
 
@@ -187,9 +187,9 @@
   @media all and (min-width: 47em) {
     flex: 0 0 50%;
   }
-  @media all and (min-width: 57em) {
-    flex: 0 0 75%;
-  }
+  // @media all and (min-width: 57em) {
+  //   flex: 0 0 75%;
+  // }
   padding-right: 1em;
 
   h3 {
@@ -207,16 +207,16 @@
 }
 
 .work-meta {
-  border-top: .5px solid $g90;
+  // border-top: .5px solid $g90;
   flex: 0 0 100%;
   margin: 1em 0 0;
   padding: 1em 0;
   @media all and (min-width: 47em) {
     flex: 0 0 50%;
   }
-  @media all and (min-width: 57em) {
-    flex: 0 0 25%;
-  }
+  // @media all and (min-width: 57em) {
+  //   flex: 0 0 25%;
+  // }
 }
 
 .work-body {
@@ -225,7 +225,7 @@
 }
 
 .work-media {
-  border-top: .5px solid $g90;
+  // border-top: .5px solid $g90;
   padding-top: 2em;
   > img {
     display: block;
