@@ -6,6 +6,7 @@ layout: default
 
 {% assign portfolio = site.work | sort: 'date' %}
 {% for work in portfolio reversed %}
+</div>
 <dl>
   <dt><a href="{{ work.permalink }}"><img src="/-/work/{{ work.id }}/{{ work.media.cover }}"/></a></dt>
   <dd>{{ work.title }}</dd>
@@ -13,72 +14,78 @@ layout: default
 {% endfor %}
 
 {% else %}
-<article>
+</div>
+<article class="work-item">
   <header class="work-cover">
-    <div class="work-info">
+    <div class="work-demo">
       <h3>{{ page.title }}</h3>
-      <p><em>{{ page.brief }}</em></p>
-      <p>{{ page.description }}</p>
-    </div>
-    <div class="work-meta">
-      <p>
-      {% if page.online == 1 %}
-        <a href="{{ page.main_url }}">{{ page.address }}</a>
-        {% else %}
-        {{ page.address }}
-      </p>
-      {% endif %}
-      <ul>{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
-    </div>
-  </header>
-  <section class="work-body">
-    <div class="work-media media-column">
       {% if page.online == 1 %}
       <div class="cover-frame"><iframe src="{{ page.demo_url }}"></iframe></div>
       {% else %}
       <img src="/-/work/{{ page.id }}/{{ page.media.cover }}"/>
       {% endif %}
-      {% for image in page.media.images %}
+    </div>
+    <div class="work-meta">
+      <div class="work-info">
+        <p>{{ page.description }}</p>
+      </div>
+      <div class="work-labels">
+        <h3>Tasks for {{ page.title }}</h3>
+        <ul>{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
+      </div>
+      <div class="work-link">
+        {% if page.online == 1 %}
+        <a href="{{ page.main_url }}">See more at {{ page.address }}</a>
+        {% else %}
+        <span>{{ page.address }}</span>
+        {% endif %}
+      </div>
+    </div>
+  </header>
+  <section class="work-body">
+    <div class="work-media media-column">
+      {% for image in page.media.images_a %}
       {% if image contains 'a' %}
       <div class="media-pair"><div>
-      {% endif %}
-      {% if image contains 'b' %}
-      <div>
-      {% endif %}
-      <img src="/-/work/{{ page.id }}/{{ image }}"/>
-      {% if image contains 'a' %}
-      </div>
-      {% endif %}
-      {% if image contains 'b' %}
+        {% endif %}
+        {% if image contains 'b' %}
+        <div>
+          {% endif %}
+          <img src="/-/work/{{ page.id }}/{{ image }}"/>
+          {% if image contains 'a' %}
+        </div>
+        {% endif %}
+        {% if image contains 'b' %}
       </div></div>
       {% endif %}
       {% endfor %}
     </div>
     <div class="work-media media-column">
-      {% for image in page.media.images %}
+      {% for image in page.media.images_b %}
       {% if image contains 'a' %}
       <div class="media-pair"><div>
-      {% endif %}
-      {% if image contains 'b' %}
-      <div>
-      {% endif %}
-      <img src="/-/work/{{ page.id }}/{{ image }}"/>
-      {% if image contains 'a' %}
-      </div>
-      {% endif %}
-      {% if image contains 'b' %}
+        {% endif %}
+        {% if image contains 'b' %}
+        <div>
+          {% endif %}
+          <img src="/-/work/{{ page.id }}/{{ image }}"/>
+          {% if image contains 'a' %}
+        </div>
+        {% endif %}
+        {% if image contains 'b' %}
       </div></div>
       {% endif %}
       {% endfor %}
     </div>
   </section>
   <nav>
-  <div class="work-previous">
-    Previous
-  </div>
-  <div class="work-next">
-    Next
-  </div>
+    <div class="work-previous">
+      Previous
+    </div>
+    <div class="work-next">
+      Next
+    </div>
   </nav>
 </article>
-{% endif %}
+<div class="container">
+  {% endif %}
