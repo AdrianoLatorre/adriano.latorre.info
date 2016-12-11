@@ -26,19 +26,19 @@ layout: default
       {% endif %}
     </div>
     <div class="work-meta">
+    <div class="work-link">
+        {% if page.online == 1 %}
+        <a href="{{ page.main_url }}">{{ page.address }}</a>
+        {% else %}
+        <span>{{ page.address }}</span>
+        {% endif %}
+      </div>
       <div class="work-info">
         <p>{{ page.description }}</p>
       </div>
       <div class="work-labels">
         <h3>Tasks for {{ page.title }}</h3>
         <ul>{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
-      </div>
-      <div class="work-link">
-        {% if page.online == 1 %}
-        <a href="{{ page.main_url }}">See more at {{ page.address }}</a>
-        {% else %}
-        <span>{{ page.address }}</span>
-        {% endif %}
       </div>
     </div>
   </header>

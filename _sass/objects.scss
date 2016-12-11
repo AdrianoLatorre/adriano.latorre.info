@@ -36,7 +36,6 @@
   margin-top: 3em;
   a {
     font-weight: 600;
-    text-decoration: none;
   }
   > ul {
     padding: 0;
@@ -120,6 +119,7 @@
         height: 1.75em;
         margin-top: .175em;
       }
+
       > .info {
         color: $g50;
       }
@@ -130,6 +130,7 @@
 .links {
   font-size: $f18;
   margin-top: 5em;
+
   > h3 {
     background: $g99;
     border-bottom: .5px solid $g90;
@@ -139,13 +140,15 @@
     font-weight: 400;
     margin: 1em 0;
     padding: 1em 0;
-    position: -webkit-sticky;
+    position: sticky;
     top: -1px;
   }
+
   > dl {
     > dt {
       margin: 1em 0 0;
     }
+
     > dd {
       color: $g50;
       font-size: $f14;
@@ -161,9 +164,10 @@
 }
 
 .work-item {
+  box-shadow: 0 0 1px 0 rgba(128, 128, 128, .3);
   margin: 0 auto 10em;
-  padding: 0 1em;
   max-width: 64em;
+  padding: 0 1em;
   @media all and (max-width: 47em) {
     padding: 0;
   }
@@ -222,7 +226,7 @@
 }
 
 .work-meta {
-  background-color: $g99;
+  background-color: $w;
   color: $g30;
   flex: 0 0 100%;
   font-size: $f18;
@@ -241,13 +245,14 @@
 }
 
 .work-info {
-  background-color: $g98;
+  background-color: gold;
+  color: $g25;
   padding: 4em 2em;
 }
 
 .work-labels {
   background-color: $w;
-  padding: 2em 2em 3em;
+  padding: 2em;
   ul {
     margin: 0;
     padding: 0;
@@ -275,17 +280,17 @@
 }
 
 .work-link {
+  border-bottom: .5px solid $g90;
+  height: 4.45em;
   a, span {
-    background-color: $g25;
-    color: $w;
     display: block;
     font-size: $f18;
     font-weight: 600;
-    padding: 2em;
+    padding: 1.675em 2em 0;
     transition: all .25s ease-out;
   }
-  a:hover {
-    background-color: $g10;
+  span {
+    color: $g75;
   }
 }
 
