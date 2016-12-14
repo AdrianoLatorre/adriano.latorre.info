@@ -1,6 +1,8 @@
 ---
 title: "Kottke"
 www: "http://kottke.org/"
-category: Blog
-tags: [links]
+tags:
+  - blog
+  - collection
+  - link
 ---

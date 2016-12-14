@@ -17,6 +17,15 @@ layout: default
 
 
 <dl>
+  {% assign sorted = site.sources | sort:'name' %}
+  {% for source in sorted %}
+  <dt><a href="{{ source.www }}">{{ source.title }}</a></dt>
+  <dd><small>{% for tag in source.tags %}{{ tag }} {% endfor %}</small></dd>
+  {% endfor %}
+</dl>
+
+
+<!-- <dl>
   {% assign sorted = site.sources | group_by:'category' | sort:'name' %}
   {% for category in sorted %}
   {{ category.name }}
@@ -25,4 +34,4 @@ layout: default
   <dd><small>{% for tag in source.tags %}{{ tag }} {% endfor %}</small></dd>
   {% endfor %}
   {% endfor %}
-</dl>
+</dl> -->
