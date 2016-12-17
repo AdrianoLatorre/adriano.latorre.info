@@ -7,13 +7,13 @@ nav: "Web architecture, copywriting and design."
   <dl class="grid-width">
     <lh>Work</lh>
     {% assign work_by_date = site.work | sort: 'date' %}
-    {% assign work_offset = site.work.size | minus: 4 %}    
-    {% for work in work_by_date reversed limit:4 offset:work_offset %}
+    {% assign work_offset = site.work.size | minus: 5 %}    
+    {% for work in work_by_date reversed limit:5 offset:work_offset %}
     <dt><a href="{{ work.permalink }}">{{ work.title }}</a>
 </dt>
     <dd>{{ work.brief }}</dd>
     {% endfor %}
-    {% if site.work.size > 4 %}
+    {% if site.work.size > 5 %}
     <dt class="all-items"><a href="/work/">All work</a>&rarr;</dt>
     {% endif %}
 </dl>
@@ -21,12 +21,12 @@ nav: "Web architecture, copywriting and design."
 <dl class="grid-width">
     <lh>Projects</lh>
     {% assign project_by_date = site.projects | sort: 'date' %}
-    {% assign projects_offset = site.projects.size | minus: 4 %}    
-    {% for project in project_by_date reversed limit:4 offset:projects_offset %}
+    {% assign projects_offset = site.projects.size | minus: 5 %}
+    {% for project in project_by_date reversed limit:5 offset:projects_offset %}
     <dt><a href="{{ project.permalink }}">{{ project.title }}</a> <sup style="color: red;">•</sup></dt>
     <dd>{{ project.brief }}</dd>
     {% endfor %}
-    {% if site.projects.size > 4 %}
+    {% if site.projects.size > 5 %}
     <dt class="all-items"><a href="/projects/">All projects</a> &rarr;</dt>
     {% endif %}
 </dl>
