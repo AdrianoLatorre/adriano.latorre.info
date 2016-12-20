@@ -2,9 +2,9 @@
 layout: work
 id: "spinesme"
 nav: "Work"
-permalink: /work/spines.me/
+permalink: /work/spines/
 date: 2015-01-01
-title: "Spines"
+title: "Spines website"
 brief: "Connected learning"
 description: "Spines helps educational institutions, companies and people to build deep, enduring knowledge. Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do.
 <br><br>
@@ -17,7 +17,7 @@ tasks:
   - "Graphic design"
 address: "spines.me"
 main_url: "https://spines.me/"
-demo_url: "http://elpais.com/"
+demo_url: "https://spines.me/"
 media:
   cover: "00.png"
   images_a:

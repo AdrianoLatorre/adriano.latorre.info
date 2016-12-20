@@ -18,7 +18,6 @@ layout: default
 <article class="work-item">
   <header class="work-cover">
     <div class="work-demo">
-      <h3>{{ page.title }}</h3>
       {% if page.online == 1 %}
       <div class="cover-frame"><iframe src="{{ page.demo_url }}"></iframe></div>
       {% else %}
@@ -26,23 +25,20 @@ layout: default
       {% endif %}
     </div>
     <div class="work-meta">
-    <div class="work-link">
-        {% if page.online == 1 %}
-        <a href="{{ page.main_url }}">{{ page.address }}</a>
-        {% else %}
-        <span>{{ page.address }}</span>
-        {% endif %}
-      </div>
+      <h3>{{ page.title }}</h3>
       <div class="work-info">
         <p>{{ page.description }}</p>
       </div>
-      <div class="work-labels">
-        <h3>Tasks for {{ page.title }}</h3>
-        <ul>{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
-      </div>
+      <div>
+        <ul class="work-labels">{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
+        {% if page.online == 1 %}
+        &rarr; <a href="{{ page.main_url }}">{{ page.address }}</a>
+        {% else %}
+        <span>{{ page.address }}</span>
+        {% endif %}
     </div>
   </header>
-  <section class="work-body">
+<!--   <section class="work-body">
     <div class="work-media media-column">
       {% for image in page.media.images_a %}
       {% if image contains 'a' %}
@@ -77,13 +73,13 @@ layout: default
       {% endif %}
       {% endfor %}
     </div>
-  </section>
+  </section> -->
   <nav>
-    <div class="work-previous">
-      Previous
-    </div>
     <div class="work-next">
       Next
+    </div>
+    <div class="work-previous">
+      Previous
     </div>
   </nav>
 </article>
