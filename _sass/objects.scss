@@ -157,14 +157,15 @@
 }
 
 .footer {
+  background-color: $g95;
   color: $g50;
   font-size: $f12;
   margin-top: 8em;
-  text-align: center;
+  padding: 4em 0 8em 1.5em;
 }
 
 .work-item {
-  margin: -5em auto 10em;
+  margin: 0 auto 10em;
   max-width: 64em;
   padding: 0 1em;
   @media all and (max-width: 47em) {
@@ -179,9 +180,10 @@
 
 .cover-frame {
   height: 0;
-  padding-bottom: 150%;
+  padding-bottom: 137.5%;
   position: relative;
-  -webkit-overflow-scrolling:touch;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
   > iframe {
     left: 0;
     height: 200%;
@@ -192,11 +194,11 @@
 }
 
 .work-demo {
-  border-radius: 3px;
   overflow: hidden;
-  box-shadow: 0 1px 2px 0 rgba(64, 64, 64, .3);
   flex: 0 0 100%;
   @media all and (min-width: 47em) {
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 rgba(64, 64, 64, .3);
     flex: 0 0 50%;
   }
   // @media all and (min-width: 57em) {
@@ -226,7 +228,7 @@
   flex: 0 0 100%;
   font-size: $f16;
   margin: 1em 0 0;
-  padding: 0;
+  padding: 0 1em;
   @media all and (min-width: 47em) {
     flex: 0 0 50%;
     padding-left: 8.3333%;

@@ -5,7 +5,7 @@ nav: "Work"
 permalink: /work/oxfamintermon/
 date: 2010-02-01
 title: "Oxfam Intermón"
-brief: "Cambiamos vidas que cambian vidas"
+brief: "Cambiamos vidas"
 description: "Trabajamos en todo el mundo con herramientas innovadoras y eficaces, para lograr que las personas puedan salir de la pobreza por sí mismas y prosperar. Salvamos vidas en situaciones de emergencia y ayudamos a recuperar medios de vida. Impulsamos campañas para que las voces de las personas en situación de pobreza puedan influir en las decisiones que les afectan en el ámbito local y global."
 made_in: "httpcomunicació"
 type: "Website"
