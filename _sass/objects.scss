@@ -1,7 +1,7 @@
 // objects.scss: cosmetic-free design patterns (OOCSS).
 
 .container {
-  margin: 0 auto 10em;
+  margin: 0 auto 6em;
   padding: 0 1em;
   max-width: 64em;
 }
@@ -98,9 +98,9 @@
 }
 
 .books {
+  align-items: flex-end;
   font-size: $f18;
   margin-top: 8em;
-  align-items: flex-end;
   > dl {
     > dt {
       margin: .5em 0;
@@ -157,11 +157,10 @@
 }
 
 .footer {
-  background-color: $g95;
   color: $g50;
   font-size: $f12;
-  margin-top: 8em;
-  padding: 4em 0 8em 1.5em;
+  margin: 10em 0 0;
+  padding: 2em 0 0;
 }
 
 .work-item {
