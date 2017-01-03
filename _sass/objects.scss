@@ -72,7 +72,10 @@
 .all-items {
   font-size: $f16;
   a {
+    font-size: .75em;
+    font-weight: 600;
     margin-right: .25em;
+    text-transform: uppercase;
     transition: margin .25s ease-out;
     &:hover {
       margin-right: .625em;
