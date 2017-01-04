@@ -34,5 +34,5 @@ task :slack do
   sh 'open /Applications/Slack.app/'
 end
 
-desc 'Open Spines'
-task :ws => [:sublime, :safari, :chrome, :slack]
+desc 'Open work'
+task :w => [:sublime, :safari, :chrome, :slack]
