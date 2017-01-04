@@ -4,7 +4,7 @@ nav: "UX design, copywriting and whatever."
 ---
 
 <nav class="index grid gutter">
-  <dl class="grid-width">
+  <dl class="grid-fourths">
     <lh>Work</lh>
     {% assign work_by_date = site.work | sort: 'date' %}
     {% assign work_offset = site.work.size | minus: 5 %}    
@@ -18,7 +18,7 @@ nav: "UX design, copywriting and whatever."
     {% endif %}
 </dl>
 
-<dl class="grid-width">
+<dl class="grid-fourths">
     <lh>Projects</lh>
     {% assign project_by_date = site.projects | sort: 'date' %}
     {% assign projects_offset = site.projects.size | minus: 5 %}
@@ -31,7 +31,7 @@ nav: "UX design, copywriting and whatever."
     {% endif %}
 </dl>
 
-<dl class="grid-width">
+<dl class="grid-fourths">
     <lh>Info</lh>
     <dt><a href="/profile/">Profile</a></dt>
     <dd>About me</dd>
@@ -51,7 +51,7 @@ while(x=eval(x));
 //]]>
 </script>hello</a></dd>
 </dl>
-<dl class="grid-width">
+<dl class="grid-fourths">
     <lh>Special</lh>
     <dt><a href="/people/">People</a></dt>
     <dd>Really nice ones</dd>
