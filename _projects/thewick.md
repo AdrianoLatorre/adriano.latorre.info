@@ -16,7 +16,7 @@ address: "medium.com/the-wick"
 main_url: "http://kottke.org/"
 demo_url: "https://medium.com/the-wick"
 media:
-  cover: "00.png"
+  cover: "00.jpg"
   images:
     - "01.png"
     - "02.png"

@@ -202,7 +202,7 @@
   padding: 2em 0 0;
 }
 
-.work-item {
+.portfolio-item {
   margin: 0 auto 10em;
   max-width: 64em;
   padding: 0 1em;
@@ -211,7 +211,7 @@
   }
 }
 
-.work-cover {
+.item-cover {
   display: flex;
   flex-wrap: wrap;
 }
@@ -231,7 +231,7 @@
   }
 }
 
-.work-demo {
+.item-demo {
   overflow: hidden;
   flex: 0 0 100%;
   @media all and (min-width: 47em) {
@@ -262,7 +262,7 @@
   }
 }
 
-.work-meta {
+.item-meta {
   flex: 0 0 100%;
   font-size: $f16;
   margin: 1em 0 0;
@@ -281,11 +281,11 @@
   }
 }
 
-.work-info {
+.item-info {
   padding: 0 0 2em;
 }
 
-.work-labels {
+.item-labels {
   color: $g40;
   margin: 0 0 3em;
   padding: 0;
@@ -304,12 +304,12 @@
   }
 }
 
-.work-body {
+.item-body {
   display: flex;
   flex-wrap: wrap;
 }
 
-.work-media {
+.item-media {
   // border-top: .5px solid $g90;
   > img {
     display: block;

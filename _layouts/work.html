@@ -15,22 +15,22 @@ layout: default
 
 {% else %}
 </div>
-<article class="work-item">
-  <header class="work-cover">
-    <div class="work-demo">
+<article class="portfolio-item">
+  <header class="item-cover">
+    <div class="item-demo">
       {% if page.online == 1 %}
       <div class="cover-frame"><iframe src="{{ page.demo_url }}"></iframe></div>
       {% else %}
       <img src="/-/work/{{ page.id }}/{{ page.media.cover }}"/>
       {% endif %}
     </div>
-    <div class="work-meta">
+    <div class="item-meta">
       <h3>{{ page.title }}</h3>
-      <div class="work-info">
+      <div class="item-info">
         <p>{{ page.description }}</p>
       </div>
       <div>
-        <ul class="work-labels">{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
+        <ul class="item-labels">{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
         {% if page.online == 1 %}
         &rarr; <a href="{{ page.main_url }}">{{ page.address }}</a>
         {% else %}
@@ -38,8 +38,8 @@ layout: default
         {% endif %}
     </div>
   </header>
-<!--   <section class="work-body">
-    <div class="work-media media-column">
+<!--   <section class="item-body">
+    <div class="item-media media-column">
       {% for image in page.media.images_a %}
       {% if image contains 'a' %}
       <div class="media-pair"><div>
@@ -56,7 +56,7 @@ layout: default
       {% endif %}
       {% endfor %}
     </div>
-    <div class="work-media media-column">
+    <div class="item-media media-column">
       {% for image in page.media.images_b %}
       {% if image contains 'a' %}
       <div class="media-pair"><div>
@@ -75,10 +75,10 @@ layout: default
     </div>
   </section> -->
   <nav>
-    <div class="work-next">
+    <div class="item-next">
       Next
     </div>
-    <div class="work-previous">
+    <div class="item-previous">
       Previous
     </div>
   </nav>
