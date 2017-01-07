@@ -16,7 +16,7 @@ end
 desc 'Serve and view'
 task :s => [:url, :serve]
 
-desc 'Open all'
+desc 'Open alt'
 task :a => [:sublime, :url, :serve]
 
 desc 'Open Safari'
