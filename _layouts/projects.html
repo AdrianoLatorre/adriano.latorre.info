@@ -6,6 +6,7 @@ layout: default
 
 {% assign projects = site.projects | sort: 'date' %}
 {% for project in projects reversed %}
+</div>
 <dl>
   <dt><a href="{{ project.permalink }}"><img src="/-/projects/{{ project.id }}/{{ project.media.cover }}"/></a></dt>
   <dd>{{ project.title }}</dd>
@@ -13,16 +14,38 @@ layout: default
 {% endfor %}
 
 {% else %}
-
-{% if page.online == 1 %}
-<iframe src="{{ page.main_url }}"></iframe>
-{% else %}
-<p><img src="/-/projects/{{ page.id }}/{{ page.media.cover }}"/></p>
-{% endif %}
-<h3>{{ page.title }}</h3>
-{% if page.online == 1 %}<p><a href="{{ page.main_url }}">{{ page.address }}</a></p>{% endif %}
-<p>{{ page.description }}</p>
-<p>{% for task in page.tasks %}<span>{{ task }}</span>{% endfor %}</p>
-<p>{% for image in page.media.images %}<span><img src="/-/projects/{{ page.id }}/{{ image }}"/></span>{% endfor %}</p>
-
-{% endif %}
+</div>
+<article class="work-item">
+  <header class="work-cover">
+    <div class="work-demo">
+      {% if page.online == 1 %}
+      <div class="cover-frame"><iframe src="{{ page.demo_url }}"></iframe></div>
+      {% else %}
+      <img src="/-/projects/{{ page.id }}/{{ page.media.cover }}"/>
+      {% endif %}
+    </div>
+    <div class="work-meta">
+      <h3>{{ page.title }}</h3>
+      <div class="work-info">
+        <p>{{ page.description }}</p>
+      </div>
+      <div>
+        <ul class="work-labels">{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
+        {% if page.online == 1 %}
+        &rarr; <a href="{{ page.main_url }}">{{ page.address }}</a>
+        {% else %}
+        <span>{{ page.address }}</span>
+        {% endif %}
+    </div>
+  </header>
+    <nav>
+    <div class="work-next">
+      Next
+    </div>
+    <div class="work-previous">
+      Previous
+    </div>
+  </nav>
+</article>
+<div class="container">
+  {% endif %}
