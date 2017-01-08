@@ -16,29 +16,35 @@ layout: default
 {% else %}
 </div>
 <article class="portfolio-item">
-  <header class="item-cover">
-    <div class="item-demo">
-      {% if page.online == 1 %}
-      <div class="cover-frame"><iframe src="{{ page.demo_url }}"></iframe></div>
-      {% else %}
-      <img src="/-/projects/{{ page.id }}/{{ page.media.cover }}"/>
-      {% endif %}
-    </div>
-    <div class="item-meta">
-      <h3>{{ page.title }}</h3>
-      <div class="item-info">
+  <header>
+    <img src="/-/projects/{{ page.id }}/{{ page.media.cover }}"/>
+    <div class="item-info">
+      <div class="item-description">
+        <h3>{{ page.title }}</h3>
         <p>{{ page.description }}</p>
       </div>
-      <div>
-        <ul class="item-labels">{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
+      <div class="item-meta">
         {% if page.online == 1 %}
         &rarr; <a href="{{ page.main_url }}">{{ page.address }}</a>
         {% else %}
         <span>{{ page.address }}</span>
         {% endif %}
+        <ul class="item-labels">{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
+      </div>
     </div>
   </header>
-    <nav>
+  {% if page.online == 1 %}
+  <div class="item-frame">
+    <div class="demo-title"><h4>Demo</h4></div>
+    <div class="cover-frame"><iframe src="{{ page.demo_url }}"></iframe></div>
+  </div>
+  {% endif %}
+  <div class="item-media">
+    {% for image in page.media.images %}
+    <img src="/-/projects/{{ page.id }}/{{ image }}"/>
+    {% endfor %}
+  </div>
+  <nav>
     <div class="item-next">
       Next
     </div>

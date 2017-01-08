@@ -203,38 +203,69 @@
 }
 
 .portfolio-item {
-  margin: 0 auto 10em;
+  margin: 10.5em auto 10em;
   max-width: 64em;
-  padding: 0 1em;
-  @media all and (max-width: 47em) {
-    padding: 0;
+  padding: 0;
+  img {
+    max-width: 100%;
+  }
+  @media all and (min-width: 41em) {
+    padding: 0 1em;
   }
 }
 
-.item-cover {
+.item-frame {
+  background-color: $g94;
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 1px;
+  padding: 2em 1em;
+  @media all and (min-width: 41em) {
+    padding: 2em;
+  }
+}
+
+.demo-title {
+  flex: 0 0 100%;
+  h4 {
+    color: $g40;
+    font-size: $f16;
+    font-weight: 700;
+    margin: 0 0 1.5em;
+  }
+  @media all and (min-width: 41em) {
+    flex: 0 0 30%;
+  }
 }
 
 .cover-frame {
+  background-color: $w;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px 0 rgba(64, 64, 64, .3);
+  flex: 0 0 100%;
   height: 0;
-  padding-bottom: 133.5%;
-  position: relative;
+  overflow: hidden;
   -webkit-overflow-scrolling: touch;
   overflow-y: auto;
+  padding-bottom: 140%;
+  position: relative;
+  @media all and (min-width: 41em) {
+    flex: 0 0 70%;
+    padding-bottom: 100%;
+  }
   > iframe {
-    left: 0;
     height: 200%;
+    left: 0;
     position: absolute;
-    top:0;
+    top: 0;
     width: 200%;
   }
 }
 
 .item-demo {
-  overflow: hidden;
   flex: 0 0 100%;
-  @media all and (min-width: 47em) {
+  overflow: hidden;
+  @media all and (min-width: 56em) {
     border-radius: 3px;
     box-shadow: 0 1px 2px 0 rgba(64, 64, 64, .3);
     flex: 0 0 50%;
@@ -262,27 +293,33 @@
   }
 }
 
-.item-meta {
+.item-info {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 1em;
+  @media all and (min-width: 41em) {
+    padding: 0;
+  }
+}
+
+.item-description {
   flex: 0 0 100%;
   font-size: $f16;
-  margin: 1em 0 0;
-  padding: 0 1em;
-  @media all and (min-width: 47em) {
-    flex: 0 0 50%;
-    padding-left: 8.3333%;
-    padding-right: 1em;
-  }
-  // @media all and (min-width: 57em) {
-  //   flex: 0 0 25%;
-  // }
   h3 {
     font-size: $f32;
     font-weight: 400;
   }
+  @media all and (min-width: 41em) {
+    flex: 0 0 50%;
+  }
 }
 
-.item-info {
-  padding: 0 0 2em;
+.item-meta {
+  flex: 0 0 100%;
+  @media all and (min-width: 41em) {
+    flex: 0 0 50%;
+    padding-left: 10%;
+  }
 }
 
 .item-labels {
@@ -310,16 +347,16 @@
 }
 
 .item-media {
-  // border-top: .5px solid $g90;
-  > img {
+  img {
     display: block;
+    margin-bottom: 1px;
     max-width: 100%;
   }
 }
 
 .media-column {
   flex: 0 0 100%;
-  @media all and (min-width: 47em) {
+  @media all and (min-width: 56em) {
     flex: 0 0 50%;
   }
 }
