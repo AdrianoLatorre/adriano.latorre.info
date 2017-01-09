@@ -215,18 +215,20 @@
 }
 
 .item-frame {
-  background-color: $g96;
-  display: flex;
+  background-color: $g97;
+  display: none;
   flex-wrap: wrap;
   margin-bottom: 1px;
   padding: 2em 1em;
   @media all and (min-width: 41em) {
+    display: flex;
     padding: 2em;
   }
 }
 
 .demo-title {
   flex: 0 0 100%;
+  padding-right: 2em;
   h1 {
     font-size: $f20;
     font-weight: 400;
@@ -311,13 +313,6 @@
 .item-description {
   flex: 0 0 100%;
   font-size: $f16;
-  a {
-    border-top: .5px solid $g90;
-    display: block;
-    font-size: $f20;
-    margin-top: 2em;
-    padding: 1.5em 0 0;
-  }
   h1 {
     font-size: $f32;
     font-weight: 400;
@@ -331,16 +326,24 @@
     line-height: 1.25;
     margin: 0 0 2em;
   }
+  p {
+    border-bottom: .5px solid $g90;
+    margin-bottom: 2.5em;
+    padding-bottom: 3em;
+  }
   @media all and (min-width: 41em) {
     flex: 0 0 50%;
+  }
+  a {
+    font-size: $f20;
+    margin-top: 2em;
   }
 }
 
 .item-labels {
-  border-bottom: .5px solid $g90;
   color: $g40;
   margin: 1em 0;
-  padding: 0 0 2.5em;
+  padding: 0;
   li {
     background-color: $g95;
     border-radius: 2px;
