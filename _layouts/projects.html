@@ -26,14 +26,17 @@ layout: default
         <a href="{{ page.main_url }}">{{ page.address }}</a>
         <ul class="item-labels">{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
       </div>
+      {% if page.online == 1 %}
+      <div class="cover-frame"><iframe src="{{ page.demo_url }}"></iframe></div>
+      {% endif %}
     </div>
   </header>
-  {% if page.online == 1 %}
+<!--   {% if page.online == 1 %}
   <div class="item-frame">
     <div class="demo-title"><h1>{{ page.brief }}</h1></div>
     <div class="cover-frame"><iframe src="{{ page.demo_url }}"></iframe></div>
   </div>
-  {% endif %}
+  {% endif %} -->
   <div class="item-media">
     {% for image in page.media.images %}
     <img src="/-/projects/{{ page.id }}/{{ image }}"/>

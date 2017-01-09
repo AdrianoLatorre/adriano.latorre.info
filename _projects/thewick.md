@@ -14,7 +14,7 @@ tasks:
   - "Graphic design"
 address: "medium.com/the-wick"
 main_url: "https://medium.com/the-wick"
-demo_url: "http://adriano.latorre.info/w/archive/"
+demo_url: "http://elpais.com/"
 media:
   cover: "00.png"
   images:

@@ -246,7 +246,7 @@
   background-color: $w;
   border-radius: 3px;
   box-shadow: 0 1px 1px 0 rgba(64, 64, 64, .25);
-  flex: 0 0 100%;
+  display: none;
   height: 0;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
@@ -254,11 +254,8 @@
   padding-bottom: 140%;
   position: relative;
   @media all and (min-width: 41em) {
-    flex: 0 0 75%;
-    padding-bottom: 100%;
-  }
-  @media all and (min-width: 56em) {
-    flex: 0 0 60%;
+    display: flex;
+    flex: 0 0 50%;
     padding-bottom: 80%;
   }
   > iframe {
@@ -333,6 +330,7 @@
   }
   @media all and (min-width: 41em) {
     flex: 0 0 50%;
+    padding-right: 4em;
   }
   a {
     font-size: $f20;
