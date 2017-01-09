@@ -20,22 +20,17 @@ layout: default
     <img src="/-/projects/{{ page.id }}/{{ page.media.cover }}"/>
     <div class="item-info">
       <div class="item-description">
-        <h3>{{ page.title }}</h3>
+        <h1>{{ page.title }}</h1>
+        <h2>{{ page.brief }}</h2>
         <p>{{ page.description }}</p>
-      </div>
-      <div class="item-meta">
-        {% if page.online == 1 %}
-        &rarr; <a href="{{ page.main_url }}">{{ page.address }}</a>
-        {% else %}
-        <span>{{ page.address }}</span>
-        {% endif %}
+        <a href="{{ page.main_url }}">{{ page.address }}</a>
         <ul class="item-labels">{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
       </div>
     </div>
   </header>
   {% if page.online == 1 %}
   <div class="item-frame">
-    <div class="demo-title"><h4>Demo</h4></div>
+    <div class="demo-title"><h1>Demo</h1></div>
     <div class="cover-frame"><iframe src="{{ page.demo_url }}"></iframe></div>
   </div>
   {% endif %}
@@ -46,10 +41,30 @@ layout: default
   </div>
   <nav>
     <div class="item-next">
-      Next
+      {% assign projects = site.projects | sort: 'date' %}
+      {% for project in projects %}
+      {% if project.id == page.id %}
+      {% if forloop.index0 != forloop.first %}
+      {{ forloop.index0 }}
+      {% assign next_i = forloop.index0 | plus: 1 %}
+      <h4>Next</h4>
+      <a href="{{ projects[next_i].permalink }}">{{ projects[next_i].title }}</a>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
     </div>
     <div class="item-previous">
-      Previous
+      {% assign projects = site.projects | sort: 'date' %}
+      {% for project in projects %}
+      {% if project.id == page.id %}
+      {% if forloop.index0 != forloop.last %}
+      {{ forloop.index0 }}
+      {% assign prev_i = forloop.index0 | minus: 1 %}
+      <h4>Previous</h4>
+      <a href="{{ projects[prev_i].permalink }}">{{ projects[prev_i].title }}</a>
+      {% endif %}
+      {% endif %}
+      {% endfor %}
     </div>
   </nav>
 </article>
