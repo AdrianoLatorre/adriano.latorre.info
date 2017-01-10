@@ -330,16 +330,19 @@
     line-height: 1.25;
     margin-top: 1.25em;
     padding-top: 1.5em;
+    a {
+      font-size: $f18;
+    }
   }
   p {
     margin-bottom: 4em;
+    a {
+      font-weight: 600;
+    }
   }
   @media all and (min-width: 41em) {
     flex: 0 0 50%;
     padding-right: 4em;
-  }
-  a {
-    font-size: $f18;
   }
 }
 

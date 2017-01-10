@@ -24,10 +24,12 @@ layout: default
         <h2>{{ page.brief }}</h2>
         <p>{{ page.description }}</p>
         <ul class="item-labels">{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
-        <h3>&rarr; <a href="{{ page.main_url }}">{{ page.address }}</a></h3>
+        {% for metaurl in page.meta_urls %}
+        <h3>&rarr; <a href="{{ metaurl.main_url }}">{{ metaurl.address }}</a></h3>
+        {% endfor %}
       </div>
       {% if page.online == 1 %}
-      <div class="cover-frame"><iframe src="{{ page.demo_url }}"></iframe></div>
+      <div class="cover-frame"><iframe src="{% if page.meta_urls[0].demo_url %}{{ page.meta_urls[0].demo_url }}{% else %}{{ page.meta_urls[0].main_url }}{% endif %}"></iframe></div>
       {% endif %}
     </div>
   </header>
