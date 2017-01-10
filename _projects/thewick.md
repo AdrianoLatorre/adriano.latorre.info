@@ -14,7 +14,7 @@ tasks:
   - "Graphic design"
 address: "medium.com/the-wick"
 main_url: "https://medium.com/the-wick"
-demo_url: "http://elpais.com/"
+demo_url: "about:blank"
 media:
   cover: "00.png"
   images:
