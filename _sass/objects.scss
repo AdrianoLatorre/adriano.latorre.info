@@ -348,15 +348,16 @@
 
 .item-labels {
   color: $g40;
-  margin: 1em 0 1.5em;
+  margin: 0 0 2em;
   padding: 0;
   li {
     background-color: $g95;
     border-radius: 2px;
     display: inline-block;
-    font-size: $f14;
-    margin: 0 .5em .25em 0;
-    padding: .1375em .75em;
+    font-size: $f13;
+    font-weight: 600;
+    margin: 0 .5em .5em 0;
+    padding: .25em 1.5em;
     transition: all .25s ease-out;
     &:hover {
       background-color: $g90;
