@@ -1,6 +1,6 @@
 ---
 layout: default
-nav: "UX design, copywriting and whatever."
+nav: "UX design, copywriting and frontendery."
 ---
 
 <nav class="index grid gutter">
@@ -11,7 +11,7 @@ nav: "UX design, copywriting and whatever."
     {% for work in work_by_date reversed limit:5 offset:work_offset %}
     <dt><a href="{{ work.permalink }}">{{ work.title }}</a>
 </dt>
-    <dd>{{ work.brief }}</dd>
+    <dd>{% if work.brief_index %}{{ work.brief_index }}{% else %}{{ work.brief }}{% endif %}</dd>
     {% endfor %}
     {% if site.work.size > 5 %}
     <dt class="all-items"><a href="/work/">All work</a>&rarr;</dt>
@@ -24,7 +24,7 @@ nav: "UX design, copywriting and whatever."
     {% assign projects_offset = site.projects.size | minus: 5 %}
     {% for project in project_by_date reversed limit:5 offset:projects_offset %}
     <dt><a href="{{ project.permalink }}">{{ project.title }}</a></dt>
-    <dd>{{ project.brief }}</dd>
+    <dd>{% if project.brief_index %}{{ project.brief_index }}{% else %}{{ project.brief }}{% endif %}</dd>
     {% endfor %}
     {% if site.projects.size > 5 %}
     <dt class="all-items"><a href="/projects/">All projects</a> &rarr;</dt>
