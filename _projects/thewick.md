@@ -5,8 +5,8 @@ nav: "Projects"
 permalink: /projects/thewick/
 date: 2014-10-01
 title: "The Wick"
-brief_index: "Three wonderful links"
 brief: "Three wonderful links, once a week."
+brief_index: "Three wonderful links"
 description: "Packaging for the new Biggans Bold Böckling paste, a fish paste made of smoked herring. Biggans is a small family owned company who has been serving their culinary delicacies to the Swedes since 1952. Packaging for the new Biggans Bold Böckling paste, a paste made of smoked Biggans. One small family owned company who has been serving their culinary delicacies to the Swedes since 1952.<br><br>Packaging for the new <a href='zxcn'>Biggans Bold Böckling paste</a>, a fish paste made of smoked Biggans. A small family owned company who has been serving their culinary delicacies to the Swedes since 1952."
 type: "Newsletter"
 tasks:

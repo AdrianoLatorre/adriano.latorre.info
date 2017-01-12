@@ -44,33 +44,39 @@ layout: default
     <img src="/-/projects/{{ page.id }}/{{ image }}"/>
     {% endfor %}
   </div>
-  <nav>
-    <div class="item-next">
-      {% assign projects = site.projects | sort: 'date' %}
-      {% for project in projects %}
-      {% if project.id == page.id %}
-      {% if forloop.index0 != forloop.first %}
-      {{ forloop.index0 }}
-      {% assign next_i = forloop.index0 | plus: 1 %}
+  <nav class="item-browser grid gutter">
+    {% assign projects = site.projects | sort: 'date' %}
+    {% for project in projects %}
+    {{ forloop.index0 }}
+    {% if project.id == page.id %}
+    {% if forloop.index0 != forloop.first %}
+    {% assign next_i = forloop.index0 | plus: 1 %}
+    {% if forloop.first == true %}
+    <div class="item-next grid-50">
       <h4>Next</h4>
-      <a href="{{ projects[next_i].permalink }}">{{ projects[next_i].title }}</a>
-      {% endif %}
-      {% endif %}
-      {% endfor %}
+      <a href="{{ projects[next_i].permalink }}">{{ projects[next_i].title }}</a><br>
+      {{ projects[next_i].brief }}
     </div>
-    <div class="item-previous">
-      {% assign projects = site.projects | sort: 'date' %}
-      {% for project in projects %}
-      {% if project.id == page.id %}
-      {% if forloop.index0 != forloop.last %}
-      {{ forloop.index0 }}
-      {% assign prev_i = forloop.index0 | minus: 1 %}
+    {% endif %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% assign projects = site.projects | sort: 'date' %}
+    {% for project in projects %}
+    {{ forloop.index0 }}
+    {% if project.id == page.id %}
+    {% if forloop.index0 != forloop.last %}
+    {% assign prev_i = forloop.index0 | minus: 1 %}
+    {% if forloop.last == true %}
+    <div class="item-previous grid-50">
       <h4>Previous</h4>
-      <a href="{{ projects[prev_i].permalink }}">{{ projects[prev_i].title }}</a>
-      {% endif %}
-      {% endif %}
-      {% endfor %}
+      <a href="{{ projects[prev_i].permalink }}">{{ projects[prev_i].title }}</a><br>
+      {{ projects[prev_i].brief }}
     </div>
+    {% endif %}
+    {% endif %}
+    {% endif %}
+    {% endfor %}
   </nav>
 </article>
 <div class="container">
