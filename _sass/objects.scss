@@ -373,6 +373,7 @@
     &:hover {
       background-color: $g90;
       box-shadow: inset 0 0 1px $g80;
+      color: $g30;
     }
   }
 }
@@ -406,6 +407,7 @@
 
   h4 {
     border-top: .5px solid $g90;
+    color: $g50;
     font-size: $f12;
     font-weight: 600;
     padding-top: 2.5em;

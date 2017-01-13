@@ -47,33 +47,29 @@ layout: default
   <nav class="item-browser grid gutter">
     {% assign projects = site.projects | sort: 'date' %}
     {% for project in projects %}
-    {{ forloop.index0 }}
     {% if project.id == page.id %}
-    {% if forloop.index0 != forloop.first %}
     {% assign next_i = forloop.index0 | plus: 1 %}
-    {% if forloop.first == true %}
+    {% if forloop.last == false %}
     <div class="item-next grid-50">
       <h4>Next</h4>
       <a href="{{ projects[next_i].permalink }}">{{ projects[next_i].title }}</a><br>
       {{ projects[next_i].brief }}
     </div>
-    {% endif %}
+    {% else %}
+    <div class="item-next grid-50"></div>
     {% endif %}
     {% endif %}
     {% endfor %}
     {% assign projects = site.projects | sort: 'date' %}
     {% for project in projects %}
-    {{ forloop.index0 }}
     {% if project.id == page.id %}
-    {% if forloop.index0 != forloop.last %}
     {% assign prev_i = forloop.index0 | minus: 1 %}
-    {% if forloop.last == true %}
+    {% if forloop.first == false %}
     <div class="item-previous grid-50">
       <h4>Previous</h4>
       <a href="{{ projects[prev_i].permalink }}">{{ projects[prev_i].title }}</a><br>
       {{ projects[prev_i].brief }}
     </div>
-    {% endif %}
     {% endif %}
     {% endif %}
     {% endfor %}
