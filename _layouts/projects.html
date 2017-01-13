@@ -3,7 +3,6 @@ layout: default
 ---
 
 {% if page.url == "/projects/" %}
-
 {% assign projects = site.projects | sort: 'date' %}
 {% for project in projects reversed %}
 </div>
@@ -12,7 +11,6 @@ layout: default
   <dd>{{ project.title }}</dd>
 </dl>
 {% endfor %}
-
 {% else %}
 </div>
 <article class="portfolio-item">
@@ -33,12 +31,6 @@ layout: default
       {% endif %}
     </div>
   </header>
-<!--   {% if page.online == 1 %}
-  <div class="item-frame">
-    <div class="demo-title"><h1>{{ page.brief }}</h1></div>
-    <div class="cover-frame"><iframe src="{{ page.demo_url }}"></iframe></div>
-  </div>
-  {% endif %} -->
   <div class="item-media">
     {% for image in page.media.images %}
     <img src="/-/projects/{{ page.id }}/{{ image }}"/>
