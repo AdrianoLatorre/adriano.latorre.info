@@ -7,8 +7,12 @@ layout: default
     {% for person in all.people %}
   <dl class="grid-thirds">
     <dt>{{ person.name }}</dt>
+    {% if person.link %}
     <dd><a href="{{ person.link }}">{{ person.site }}</a></dd>
-    <dd><a href="https://twitter.com/{{ person.twitter }}">{{ person.twitter }}</a></dd>
+    {% endif %}
+    {% if person.twitter %}
+    <dd><a href="https://twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a></dd>
+    {% endif %}
   </dl>
     {% endfor %}
     {% endfor %}
