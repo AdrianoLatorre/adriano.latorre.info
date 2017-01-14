@@ -28,6 +28,8 @@ layout: default
       </div>
       {% if page.online == 1 %}
       <div class="cover-frame"><iframe src="{% if page.meta_urls[0].demo_url %}{{ page.meta_urls[0].demo_url }}{% else %}{{ page.meta_urls[0].main_url }}{% endif %}"></iframe></div>
+      {% else %}
+      <div class="cover-image"><img src="/-/work/{{ page.id }}/ui.png"/></div>
       {% endif %}
       </div>
     </header>

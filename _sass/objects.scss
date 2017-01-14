@@ -262,7 +262,7 @@
   padding-bottom: 140%;
   position: relative;
   @media all and (min-width: 41em) {
-    display: flex;
+    display: inherit;
     flex: 0 0 50%;
     padding-bottom: 80%;
   }
@@ -272,6 +272,18 @@
     position: absolute;
     top: 0;
     width: 200%;
+  }
+}
+
+.cover-image {
+  border-radius: 3px;
+  box-shadow: 0 0 1px 0 rgba(64, 64, 64, .25);
+  display: none;
+  max-width: 100%;
+  overflow: hidden;
+  @media all and (min-width: 41em) {
+    display: inherit;
+    flex: 0 0 50%;
   }
 }
 
@@ -307,6 +319,7 @@
 }
 
 .item-info {
+  align-items: flex-start;
   display: flex;
   padding: 0 1em;
   margin: 4em 0;
