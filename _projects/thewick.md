@@ -7,8 +7,10 @@ date: 2014-10-01
 title: "The Wick"
 brief: "Three wonderful links, once a week."
 brief_index: "Three wonderful links"
-description: "Packaging for the new Biggans Bold Böckling paste, a fish paste made of smoked herring. Biggans is a small family owned company who has been serving their culinary delicacies to the Swedes since 1952. Packaging for the new Biggans Bold Böckling paste, a paste made of smoked Biggans. One small family owned company who has been serving their culinary delicacies to the Swedes since 1952.<br><br>Packaging for the new <a href='zxcn'>Biggans Bold Böckling paste</a>, a fish paste made of smoked Biggans. A small family owned company who has been serving their culinary delicacies to the Swedes since 1952."
-type: "Newsletter"
+description:
+  ca: "The Wick era una <em>newsletter</em> setmanal."
+  es: "The Wick era una <em>newsletter</em>, una publicación de Medium y una cuenta de Twitter. Durante casi dos años, 99 ediciones de The Wick te hacían llegar tres enlaces interesantes cada semana."
+  en: "The Wick was a newsletter, a Medium publication and a Twitter account."
 tasks:
   - "Copywriting"
   - "Graphic design"

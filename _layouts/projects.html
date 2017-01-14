@@ -20,7 +20,7 @@ layout: default
       <div class="item-description">
         <h1>{{ page.title }}</h1>
         <h2>{{ page.brief }}</h2>
-        <p>{{ page.description }}</p>
+        <p>{{ page.description.es }}</p>
         <ul class="item-labels">{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
         {% for metaurl in page.meta_urls %}
         <h3>&rarr; <a href="{{ metaurl.main_url }}">{{ metaurl.address }}</a></h3>
