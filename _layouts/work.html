@@ -23,7 +23,7 @@ layout: default
         <p>{{ page.description.en }}</p>
         <ul class="item-labels">{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
         {% for metaurl in page.meta_urls %}
-        <h3>— <a href="{{ metaurl.main_url }}">{{ metaurl.address }}</a></h3>
+        <h3><a href="{{ metaurl.main_url }}">{{ metaurl.address }}</a></h3>
         {% endfor %}
       </div>
       {% if page.online == 1 %}
@@ -31,9 +31,9 @@ layout: default
       {% else %}
       <div class="cover-image"><img src="/-/work/{{ page.id }}/ui.png"/></div>
       {% endif %}
-      </div>
-    </header>
-    <div class="item-media">
+    </div>
+  </header>
+  <div class="item-media">
     {% for image in page.media.images %}
     <img src="/-/work/{{ page.id }}/{{ image }}"/>
     {% endfor %}
