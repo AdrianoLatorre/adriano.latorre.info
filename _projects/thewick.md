@@ -9,14 +9,18 @@ brief: "Three wonderful links, once a week."
 brief_index: "Three wonderful links"
 description:
   ca: "The Wick era una <em>newsletter</em> setmanal."
-  es: "The Wick era una <em>newsletter</em> que enviaba cada domingo con tres enlaces a los contenidos más interesantes que encontraba durante la semana. Además de una suscripción por correo, The Wick es <a href='https://medium.com/the-wick'>una publicación en Medium</a> y tiene su propia <a href='https://twitter.com/thewick_'>cuenta de Twitter</a>.<br><br>The Wick me obligó a refinar mi consumo de información —tenía que enviar algo interesante al final de la semana— y un divertido experimento social: ¿era capaz de predecir qué le gustaría a los suscriptores? (respuesta corta: casi impredecible).<br><br>Después de 99 ediciones —más de 300 enlaces durante casi 2 años— dejé de publicar The Wick.<br><br><a href='https://medium.com/the-wick/all'>El archivo</a> permanece <em>Online, Unexplored and Wonderful</em>."
-  en: "For almost 2 years, I sent a weekly newsletter with the three most interesting links I could find every week. The Wick ended after the 99th editionThe Wick was also <a href='https://medium.com/the-wick'>a Medium publication</a> and had its own Twitter account.<br><br><a href='https://medium.com/the-wick/all'>The archive</a> remains <em>Online, Unexplored and Wonderful</em>."
+  es: "The Wick era una <em>newsletter</em> que enviaba cada domingo con tres enlaces a los contenidos más interesantes que encontraba cada semana. Además de una suscripción por correo, The Wick es también <a href='https://medium.com/the-wick'>una publicación en Medium</a> y tiene su propia <a href='https://twitter.com/thewick_'>cuenta de Twitter</a>.
+  <br><br>
+  Publiqué 99 ediciones de The Wick con más de 300 enlaces a lo largo de casi 2 años, y <a href='https://medium.com/the-wick/all'>el archivo</a> de todos los números permanece <em>Online, Abundant and Wonderful</em>."
+  en: "The Wick was a newsletter sent every Sunday with three links to the most interesting content I could find every week. Apart from a mail subscription, The Wick is also <a href='https://medium.com/the-wick'>a Medium publication</a> and has its own <a href='https://twitter.com/thewick_'>Twitter account</a>.
+  <br><br>
+  I published 99 editions of The Wick with more than 300 links over the course of almost 2 years, and <a href='https://medium.com/the-wick/all'>the archive</a> of each number remains <em>Online, Abundant and Wonderful</em>."
 tasks:
   - "Copywriting"
   - "Graphic design"
   - "Front-end"
 meta_urls:
-  - address: "medium.com/the-wick"
+  - address: "The Wick on Medium"
     main_url: "https://medium.com/the-wick"
     demo_url: "https://jekyllrb.com/docs/collections/"
   - address: "@thewick_"
