@@ -1,10 +1,10 @@
 ---
 layout: work
-id: "spinesme"
+id: "spinesapp"
 nav: "Work"
 permalink: /work/spines/
 date: 2015-01-01
-title: "Spines website"
+title: "Spines app"
 brief: "Connected learning"
 description: "Spines helps educational institutions, companies and people to build deep, enduring knowledge. Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do.
 <br><br>
@@ -15,22 +15,19 @@ tasks:
   - "Information architecture"
   - "Copywriting"
   - "Graphic design"
-address: "spines.me"
-main_url: "https://spines.me/"
-demo_url: "https://spines.me/"
+meta_urls:
+  - address: "Learning is connecting"
+    main_url: "https://spines.me/learn/connections/"
+  - address: "Welcome to Spines"
+    main_url: "https://spines.me/welcome/"
+  - address: "Efficient techniques for note-taking"
+    main_url: "https://spines.me/learn/efficient-techniques-for-note-taking/"
 media:
   cover: "00.png"
-  images_a:
-    - "01a.png"
-    - "01b.png"
+  images:
+    - "01.png"
     - "02.png"
     - "03.png"
     - "04.png"
-  images_b:
-    - "04.png"
-    - "03.png"
-    - "02.png"
-    - "01a.png"
-    - "01b.png"
 online: 1
 ---

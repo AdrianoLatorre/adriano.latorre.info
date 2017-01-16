@@ -14,7 +14,7 @@ description:
   Publiqué 99 ediciones de The Wick con más de 300 enlaces a lo largo de casi 2 años, y <a href='https://medium.com/the-wick/all'>el archivo</a> de todos los números permanece <em>Online, Abundant and Wonderful</em>."
   en: "The Wick was a newsletter sent every Sunday with three links to the most interesting content I could find every week. Apart from a mail subscription, The Wick is also <a href='https://medium.com/the-wick'>a Medium publication</a> and has its own <a href='https://twitter.com/thewick_'>Twitter account</a>.
   <br><br>
-  I published 99 editions of The Wick with more than 300 links over the course of almost 2 years, and <a href='https://medium.com/the-wick/all'>the archive</a> of each number remains <em>Online, Abundant and Wonderful</em>."
+  I published 99 editions of The Wick with more than 300 links over the course of almost 2 years, and <a href='https://medium.com/the-wick/all'>the archive</a> of every issue remains <em>Online, Abundant and Wonderful</em>."
 tasks:
   - "Copywriting"
   - "Graphic design"
