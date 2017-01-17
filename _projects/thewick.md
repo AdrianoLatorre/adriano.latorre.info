@@ -22,11 +22,12 @@ tasks:
 meta_urls:
   - address: "The Wick on Medium"
     main_url: "https://medium.com/the-wick"
-    demo_url: "https://jekyllrb.com/docs/collections/"
+    demo_url: "http://us8.campaign-archive1.com/?u=bcfad24bd2721b9aa3ad631d2&id=5f505a75c5"
   - address: "@thewick_"
     main_url: "https://twitter.com/thewick_"
 media:
   cover: "00.png"
+  ui: "ui.png"
   images:
     - "01.png"
     - "02.png"

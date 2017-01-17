@@ -5,7 +5,7 @@ nav: "Work"
 permalink: /work/spines/
 date: 2015-01-01
 title: "Spines app"
-brief: "Connected learning"
+brief: "Collect, elaborate and connect"
 description: "Spines helps educational institutions, companies and people to build deep, enduring knowledge. Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do.
 <br><br>
 Once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, ‘and what is the use of a book,’ thought Alice ‘without pictures or conversation?’"
@@ -15,6 +15,7 @@ tasks:
   - "Information architecture"
   - "Copywriting"
   - "Graphic design"
+  - "Front end"
 meta_urls:
   - address: "Learning is connecting"
     main_url: "https://spines.me/learn/connections/"

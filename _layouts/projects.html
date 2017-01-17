@@ -27,9 +27,9 @@ layout: default
         {% endfor %}
       </div>
       {% if page.online == 1 %}
-      <div class="cover-frame"><iframe src="{% if page.meta_urls[0].demo_url %}{{ page.meta_urls[0].demo_url }}{% else %}{{ page.meta_urls[0].main_url }}{% endif %}"></iframe></div>
+      <div class="ui-frame"><iframe src="{% if page.meta_urls[0].demo_url %}{{ page.meta_urls[0].demo_url }}{% else %}{{ page.meta_urls[0].main_url }}{% endif %}"></iframe></div>
       {% else %}
-      <div class="cover-image"><img src="/-/projects/{{ page.id }}/ui.png"/></div>
+      <div class="ui-image"><img src="/-/projects/{{ page.id }}/{{ page.media.ui }}"/></div>
       {% endif %}
     </div>
   </header>
