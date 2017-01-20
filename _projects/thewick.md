@@ -18,7 +18,7 @@ description:
 tasks:
   - "Copywriting"
   - "Graphic design"
-  - "Front-end"
+  - "Web design"
 meta_urls:
   - address: "The Wick on Medium"
     main_url: "https://medium.com/the-wick"

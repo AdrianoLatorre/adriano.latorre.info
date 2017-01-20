@@ -9,8 +9,8 @@ brief: "Learning is connecting"
 brief_index: "Learning is connecting"
 description:
   ca: "Spines"
-  es: "En Spines creamos una serie de páginas de aterrizaje pedagógicas para explicar nuestra filosofía, los motivos para usar nuestra aplicación y ofrecer algunas técnicas de aprendizaje que podías poner en práctica inmediatamente."
-  en: "Spines"
+  es: "Una serie de distintas páginas de aterrizaje pedagógicas que dan la bienvenida y explican la filosofía de Spines, los motivos para usar la aplicación y ofrecen algunas técnicas de aprendizaje que puedes poner en práctica de inmediato."
+  en: "Spines is a powerful learning tool and a better way to attain real knowledge. Flexible enough to use in any kind of learning endeavour, Spines helps the students to perform and the teachers to instruct.<br><br>Spines combines nicely with college and university courses and nurtures the organization, teamwork and personal development that is often required for learning. Find out how Spines can help your institution."
 tasks:
   - "Copywriting"
   - "Graphic design"

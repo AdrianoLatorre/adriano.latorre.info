@@ -1,5 +1,15 @@
 // objects.scss: cosmetic-free design patterns (OOCSS).
 
+.commit-bar {
+  background-color: $yellow-alert;
+  font-size: $f13;
+  padding: .25em 1em;
+  text-align: center;
+  span {
+    font-family: Consolas, Inconsolata, monospace;
+  }
+}
+
 .container {
   margin: 0 auto 6em;
   padding: 0 1em;
@@ -337,7 +347,11 @@
 
 .item-description {
   flex: 0 0 100%;
-  font-size: $f16;
+  font-size: $f18;
+  h3:nth-child(4) {
+    border: 0;
+    padding-top: 0;
+  }
   h1 {
     font-size: $f32;
     font-weight: 700;
@@ -352,21 +366,19 @@
     margin: 0 0 2em;
   }
   h3 {
-    border-bottom: .5px solid $g90;
+    border-top: .5px solid $g90;
     font-size: $f16;
     font-weight: 700;
     line-height: 1.25;
-    margin-top: 1.25em;
-    padding-bottom: 1.125em;
+    margin-top: 1em;
+    padding-top: 1.125em;
     a {
       font-size: $f18;
     }
   }
-  & h3:last-child {
-    border-bottom: 0;
-  }
   p {
-    margin-bottom: 4em;
+    color: $g30;
+    margin-bottom: 3em;
     a {
       font-weight: 600;
     }
@@ -379,7 +391,7 @@
 
 .item-labels {
   color: $g40;
-  margin: 0 0 3.5em;
+  margin: 3em 0 0;
   padding: 0;
   li {
     background-color: $g95;
@@ -396,6 +408,14 @@
       color: $g30;
     }
   }
+  .title-label,
+  .title-label:hover {
+    background-color: transparent;
+    xbox-shadow: inset 0 0 1px $g80;
+    color: $g25;
+    margin: 0 .5em .5em 0;
+    padding: .25em .75em .25em 0;
+  }
 }
 
 .item-body {
@@ -406,10 +426,16 @@
 .item-media {
   img {
     display: block;
-    margin-bottom: 1em;
     max-width: 100%;
+    &:first-child {
+      @media all and (min-width: 41em) {
+        display: none;
+      }
+    }
   }
 }
+
+
 
 .item-browser {
   margin-top: 3em;
