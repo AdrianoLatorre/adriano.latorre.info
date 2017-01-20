@@ -7,13 +7,13 @@ nav: "UX, web design and copywriting"
   <dl class="grid-fourths">
     <lh>Work</lh>
     {% assign work_by_date = site.work | sort: 'date' %}
-    {% assign work_offset = site.work.size | minus: 5 %}    
-    {% for work in work_by_date reversed limit:5 offset:work_offset %}
+    {% assign work_offset = site.work.size | minus: 1 %}    
+    {% for work in work_by_date reversed limit: 1 offset:work_offset %}
     <dt><a href="{{ work.permalink }}">{{ work.title }}</a>
 </dt>
     <dd>{% if work.brief_index %}{{ work.brief_index }}{% else %}{{ work.brief }}{% endif %}</dd>
     {% endfor %}
-    {% if site.work.size > 5 %}
+    {% if site.work.size > 50 %}
     <dt class="all-items"><a href="/work/">All work</a>&rarr;</dt>
     {% endif %}
 </dl>
@@ -35,7 +35,7 @@ nav: "UX, web design and copywriting"
     <lh>Info</lh>
     <dt><a href="/profile/">Profile</a></dt>
     <dd>About me</dd>
-    <dt><a href="/profile/#contact">Contact</a></dt>
+    <!-- <dt><a href="/profile/#contact">Contact</a></dt>
     <dd>Say <script type="text/javascript">
 //<![CDATA[
 <!--
@@ -48,16 +48,16 @@ var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
 ",x(f noitcnuf\")"                                                            ;
 while(x=eval(x));
 //-->
-//]]>
-</script>hello</a></dd>
+<!-- //]]>
+</script>hello</a></dd> -->
 </dl>
 <dl class="grid-fourths">
     <lh>Special</lh>
     <dt><a href="/people/">People</a></dt>
     <dd>Really nice ones</dd>
-    <dt><a href="/books/">Books</a></dt>
+    <!-- <dt><a href="/books/">Books</a></dt>
     <dd>Recommended reading</dd>
     <dt><a href="/links/">Links</a></dt>
-    <dd>Hypertext all the things!</dd>
+    <dd>Hypertext all the things!</dd> -->
 </dl>
 </nav>
