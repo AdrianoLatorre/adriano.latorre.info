@@ -27,7 +27,7 @@ layout: default
         <ul class="item-labels">{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
       </div>
       {% if page.online == 1 %}
-      <div class="ui-frame"><iframe src="{% if page.meta_urls[0].demo_url %}{{ page.meta_urls[0].demo_url }}{% else %}{{ page.meta_urls[0].main_url }}{% endif %}"></iframe></div>
+      <div class="ui-frame"><object type="text/html" data="{% if page.meta_urls[0].demo_url %}{{ page.meta_urls[0].demo_url }}{% else %}{{ page.meta_urls[0].main_url }}{% endif %}"></object></div>
       {% else %}
       <div class="ui-image"><img src="/-/work/{{ page.id }}/{{ page.media.ui }}"/></div>
       {% endif %}
