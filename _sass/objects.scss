@@ -276,14 +276,14 @@
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
   overflow-y: auto;
-  padding-bottom: 125%;
+  padding-bottom: 140%;
   position: relative;
   @media all and (min-width: 41em) {
     display: block;
     flex: 0 0 50%;
     padding-bottom: 75%;
   }
-  object {
+  iframe {
     height: 200%;
     left: 0;
     position: absolute;
