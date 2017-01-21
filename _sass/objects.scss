@@ -272,20 +272,18 @@
   border-radius: 3px;
   box-shadow: 0 0 1px 0 rgba(64, 64, 64, .25);
   display: none;
-  height: 0;
-  outline: 10px solid gold;
+  min-height: 40em;
   overflow: hidden;
   -webkit-overflow-scrolling: touch;
   overflow-y: auto;
-  padding-bottom: 140%;
+  padding-bottom: 125%;
   position: relative;
   @media all and (min-width: 41em) {
     display: block;
     flex: 0 0 50%;
-    padding-bottom: 80%;
+    padding-bottom: 75%;
   }
-  > object {
-    background-color: silver;
+  object {
     height: 200%;
     left: 0;
     position: absolute;

@@ -20,7 +20,6 @@ tasks:
 meta_urls:
   - address: "Learning is connecting"
     main_url: "https://spines.me/learn/connections/"
-    demo_url: "http://0.0.0.0:4000/"
   - address: "Welcome to Spines"
     main_url: "https://spines.me/welcome/"
   - address: "Efficient techniques for note-taking"
