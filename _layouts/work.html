@@ -15,7 +15,7 @@ layout: default
 </div>
 <article class="portfolio-item">
   <header>
-    <img src="/-/work/{{ page.id }}/{{ page.media.cover }}"/>
+    <img src="/-{{ page.id }}/{{ page.media.cover }}"/>
     <div class="item-info">
       <div class="item-description">
         <h1>{{ page.title }}</h1>
@@ -29,14 +29,14 @@ layout: default
       {% if page.online == 1 %}
       <div class="ui-frame"><iframe src="{% if page.meta_urls[0].demo_url %}{{ page.meta_urls[0].demo_url }}{% else %}{{ page.meta_urls[0].main_url }}{% endif %}"></iframe></div>
       {% else %}
-      <div class="ui-image"><img src="/-/work/{{ page.id }}/{{ page.media.ui }}"/></div>
+      <div class="ui-image"><img src="/-{{ page.id }}/{{ page.media.ui }}"/></div>
       {% endif %}
     </div>
   </header>
   <div class="item-media">
-  <img src="/-/work/{{ page.id }}/{{ page.media.ui }}"/>
+  <img src="/-{{ page.id }}/{{ page.media.ui }}"/>
     {% for image in page.media.images %}
-    <img src="/-/work/{{ page.id }}/{{ image }}"/>
+    <img src="/-{{ page.id }}/{{ image }}"/>
     {% endfor %}
   </div>
 <!--   <nav class="item-browser grid gutter">
