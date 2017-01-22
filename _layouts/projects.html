@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+{% if page.url == "/projects/" %}
+{% assign projects = site.projects | sort: 'date' %}
+{% for project in projects reversed %}
+</div>
+<dl>
+  <dt><a href="{{ project.permalink }}"><img src="/-/projects/{{ project.id }}/{{ project.media.cover }}"/></a></dt>
+  <dd>{{ project.title }}</dd>
+</dl>
+{% endfor %}
+{% else %}
+</div>
+<article class="portfolio-item">
+  <header>
+    <img src="/-/projects/{{ page.id }}/{{ page.media.cover }}"/>
+    <div class="item-info">
+      <div class="item-description">
+        <h1>{{ page.title }}</h1>
+        <h2>{{ page.brief }}</h2>
+        <p>{{ page.description.en }}</p>
+        {% for metaurl in page.meta_urls %}
+        <h3><a href="{{ metaurl.main_url }}">{{ metaurl.address }}</a></h3>
+        {% endfor %}
+        <ul class="item-labels">{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
+      </div>
+      {% if page.online == 1 %}
+      <div class="ui-frame"><iframe src="{% if page.meta_urls[0].demo_url %}{{ page.meta_urls[0].demo_url }}{% else %}{{ page.meta_urls[0].main_url }}{% endif %}"></iframe></div>
+      {% else %}
+      <div class="ui-image"><img src="/-/projects/{{ page.id }}/{{ page.media.ui }}"/></div>
+      {% endif %}
+    </div>
+  </header>
+  <div class="item-media">
+    <img src="/-/projects/{{ page.id }}/{{ page.media.ui }}"/>
+    {% for image in page.media.images %}
+    <img src="/-/projects/{{ page.id }}/{{ image }}"/>
+    {% endfor %}
+  </div>
+  <nav class="item-browser grid gutter">
+    {% assign projects = site.projects | sort: 'date' %}
+    {% for project in projects %}
+    {% if project.id == page.id %}
+    {% assign next_i = forloop.index0 | plus: 1 %}
+    {% if forloop.last == false %}
+    <div class="item-next grid-50">
+      <h4>Next</h4>
+      <a href="{{ projects[next_i].permalink }}">{{ projects[next_i].title }}</a><br>
+      {{ projects[next_i].brief }}
+    </div>
+    {% else %}
+    <div class="item-next grid-50"></div>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    {% assign projects = site.projects | sort: 'date' %}
+    {% for project in projects %}
+    {% if project.id == page.id %}
+    {% assign prev_i = forloop.index0 | minus: 1 %}
+    {% if forloop.first == false %}
+    <div class="item-previous grid-50">
+      <h4>Previous</h4>
+      <a href="{{ projects[prev_i].permalink }}">{{ projects[prev_i].title }}</a><br>
+      {{ projects[prev_i].brief }}
+    </div>
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+  </nav>
+</article>
+<div class="container">
+  {% endif %}

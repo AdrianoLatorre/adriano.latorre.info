@@ -1,0 +1,50 @@
+// elements.scss: unclassed HTML elements (type selectors).
+
+// *:hover { background-color: $red !important; }
+
+
+html {
+  box-sizing: border-box;
+  font: 100%/1.5 'Source Sans Pro', Helvetica, sans-serif;
+  min-height: 100%;
+  @media all and (min-width: 96em) {
+    font-size: 150%;
+  }
+  @media all and (min-width: 144em) {
+    font-size: 200%;
+  }
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: $g99;
+  color: $g25;
+  min-height: 100%;
+}
+
+a {
+  color: $g25;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+dd {
+  margin: 0;
+}
+
+iframe {
+  background-color: $w;
+  border: 0;
+  -webkit-transform: scale(.5);
+  -moz-transform: scale(.5);
+  transform: scale(.5);
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  transform-origin: 0 0;
+}

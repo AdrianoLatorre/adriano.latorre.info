@@ -1,0 +1,34 @@
+# Site settings
+title: Adriano Latorre
+description: "Portfolio"
+baseurl: ""
+url: "http://adriano.latorre.info"
+twitter_username: adrianolatorre
+github_username:  adrianolatorre
+
+# Collections
+collections:
+  books:
+    output: true
+    permalink: /books/:path/
+  links:
+    output: true
+    permalink: /links/:path/
+  people:
+    output: true
+    permalink: /people/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+  sources:
+    output: true
+    permalink: /sources/:path/
+  work:
+    output: true
+    permalink: /work/:path/
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude:
+    - node_modules
