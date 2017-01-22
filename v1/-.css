@@ -1,0 +1,205 @@
+
+/*
+
+Eric Meyer's Aprox Reset
+http://meyerweb.com/eric/tools/css/reset/
+
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	line-height: 130%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+	min-height: 100%;
+}
+
+body {
+    background: #fff;
+    font: 0.875rem/1.5em Inconsolata, monospace;
+    color: #333;
+	-webkit-text-size-adjust: 100%;
+	min-height: 100%;
+}
+
+p, ul {
+    margin: 1em 0 2em;
+}
+
+h1, h2 {
+    margin: 1em 0;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: #888;
+}
+
+a {
+    color: #333;
+}
+
+a:visited {
+    color: #999;
+}
+
+a:hover {
+    color: #444;
+}
+
+a.selected {
+    background: -webkit-linear-gradient(left, #fff 0%, #e00 1%, #e00 100%) no-repeat;
+    background: -moz-linear-gradient(left, #fff 0%, #e00 1%, #e00 100%) no-repeat;
+    -webkit-transition: background .3s ease-out;
+    -moz-transition: background .3s ease-out;
+    transition: background .3s ease-out;
+    background-size: 500px 50px;
+    background-position: -500px 0;
+    color: #fff;
+    padding: 3px 6px;
+    text-decoration: none;
+}
+
+iframe {
+    width: 1100px;
+    height: 200%;
+    display: inline;
+    -webkit-transform: scale(.5);
+    -moz-transform: scale(.5);
+    transform: scale(.5);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+#container {
+    width: 1000px;
+    -webkit-transition: margin-left .4s ease-in-out;
+    -moz-transition: margin-left .4s ease-in-out;
+    transition: margin-left .3s ease-in-out;
+}
+
+#website {
+    width: 550px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    -webkit-transition: margin-left .4s ease-in-out;
+    -moz-transition: margin-left .4s ease-in-out;
+    transition: margin-left .3s ease-in-out;
+}
+
+#txt {
+    margin: 4rem;
+    float: right;
+    z-index: 999;
+    width: 320px;
+}
+
+#mobiletxt {
+    display: none;
+}
+
+.hide {
+    margin-left: -550px;
+}
+
+.show {
+    margin-left: 0;
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+	html {
+		font-size: 1.2rem;
+		}
+	body {
+		padding: 3rem 0 4rem 4rem;
+		}
+	#container {
+	    display: none;
+	}
+	#mobiletxt {
+	    display: block;
+	}
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+	html {
+		font-size: 1.6rem;
+		}
+	body {
+		padding: 4rem 0 4rem 6rem;
+		}
+	#container {
+	    display: none;
+	}
+	#mobiletxt {
+	    display: block;
+	}
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px), (max-device-width: 568px)
+and (orientation : landscape) {
+	html {
+		font-size: 2.6rem;
+		}
+	body {
+		padding: 2rem 0 4rem 2rem;
+		}
+	#container {
+	    display: none;
+	}
+	#mobiletxt {
+	    display: block;
+	}
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px), (max-device-width: 568px)
+and (orientation : portrait) {
+	html {
+		font-size: 3rem;
+		}
+	body {
+		padding: 2rem 0 4rem 1rem;
+		}
+	#container {
+	    display: none;
+	}
+	#mobiletxt {
+	    display: block;
+	}
+}
