@@ -1,6 +1,6 @@
 ---
 layout: work
-id: "spineslandings"
+id: "spineslanding"
 nav: "Work"
 permalink: /work/spineslanding/
 date: 2016-01-01
@@ -32,5 +32,5 @@ media:
     - "02.png"
     - "03.png"
     - "04.png"
-online: 1
+online: 0
 ---
