@@ -22,7 +22,7 @@ layout: default
         <h2>{{ page.brief }}</h2>
         <p>{{ page.description.en }}</p>
         {% for metaurl in page.meta_urls %}
-        <h3><a href="{{ metaurl.main_url }}">{{ metaurl.address }}</a></h3>
+        <h3><img src="/-/ui/launch.svg"/><a href="{{ metaurl.main_url }}">{{ metaurl.address }}</a></h3>
         {% endfor %}
         <ul class="item-labels">{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
       </div>

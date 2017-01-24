@@ -377,6 +377,13 @@
     padding-top: 1.125em;
     a {
       font-size: $f18;
+      vertical-align: middle;
+    }
+    img {
+      height: .75em;
+      margin-right: .5em;
+      vertical-align: middle;
+      width: .75em;
     }
   }
   p {
