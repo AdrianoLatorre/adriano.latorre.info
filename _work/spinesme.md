@@ -8,7 +8,7 @@ title: "Spines website"
 brief: "Connected learning"
 description:
   ca: "Spines"
-  es: "Una serie de páginas de aterrizaje pedagógicas que dan la bienvenida y explican la filosofía de Spines, los motivos para usar la aplicación y ofrecen algunas técnicas de aprendizaje que puedes poner en práctica inmediatamente."
+  es: "La página web de Spines describe la aplicación ."
   en: "."
 tasks:
   - "Copywriting"
