@@ -32,6 +32,5 @@ media:
     - "01.png"
     - "02.png"
     - "03.png"
-    - "04.png"
 online: 0
 ---
