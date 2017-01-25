@@ -5,7 +5,7 @@ nav: "Work"
 permalink: /work/spines/
 date: 2014-03-01
 title: "Spines"
-brief: "Collect, elaborate and connect"
+brief: "Notes for learning"
 description:
   ca: "Català"
   es: "Castellano"
