@@ -7,8 +7,8 @@ nav: "UX, copywriting and web design"
   <dl class="grid-fourths">
     <lh>Work</lh>
     {% assign work_by_date = site.work | sort: 'date' %}
-    {% assign work_offset = site.work.size | minus: 2 %}    
-    {% for work in work_by_date reversed limit: 2 offset:work_offset %}
+    {% assign work_offset = site.work.size | minus: 5 %}
+    {% for work in work_by_date reversed limit: 5 offset:work_offset %}
     <dt><a href="{{ work.permalink }}">{{ work.title }}</a>
 </dt>
     <dd>{% if work.brief_index %}{{ work.brief_index }}{% else %}{{ work.brief }}{% endif %}</dd>
