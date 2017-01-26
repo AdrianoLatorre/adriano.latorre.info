@@ -7,9 +7,9 @@ date: 2015-01-01
 title: "Spines website"
 brief: "Connected learning"
 description:
-  ca: "Spines"
-  es: "La página web de Spines describe la aplicación ."
-  en: "."
+  ca: "Català"
+  es: "Castellano"
+  en: "English"
 tasks:
   - "Copywriting"
   - "Graphic design"
