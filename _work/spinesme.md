@@ -8,7 +8,7 @@ title: "Spines website"
 brief: "Connected learning"
 description:
   ca: "Català"
-  es: "Castellano"
+  es: "La página web de Spines explica todo lo que la aplicación puede ayudarte a conseguir."
   en: "English"
 tasks:
   - "Copywriting"
