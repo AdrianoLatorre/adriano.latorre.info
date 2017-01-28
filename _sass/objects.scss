@@ -435,12 +435,16 @@
 
 .item-media {
   img {
+    margin-bottom: 2em;
     display: block;
     max-width: 100%;
     &:first-child {
       @media all and (min-width: 41em) {
         display: none;
       }
+    }
+    &:last-child {
+      margin-bottom: 0;
     }
   }
 }
