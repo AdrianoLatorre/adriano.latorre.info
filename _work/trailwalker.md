@@ -15,16 +15,15 @@ tasks:
   - "Copywriting"
   - "Graphic design"
 meta_urls:
-  - address: "Trailwalker"
+  - address: "Oxfam Trailwalker"
     main_url: "http://trailwalker.oxfamintermon.org/es"
 media:
   cover: "00.png"
-  ui: "ui.png"
+  ui: "ui.jpg"
   images:
     - "01.png"
-    - "02.png"
+    - "https://www.youtube.com/embed/H0U_2lB8JKk"
     - "03.png"
     - "04.jpg"
-    - "05.jpg"
-online: 1
+online: 0
 ---

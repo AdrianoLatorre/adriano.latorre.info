@@ -284,10 +284,18 @@
     padding-bottom: 75%;
   }
   iframe {
+    background-color: $w;
+    border: 0;
     height: 200%;
     left: 0;
     position: absolute;
     top: 0;
+    -webkit-transform: scale(.5);
+    -moz-transform: scale(.5);
+    transform: scale(.5);
+    -webkit-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    transform-origin: 0 0;
     width: 200%;
   }
 }
@@ -433,6 +441,20 @@
 }
 
 .item-media {
+  .responsive-video {
+    margin-bottom: 2em;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
   img {
     margin-bottom: 2em;
     display: block;

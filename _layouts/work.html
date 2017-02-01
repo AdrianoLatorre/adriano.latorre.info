@@ -36,7 +36,11 @@ layout: default
   <div class="item-media">
   <img src="/-{{ page.permalink }}{{ page.media.ui }}"/>
     {% for image in page.media.images %}
+    {% if image contains 'youtube.com' %}
+    <div width="853" height="480" class="responsive-video"><iframe src="{{ image }}" frameborder="0" allowfullscreen></iframe></div>
+    {% else %}
     <img src="/-{{ page.permalink }}{{ image }}"/>
+    {% endif %}
     {% endfor %}
   </div>
   <nav class="item-browser grid gutter">
