@@ -27,7 +27,7 @@ media:
   ui: "ui.png"
   images:
     - "01.png"
-    - "02.png"
+    - "https://www.youtube.com/embed/_ioDVQOLpv0"
     - "03.png"
     - "04.png"
 online: 0
