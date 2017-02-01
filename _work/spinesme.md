@@ -19,13 +19,12 @@ meta_urls:
     main_url: "https://spines.me/"
 media:
   cover: "00.png"
-  ui: "ui.png"
+  ui: "ui.jpg"
   images:
     - "01.png"
-    - "02.png"
+    - "02.jpg"
     - "03.png"
     - "04.png"
     - "05.png"
-    - "06.png"
 online: 0
 ---
