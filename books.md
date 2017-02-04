@@ -4,8 +4,13 @@ nav: "Books"
 permalink: /books/
 ---
 
-{% assign decades = site.books %}
+{% assign library = site.books | sort: 'date' %}
+{% for book in library reversed %}
+
+{% endfor %}
+
+<!-- {% assign decades = site.books %}
 {% assign last_two = decades.size | minus:2 %}
 {% for books in decades reversed offset:last_two limit:2 %}
-{{ books.content }}
-{% endfor %}
+{{ books }}
+{% endfor %} -->

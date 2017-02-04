@@ -13,16 +13,18 @@ layout: default
   {% endfor %}
 </div>
 
-<!-- {% if page.url == '/books/' %}
+{% if page.url == '/books/' %}
 Latest
 {% else %}
 <a href="/books/">Latest</a>
 {% endif %}
-{% assign decades = site.books %}
-{% for book in decades reversed %}
+2010 2000 1990 1980 1970
+{% assign library = site.books | sort: 'read' %}
+{% for book in library reversed %}
+{{ page.url }}
 {% if page.url == book.permalink %}
-{{ book.folder }}
+{{ page.url }}
 {% else %}
-<a href="{{ book.permalink }}">{{ book.folder }}</a>
+<a href="{{ book.permalink }}">{{ page.url }}{{ book.read | date: "%Y" | to_string | slice: -2, 1 }}/</a>
 {% endif %}
-{% endfor %} -->
+{% endfor %}

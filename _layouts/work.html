@@ -3,14 +3,16 @@ layout: default
 ---
 
 {% if page.url == "/work/" %}
-{% assign portfolio = site.work | sort: 'date' %}
-{% for work in portfolio reversed %}
 </div>
-<dl>
-  <dt><a href="{{ work.permalink }}"><img src="/-/work/{{ work.id }}/{{ work.media.cover }}"/></a></dt>
-  <dd>{{ work.title }}</dd>
-</dl>
-{% endfor %}
+{% assign portfolio = site.work | sort: 'date' %}
+<div class="books grid gutter">
+  {% for work in portfolio reversed %}
+  <dl class="grid-thirds">
+    <dt><a href="{{ work.permalink }}"><img src="/-/work/{{ work.id }}/{{ work.media.cover }}"/></a></dt>
+    <dd>{{ work.title }}</dd>
+  </dl>
+  {% endfor %}
+</div>
 {% else %}
 </div>
 <article class="portfolio-item">
