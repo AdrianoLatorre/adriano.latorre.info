@@ -44,6 +44,19 @@
   }
 }
 
+.grid-eights {
+  flex: 0 0 50%;
+  @media all and (min-width: 21em) {
+    flex: 0 0 25%;
+  }
+  @media all and (min-width: 41em) {
+    flex: 0 0 16.6666%;
+  }
+  @media all and (min-width: 56em) {
+    flex: 0 0 12.5%;
+  }
+}
+
 .grid-25 {
   flex: 0 0 100%;
   @media all and (min-width: 41em) {
@@ -75,6 +88,7 @@
   margin: 0 0 0 -1em;
   > .grid-thirds,
   .grid-fourths,
+  .grid-eights,
   .grid-25,
   .grid-50,
   .grid-75 {
@@ -188,6 +202,20 @@
         color: $g50;
       }
     }
+  }
+}
+
+.decades {
+  margin-top: 2em;
+  padding-left: 0;
+  a {
+    font-weight: 600;
+  }
+  li {
+    margin-top: 1em;
+  }
+  span {
+    color: $g50;
   }
 }
 

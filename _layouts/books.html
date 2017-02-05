@@ -3,28 +3,34 @@ layout: default
 ---
 
 <div class="books grid gutter">
-{% assign library = site.books | sort: 'date' %}
-  {% for book in library reversed %}
+  {% if page.url == '/books/' %}
+  {% assign last_decade = site.books | sort: 'decade' | last %}
+  {% for book in last_decade.books %}
   <dl class="grid-thirds">
     <dt><a href="{{ book.link }}"><img src="/-/books/{{ book.cover }}"/></a></dt>
     <dd class="author"><a href="{{ book.info }}" class="info">{{ book.author }}</a></dd>
     <dd><a href="{{ book.link }}">{{ book.title }}</a></dd>
   </dl>
   {% endfor %}
+  {% else %}
+  {% for book in page.books %}
+  <dl class="grid-thirds">
+    <dt><a href="{{ book.link }}"><img src="/-/books/{{ book.cover }}"/></a></dt>
+    <dd class="author"><a href="{{ book.info }}" class="info">{{ book.author }}</a></dd>
+    <dd><a href="{{ book.link }}">{{ book.title }}</a></dd>
+  </dl>
+  {% endfor %}
+  {% endif %}
 </div>
 
-{% if page.url == '/books/' %}
-Latest
-{% else %}
-<a href="/books/">Latest</a>
-{% endif %}
-2010 2000 1990 1980 1970
-{% assign library = site.books | sort: 'read' %}
-{% for book in library reversed %}
-{{ page.url }}
-{% if page.url == book.permalink %}
-{{ page.url }}
-{% else %}
-<a href="{{ book.permalink }}">{{ page.url }}{{ book.read | date: "%Y" | to_string | slice: -2, 1 }}/</a>
-{% endif %}
-{% endfor %}
+<nav>
+  <ol class="decades grid gutter">
+    {% for decade in site.books reversed %}
+    {% if page.url == decade.url %}
+    <li class="grid-eights"><span>{{ decade.decade }}</span></li>
+    {% else %}
+    <li class="grid-eights"><a href="{{ decade.url }}">{{ decade.decade }}</a></li>
+    {% endif %}
+    {% endfor %}
+  </ol>
+</nav>
