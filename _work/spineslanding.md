@@ -30,5 +30,5 @@ media:
     - "https://www.youtube.com/embed/_ioDVQOLpv0"
     - "03.png"
     - "04.png"
-online: 0
+online: 1
 ---
