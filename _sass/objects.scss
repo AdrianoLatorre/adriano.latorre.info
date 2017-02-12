@@ -1,15 +1,5 @@
 // objects.scss: cosmetic-free design patterns (OOCSS).
 
-.commit-bar {
-  background-color: $yellow-alert;
-  font-size: $f13;
-  padding: .25em 1em;
-  text-align: center;
-  span {
-    font-family: Consolas, Inconsolata, monospace;
-  }
-}
-
 .container {
   margin: 0 auto 6em;
   padding: 0 1em;
