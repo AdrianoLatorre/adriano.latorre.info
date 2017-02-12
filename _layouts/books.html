@@ -4,14 +4,18 @@ layout: default
 
 <div class="books grid gutter">
   {% if page.url == '/books/' %}
-  {% assign last_decade = site.books | sort: 'decade' | last %}
-  {% for book in last_decade.books %}
+  {% assign years = site.books | sort: 'decade' %}
+  {% for decade in years reversed %}
+  {% for book in decade.books | limit:12 %}
+  {% assign all_books = all_books + book %}
   <dl class="grid-thirds">
     <dt><a href="{{ book.link }}"><img src="/-/books/{{ book.cover }}"/></a></dt>
     <dd class="author"><a href="{{ book.info }}" class="info">{{ book.author }}</a></dd>
     <dd><a href="{{ book.link }}">{{ book.title }}</a></dd>
   </dl>
   {% endfor %}
+  {% endfor %}
+  {{ all_books }}
   {% else %}
   {% for book in page.books %}
   <dl class="grid-thirds">
