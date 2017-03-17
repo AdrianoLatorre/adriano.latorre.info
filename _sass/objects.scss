@@ -121,7 +121,7 @@
       padding-top: 1em;
     }
     > dd {
-      color: $g50;
+      color: $g48;
       font-size: $f14;
     }
   }
@@ -159,7 +159,7 @@
       padding-top: 1em;
     }
     > dd {
-      color: $g50;
+      color: $g48;
       font-size: $f14;
     }
   }
@@ -189,7 +189,7 @@
       }
 
       > .info {
-        color: $g50;
+        color: $g48;
       }
     }
   }
@@ -203,7 +203,7 @@
     margin-top: 1em;
   }
   span {
-    color: $g75;
+    color: $g72;
   }
 }
 
@@ -230,14 +230,14 @@
     }
 
     > dd {
-      color: $g50;
+      color: $g48;
       font-size: $f14;
     }
   }
 }
 
 .footer {
-  color: $g50;
+  color: $g48;
   font-size: $f12;
   margin: 10em 0 0;
   padding: 2em 0 0;
@@ -386,7 +386,7 @@
     margin: 0;
   }
   h2 {
-    color: $g50;
+    color: $g48;
     font-size: $f20;
     font-weight: 300;
     line-height: 1.25;
@@ -411,7 +411,7 @@
     }
   }
   p {
-    color: $g30;
+    color: $g32;
     margin-bottom: 3em;
     a {
       font-weight: 600;
@@ -439,13 +439,13 @@
     &:hover {
       background-color: $g90;
       box-shadow: inset 0 0 1px $g80;
-      color: $g30;
+      color: $g32;
     }
   }
   .title-label,
   .title-label:hover {
     background-color: transparent;
-    color: $g25;
+    color: $g24;
     margin: 0 .5em .5em 0;
     padding: .25em .75em .25em 0;
   }
@@ -498,13 +498,13 @@
 
 .item-next,
 .item-previous {
-  color: $g50;
+  color: $g48;
   font-size: $f14;
   margin-bottom: 1em;
 
   h4 {
     border-top: .5px solid $g90;
-    color: $g50;
+    color: $g48;
     font-size: $f12;
     font-weight: 600;
     padding-top: 2.5em;
