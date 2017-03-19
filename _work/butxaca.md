@@ -8,9 +8,9 @@ title: "butxaca"
 brief: "L'agenda cultural de Barcelona"
 brief_index: "L'agenda cultural"
 description:
-  ca: "Català"
-  es: "Castellano"
-  en: "English"
+  ca: "<p>Català</p>"
+  en: "<p>English</p>"
+  es: "<p>Castellano</p>"
 tasks:
   - "Information architecture"
   - "Copywriting"

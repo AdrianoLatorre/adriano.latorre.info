@@ -7,13 +7,12 @@ date: 2010-02-01
 title: "Oxfam Intermón"
 brief: "Cambiamos vidas"
 description:
-  ca: "Català"
-  es: "Castellano"
-  en: "English"
+  ca: "<p>Català</p>"
+  en: "<p>English</p>"
+  es: "<p>Castellano</p>"
 tasks:
   - "Information architecture"
   - "Copywriting"
-  - "Graphic design"
 meta_urls:
   - address: "Oxfam Intermón"
     main_url: "http://www.oxfamintermon.org/"
