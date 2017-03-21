@@ -17,12 +17,14 @@ meta_urls:
   - address: "Oxfam Intermón"
     main_url: "http://www.oxfamintermon.org/"
 media:
-  cover: "00.png"
-  ui: "ui.png"
+  cover: "00.jpg"
+  ui: "ui.jpg"
   images:
-    - "01.png"
+    - "01.jpg"
     - "02.png"
-    - "03.png"
+    - "03.jpg"
     - "04.png"
+    - "05.png"
+    - "06.png"
 online: 0
 ---
