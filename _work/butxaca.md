@@ -9,7 +9,7 @@ brief: "L'agenda cultural de Barcelona"
 brief_index: "L'agenda cultural"
 description:
   ca: "<p>Català</p>"
-  en: "<p>English</p>"
+  en: "<p>La primera versión digital de butxaca, la revista en papel gratuita que cada mes detalla la agenda cultural de Barcelona.</p>"
   es: "<p>Castellano</p>"
 tasks:
   - "Information architecture"
