@@ -8,9 +8,9 @@ title: "butxaca"
 brief: "L'agenda cultural de Barcelona"
 brief_index: "L'agenda cultural"
 description:
-  ca: "<p>La primera versió digital de butxaca, una publicació mensual gratuïta que detalla l'agenda cultural de Barcelona.</p>"
+  ca: "<p>La primera versió digital de butxaca, una publicació mensual gratuïta que detalla cada mes l'agenda cultural de Barcelona.</p>"
   en: "<p>The first online version of <em>butxaca</em>, a free, pocket-sized publication detailing the cultural agenda of Barcelona.</p>"
-  es: "<p>La primera versión digital de butxaca, una publicación mensual gratuita que detalla la agenda cultural de Barcelona.</p>"
+  es: "<p>La primera versión digital de butxaca, una publicación mensual gratuita que detalla cada mes la agenda cultural de Barcelona.</p>"
 tasks:
   - "Information architecture"
   - "Copywriting"
