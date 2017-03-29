@@ -7,9 +7,9 @@ date: 2010-02-01
 title: "Oxfam Intermón"
 brief: "Cambiamos vidas"
 description:
-  ca: "<p>Català</p>"
-  en: "<p>English</p>"
-  es: "<p>Castellano</p>"
+  ca: "<p>Una reorganització completa de l'estructura del web i un redisseny milloren l'accés a la informació, els avisos d'emergència i el sistema de donatius.</p>"
+  en: "<p>A complete reorganization of the web structure and a redesign improve the access to information, the emergency notices and the donations system.</p>"
+  es: "<p>Una reorganización completa de la estructura de la web y un rediseño mejoran el acceso a la información, los avisos de emergencia y el sistema de donativos.</p>"
 tasks:
   - "Information architecture"
   - "Copywriting"
