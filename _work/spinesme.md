@@ -21,10 +21,11 @@ media:
   cover: "00.png"
   ui: "ui.jpg"
   images:
+    - "00.png"
     - "01.png"
     - "02.jpg"
     - "03.png"
     - "04.png"
     - "05.png"
-online: 0
+online: 1
 ---

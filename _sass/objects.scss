@@ -298,6 +298,7 @@
     display: block;
     flex: 0 0 55%;
     padding-bottom: 75%;
+    margin-right: 1em;
   }
   iframe {
     background-color: $w;
@@ -368,7 +369,7 @@
   padding: 0 1em;
   margin: 4em 0;
   @media all and (min-width: 41em) {
-    padding: 0 0 0 2em;
+    padding: 0;
   }
 }
 

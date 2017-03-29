@@ -25,9 +25,10 @@ media:
   cover: "00.png"
   ui: "ui.jpg"
   images:
+    - "00.png"
     - "01.png"
     - "https://www.youtube.com/embed/H0U_2lB8JKk"
     - "03.png"
     - "04.jpg"
-online: 0
+online: 1
 ---

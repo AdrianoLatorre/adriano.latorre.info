@@ -20,6 +20,7 @@ media:
   cover: "00.jpg"
   ui: "ui.jpg"
   images:
+    - "00.jpg"
     - "01.jpg"
     - "02.png"
     - "03.jpg"
