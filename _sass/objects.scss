@@ -379,7 +379,10 @@
   p + h3 {
     border: 0;
     margin-top: 3em;
+    overflow: hidden;
     padding-top: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
   h1 {
     font-size: $f32;
@@ -403,13 +406,10 @@
     padding-top: 1.125em;
     a {
       font-size: $f18;
-      vertical-align: middle;
     }
     img {
-      height: .75em;
+      height: .625em;
       margin-right: .5em;
-      vertical-align: middle;
-      width: .75em;
     }
   }
   p {

@@ -1,12 +1,11 @@
 ---
 layout: work
-id: "butxaca"
+id: "queridacarmen"
 nav: "Work"
-permalink: /work/butxaca/
-date: 2009-02-01
-title: "butxaca"
-brief: "L'agenda cultural de Barcelona"
-brief_index: "L'agenda cultural"
+permalink: /work/queridacarmen/
+date: 2010-01-01
+title: "Querida Carmen"
+brief: "Cocer y cantar"
 description:
   ca: "<p>La primera versió digital de butxaca, una publicació mensual gratuïta que detalla cada mes l'agenda cultural de Barcelona.</p>"
   en: "<p>The first online version of <em>butxaca</em>, a free, pocket-sized publication detailing the cultural agenda of Barcelona.</p>"
@@ -15,8 +14,8 @@ tasks:
   - "Information architecture"
   - "Copywriting"
 meta_urls:
-  - address: "butxaca.com"
-    main_url: "http://www.butxaca.com/"
+  - address: "queridacarmen.com"
+    main_url: "http://queridacarmen.com/"
 media:
   cover: "00.png"
   ui: "ui.png"

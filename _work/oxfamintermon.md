@@ -14,7 +14,7 @@ tasks:
   - "Information architecture"
   - "Copywriting"
 meta_urls:
-  - address: "Oxfam Intermón"
+  - address: "oxfamintermon.org"
     main_url: "http://www.oxfamintermon.org/"
 media:
   cover: "00.jpg"
