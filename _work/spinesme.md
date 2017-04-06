@@ -7,7 +7,7 @@ date: 2015-01-01
 title: "Spines website"
 brief: "Connected learning"
 description:
-  ca: "Català"
+  ca: "<p>El lloc web presenta i explica l'aplicació de Spines i la filosofia d'aprenentatge que defensa: <em>captura, elabora i comparteix</em> el que vols aprendre per convertir aquesta informació en coneixement profund i durador.</p>"
   en: "<p>The website introduces and explains the Spines application and the learning philosophy it champions: <em>collect, elaborate and share</em> what you want to learn to turn that information into deep, enduring knowledge.</p>"
   es: "<p>El sitio web presenta y explica la aplicación de Spines y la filosofía de aprendizaje que defiende: <em>captura, elabora y comparte</em> lo que quieres aprender para convertir esa información en conocimiento profundo y duradero.</p>"
 tasks:
@@ -27,5 +27,5 @@ media:
     - "03.png"
     - "04.png"
     - "05.png"
-online: 0
+online: 1
 ---

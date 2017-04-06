@@ -7,9 +7,9 @@ date: 2010-01-01
 title: "Querida Carmen"
 brief: "Cocer y cantar"
 description:
-  ca: "<p>La primera versió digital de butxaca, una publicació mensual gratuïta que detalla cada mes l'agenda cultural de Barcelona.</p>"
-  en: "<p>A fun website for a fun project: Querida Carmen wants you to stop cooking. We wanted to show you how easy it is.</p>"
-  es: "<p>Un sitio web delicioso para un projecto apetitoso: Querida Carmen quiere ponértelo fácil en la cocina. Nosotros queremos enseñarte lo delicioso que es.</p>"
+  ca: "<p>Una pàgina web divertida per a un projecte deliciós: <em>Querida Carmen</em> vol que cuinis menys i mengis millor.</p>"
+  en: "<p>A fun website for a delicious project: <em>Querida Carmen</em> wants you to start cooking less and eating better.</p>"
+  es: "<p>Una página web divertida para un proyecto delicioso: Querida Carmen quiere que cocines menos y comas mejor.</p>"
 tasks:
   - "Information architecture"
   - "Web design"

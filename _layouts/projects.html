@@ -4,15 +4,15 @@ layout: default
 
 {% if page.url == "/projects/" %}
 {% assign projects = site.projects | sort: 'date' %}
-{% for project in projects reversed %}
+<div class="books grid gutter">
+  {% for project in projects reversed %}
+  <dl class="grid-thirds">
+    <dt><a href="{{ project.permalink }}"><img src="/-/projects/{{ project.id }}/{{ project.media.cover }}"/></a></dt>
+    <dd>{{ project.title }}</dd>
+  </dl>
+  {% endfor %}
 </div>
-<dl>
-  <dt><a href="{{ project.permalink }}"><img src="/-/projects/{{ project.id }}/{{ project.media.cover }}"/></a></dt>
-  <dd>{{ project.title }}</dd>
-</dl>
-{% endfor %}
 {% else %}
-</div>
 <article class="portfolio-item">
   <header>
     <!-- <img src="/-{{ page.permalink }}{{ page.media.cover }}"/> -->
@@ -70,5 +70,4 @@ layout: default
     {% endfor %}
   </nav>
 </article>
-<div class="container">
-  {% endif %}
+{% endif %}
