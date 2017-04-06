@@ -3,7 +3,6 @@ layout: default
 ---
 
 {% if page.url == "/work/" %}
-</div>
 {% assign portfolio = site.work | sort: 'date' %}
 <div class="books grid gutter">
   {% for work in portfolio reversed %}
@@ -14,7 +13,6 @@ layout: default
   {% endfor %}
 </div>
 {% else %}
-</div>
 <article class="portfolio-item">
   <header>
     <!-- <img src="/-{{ page.permalink }}{{ page.media.cover }}"/> -->
@@ -36,9 +34,11 @@ layout: default
     </div>
   </header>
   <div class="item-media">
-  <img src="/-{{ page.permalink }}{{ page.media.ui }}"/>
+    <img src="/-{{ page.permalink }}{{ page.media.ui }}"/>
     {% for image in page.media.images %}
-    {% if image contains 'youtube.com' %}
+    {% if image contains '.mp4' %}
+    <video src="/-{{ page.permalink }}{{ image }}" loop autoplay poster="/-{{ page.permalink }}{{ page.media.cover }}"></video>
+    {% elsif image contains 'youtube.com' %}
     <div width="853" height="480" class="responsive-video"><iframe src="{{ image }}?rel=0" frameborder="0" allowfullscreen></iframe></div>
     {% else %}
     <img src="/-{{ page.permalink }}{{ image }}"/>
@@ -76,5 +76,4 @@ layout: default
     {% endfor %}
   </nav>
 </article>
-<div class="container">
-  {% endif %}
+{% endif %}
