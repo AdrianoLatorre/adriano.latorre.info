@@ -3,5 +3,5 @@ layout: profile
 nav: Profile
 permalink: /profile/
 ---
-
-I'm @adrianolatorre on [Twitter](https://twitter.com/adrianolatorre), [Refind](https://refind.com/adrianolatorre/) and [LinkedIn](https://www.linkedin.com/in/adrianolatorre/).
+{{ site.alt.mail }}
+I'm @adrianolatorre on [Twitter]({{ site.alt.twitter }}), [Refind]({{ site.alt.refind }}) and [LinkedIn]({{ site.alt.linkedin }}).
