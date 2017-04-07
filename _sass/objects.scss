@@ -116,6 +116,7 @@
       font-weight: 600;
     }
     > dt {
+      border-top: 1px solid $g90;
       border-top: .5px solid $g90;
       margin-top: 1em;
       padding-top: 1em;
@@ -154,6 +155,7 @@
   > dl {
     margin: 0 0 2em;
     > dt {
+      border-top: 1px solid $g90;
       border-top: .5px solid $g90;
       margin: 1em 0;
       padding-top: 1em;
@@ -213,7 +215,9 @@
 
   > h3 {
     background: $g99;
+    border-bottom: 1px solid $g90;
     border-bottom: .5px solid $g90;
+    border-top: 1px solid $g90;
     border-top: .5px solid $g90;
     flex: 0 0 50%;
     font-size: $f18;
@@ -345,6 +349,7 @@
   // }
   h3 {
     background-color: $w;
+    border-bottom: 1px solid $g90;
     border-bottom: .5px solid $g90;
     font-size: $f20;
     font-weight: 400;
@@ -397,6 +402,7 @@
     margin: 0 0 2em;
   }
   h3 {
+    border-top: 1px solid $g90;
     border-top: .5px solid $g90;
     font-size: $f16;
     font-weight: 700;
@@ -512,6 +518,7 @@
   margin-bottom: 1em;
 
   h4 {
+    border-top: 1px solid $g90;
     border-top: .5px solid $g90;
     color: $g48;
     font-size: $f12;
