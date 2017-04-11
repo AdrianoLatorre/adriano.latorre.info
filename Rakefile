@@ -30,7 +30,7 @@ end
 
 desc 'Open url'
 task :url do
-  sh 'open http://0.0.0.0:4000/'
+  sh 'sleep 10 && open http://0.0.0.0:4000/ &'
 end
 
 desc 'Open alt'
