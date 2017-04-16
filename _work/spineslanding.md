@@ -23,6 +23,7 @@ meta_urls:
   - address: "Efficient techniques for note-taking"
     main_url: "https://spines.me/learn/efficient-techniques-for-note-taking/"
 media:
+  card: "card.jpg"
   cover: "00.png"
   ui: "ui.png"
   images:

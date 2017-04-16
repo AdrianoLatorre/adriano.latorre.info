@@ -3,8 +3,10 @@ title: Adriano Latorre
 description: "Portfolio"
 baseurl: ""
 url: "http://adriano.latorre.info"
-twitter_username: adrianolatorre
-github_username:  adrianolatorre
+alt:
+  twitter: "https://twitter.com/adrianolatorre"
+  refind: "https://refind.com/adrianolatorre/"
+  linkedin: "https://www.linkedin.com/in/adrianolatorre/"
 
 # Collections
 collections:

@@ -57,6 +57,13 @@
   }
 }
 
+.grid-33 {
+  flex: 0 0 50%;
+  @media all and (min-width: 56em) {
+    flex: 0 0 33.3333%;
+  }
+}
+
 .grid-50 {
   flex: 0 0 100%;
   @media all and (min-width: 41em) {
@@ -80,6 +87,7 @@
   .grid-fourths,
   .grid-eights,
   .grid-25,
+  .grid-33,
   .grid-50,
   .grid-75 {
     padding: 0 0 0 1em;
@@ -102,9 +110,6 @@
     display: inline-block;
     padding: 0;
   }
-  // .grid-1 {
-  //   margin-left: 1em;
-  // }
 }
 
 .index {
@@ -116,6 +121,7 @@
       font-weight: 600;
     }
     > dt {
+      border-top: 1px solid $g90;
       border-top: .5px solid $g90;
       margin-top: 1em;
       padding-top: 1em;
@@ -154,6 +160,7 @@
   > dl {
     margin: 0 0 2em;
     > dt {
+      border-top: 1px solid $g90;
       border-top: .5px solid $g90;
       margin: 1em 0;
       padding-top: 1em;
@@ -213,7 +220,9 @@
 
   > h3 {
     background: $g99;
+    border-bottom: 1px solid $g90;
     border-bottom: .5px solid $g90;
+    border-top: 1px solid $g90;
     border-top: .5px solid $g90;
     flex: 0 0 50%;
     font-size: $f18;
@@ -345,6 +354,7 @@
   // }
   h3 {
     background-color: $w;
+    border-bottom: 1px solid $g90;
     border-bottom: .5px solid $g90;
     font-size: $f20;
     font-weight: 400;
@@ -397,6 +407,7 @@
     margin: 0 0 2em;
   }
   h3 {
+    border-top: 1px solid $g90;
     border-top: .5px solid $g90;
     font-size: $f16;
     font-weight: 700;
@@ -512,6 +523,7 @@
   margin-bottom: 1em;
 
   h4 {
+    border-top: 1px solid $g90;
     border-top: .5px solid $g90;
     color: $g48;
     font-size: $f12;
@@ -552,5 +564,29 @@
   margin-top: 12em;
   a {
     font-weight: 600;
+  }
+}
+
+.cards {
+  font-size: $f18;
+  margin-top: 8em;
+}
+
+.card-item {
+  > dt {
+    a {
+      border-radius: 2px;
+      display: block;
+      max-height: 18em;
+      overflow: hidden;
+      box-shadow: 0 0 1px 0 $g80;
+      @media all and (min-width: 41em) {
+        max-height: 24em;
+      }
+      img {
+      display: block;
+      width: 100%;
+      }
+    }
   }
 }

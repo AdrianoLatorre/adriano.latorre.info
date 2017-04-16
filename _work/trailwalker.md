@@ -16,6 +16,7 @@ meta_urls:
   - address: "trailwalker.oxfamintermon.org"
     main_url: "http://trailwalker.oxfamintermon.org/es"
 media:
+  card: "card.jpg"
   cover: "00.png"
   ui: "ui.jpg"
   images:
