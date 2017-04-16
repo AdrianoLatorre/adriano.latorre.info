@@ -7,7 +7,7 @@ layout: default
 <div class="cards grid gutter">
   {% for work in portfolio reversed %}
   <dl class="card-item grid-33">
-    <dt><a href="{{ work.permalink }}"><img src="/-/work/{{ work.id }}/{{ work.media.card }}"/></a></dt>
+    <dt><a href="{{ work.permalink }}"><img src="/-{{ work.permalink }}{{ work.media.card }}"/></a></dt>
   </dl>
   {% endfor %}
 </div>
