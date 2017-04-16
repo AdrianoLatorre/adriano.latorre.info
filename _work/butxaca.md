@@ -18,6 +18,7 @@ meta_urls:
   - address: "butxaca.com"
     main_url: "http://www.butxaca.com/"
 media:
+  card: "card.jpg"
   cover: "00.png"
   ui: "ui.png"
   images:

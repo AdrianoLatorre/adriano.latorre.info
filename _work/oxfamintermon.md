@@ -18,6 +18,7 @@ meta_urls:
   - address: "oxfamintermon.org"
     main_url: "http://www.oxfamintermon.org/"
 media:
+  card: "card.jpg"
   cover: "00.jpg"
   ui: "ui.jpg"
   images:

@@ -57,6 +57,13 @@
   }
 }
 
+.grid-33 {
+  flex: 0 0 50%;
+  @media all and (min-width: 56em) {
+    flex: 0 0 33.3333%;
+  }
+}
+
 .grid-50 {
   flex: 0 0 100%;
   @media all and (min-width: 41em) {
@@ -80,6 +87,7 @@
   .grid-fourths,
   .grid-eights,
   .grid-25,
+  .grid-33,
   .grid-50,
   .grid-75 {
     padding: 0 0 0 1em;
@@ -556,5 +564,29 @@
   margin-top: 12em;
   a {
     font-weight: 600;
+  }
+}
+
+.cards {
+  font-size: $f18;
+  margin-top: 8em;
+}
+
+.card-item {
+  > dt {
+    a {
+      border-radius: 2px;
+      display: block;
+      max-height: 18em;
+      overflow: hidden;
+      box-shadow: 0 0 1px 0 $g80;
+      @media all and (min-width: 41em) {
+        max-height: 24em;
+      }
+      img {
+      display: block;
+      width: 100%;
+      }
+    }
   }
 }

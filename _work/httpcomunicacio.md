@@ -17,6 +17,7 @@ meta_urls:
   - address: "httpcomunicacio.com"
     main_url: "http://httpcomunicacio.com/"
 media:
+  card: "card.png"
   cover: "00.png"
   ui: "ui.png"
   images:

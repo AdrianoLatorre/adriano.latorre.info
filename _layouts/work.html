@@ -4,12 +4,12 @@ layout: default
 
 {% if page.url == "/work/" %}
 {% assign portfolio = site.work | sort: 'date' %}
-<div class="books grid gutter">
+<div class="cards grid gutter">
   {% for work in portfolio reversed %}
-  <dl class="grid-thirds">
-    <dt><a href="{{ work.permalink }}"><img src="/-/work/{{ work.id }}/{{ work.media.cover }}"/></a></dt>
-    <dd>{{ work.title }}</dd>
-    <dd>{{ work.brief }}</dd>
+  <dl class="card-item grid-33">
+    <dt><a href="{{ work.permalink }}"><img src="/-/work/{{ work.id }}/{{ work.media.card }}"/></a></dt>
+<!--     <dd>{{ work.title }}</dd>
+    <dd>{{ work.brief }}</dd> -->
   </dl>
   {% endfor %}
 </div>
@@ -23,7 +23,7 @@ layout: default
         <h2>{{ page.brief }}</h2>
         {{ page.description.en }}
         {% for metaurl in page.meta_urls %}
-        <h3><img src="/-/ui/launch.svg"/><a href="{{ metaurl.main_url }}">{{ metaurl.address }}</a></h3>
+        <h3><a href="{{ metaurl.main_url }}">{{ metaurl.address }}</a></h3>
         {% endfor %}
         <ul class="item-labels">{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
       </div>

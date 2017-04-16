@@ -18,6 +18,7 @@ meta_urls:
   - address: "spines.me"
     main_url: "https://spines.me/"
 media:
+  card: "card.jpg"
   cover: "00.png"
   ui: "ui.jpg"
   images:

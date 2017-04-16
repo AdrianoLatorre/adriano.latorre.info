@@ -17,6 +17,7 @@ meta_urls:
   - address: "queridacarmen.com"
     main_url: "http://queridacarmen.com/"
 media:
+  card: "card.jpg"
   cover: "00.png"
   ui: "ui.png"
   images:

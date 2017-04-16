@@ -17,6 +17,7 @@ meta_urls:
   - address: "msf.es"
     main_url: "https://www.msf.es/"
 media:
+  card: "card.jpg"
   cover: "00.png"
   ui: "ui.png"
   images:

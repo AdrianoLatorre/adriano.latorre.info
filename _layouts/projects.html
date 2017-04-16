@@ -4,11 +4,11 @@ layout: default
 
 {% if page.url == "/projects/" %}
 {% assign projects = site.projects | sort: 'date' %}
-<div class="books grid gutter">
+<div class="cards grid gutter">
   {% for project in projects reversed %}
-  <dl class="grid-thirds">
-    <dt><a href="{{ project.permalink }}"><img src="/-/projects/{{ project.id }}/{{ project.media.cover }}"/></a></dt>
-    <dd>{{ project.title }}</dd>
+  <dl class="card-item grid-33">
+    <dt><a href="{{ project.permalink }}"><img src="/-/projects/{{ project.id }}/{{ project.media.ui }}"/></a></dt>
+    <!-- <dd>{{ project.title }}</dd> -->
   </dl>
   {% endfor %}
 </div>
