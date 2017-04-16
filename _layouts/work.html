@@ -8,8 +8,6 @@ layout: default
   {% for work in portfolio reversed %}
   <dl class="card-item grid-33">
     <dt><a href="{{ work.permalink }}"><img src="/-/work/{{ work.id }}/{{ work.media.card }}"/></a></dt>
-<!--     <dd>{{ work.title }}</dd>
-    <dd>{{ work.brief }}</dd> -->
   </dl>
   {% endfor %}
 </div>
