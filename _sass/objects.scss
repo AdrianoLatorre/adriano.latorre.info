@@ -206,11 +206,30 @@
   margin-top: 2em;
   padding-left: 0;
   font-weight: 600;
+  a {
+    border: 1px solid $g99;
+    border: .5px solid $g99;
+    border-radius: 2px;
+    transition: all .125s linear;
+    &:hover {
+      color: $g8;
+      background-color: $g92;
+      border: 1px solid $g88;
+      border: .5px solid $g88;
+      padding: 0 .375em .125em;
+      margin-left: -.375em;
+      text-decoration: none;
+    }
+  }
   li {
+    color: $g72;
     margin-top: 1em;
   }
   span {
-    color: $g72;
+    background-color: $g24;
+    border-radius: 2px;
+    color: $g99;
+    padding: 0 .375em .125em;
   }
 }
 
