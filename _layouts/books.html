@@ -8,7 +8,7 @@ layout: default
   {% assign counter = 0 %}
   {% for decade in years reversed %}
   {% for book in decade.books %}
-  {% if counter < 12 %}
+  {% if counter < 8 %}
   {% assign counter = counter | plus:1 %}
   <dl class="grid-thirds">
     <dt><a href="{{ book.link }}"><img src="/-/books/{{ book.cover }}"/></a></dt>
