@@ -11,6 +11,11 @@ sources:
     tags:
       - collection
       - link
+  - title: "Book Marks"
+    www: "http://lithub.com/bookmarks/"
+    tags:
+      - book
+      - collection
   - title: "Brutalist Websites"
     www: "http://brutalistwebsites.com/"
     tags:
@@ -38,6 +43,12 @@ sources:
       - apple
       - blog
       - technology
+  - title: "Every Frame a Painting"
+    www: "https://www.youtube.com/user/everyframeapainting"
+    tags:
+      - analysis
+      - film
+      - video
   - title: "The Exponential View"
     www: "https://www.getrevue.co/profile/azeem"
     tags:
@@ -64,11 +75,6 @@ sources:
       - bot
       - collection
       - link
-  - title: "Book Marks"
-    www: "http://lithub.com/bookmarks/"
-    tags:
-      - book
-      - collection
   - title: "Longform"
     www: "https://longform.org/"
     tags:
@@ -87,6 +93,10 @@ sources:
       - magazine
       - science
       - technology
+  - title: "The Nerdwriter"
+    www: "https://www.youtube.com/user/Nerdwriter1/"
+    tags:
+      - video
   - title: "Pinboard popular bookmarks"
     www: "http://pinboard.in/popular/"
     tags:
@@ -126,16 +136,6 @@ sources:
       - blog
       - future
       - technology
-  - title: "Every Frame a Painting"
-    www: "https://www.youtube.com/user/everyframeapainting"
-    tags:
-      - analysis
-      - film
-      - video
-  - title: "The Nerdwriter"
-    www: "https://www.youtube.com/user/Nerdwriter1/"
-    tags:
-      - video
   - title: "Zeldman"
     www: "http://zeldman.com/"
     tags:
