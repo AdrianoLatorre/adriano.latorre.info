@@ -58,7 +58,10 @@
 }
 
 .grid-33 {
-  flex: 0 0 50%;
+  flex: 0 0 100%;
+  @media all and (min-width: 41em) {
+    flex: 0 0 50%;
+  }
   @media all and (min-width: 56em) {
     flex: 0 0 33.3333%;
   }
@@ -68,6 +71,16 @@
   flex: 0 0 100%;
   @media all and (min-width: 41em) {
     flex: 0 0 50%;
+  }
+}
+
+.grid-66 {
+  flex: 0 0 100%;
+  @media all and (min-width: 41em) {
+    flex: 0 0 50%;
+  }
+  @media all and (min-width: 56em) {
+    flex: 0 0 66.6666%;
   }
 }
 
@@ -89,6 +102,7 @@
   .grid-25,
   .grid-33,
   .grid-50,
+  .grid-66,
   .grid-75 {
     padding: 0 0 0 1em;
   }
@@ -206,44 +220,110 @@
   margin-top: 2em;
   padding-left: 0;
   font-weight: 600;
+  a {
+    border: 1px solid $g99;
+    border: .5px solid $g99;
+    border-radius: 2px;
+    transition: all .125s linear;
+    &:hover {
+      color: $g8;
+      background-color: $g92;
+      border: 1px solid $g88;
+      border: .5px solid $g88;
+      padding: 0 .375em .125em;
+      margin-left: -.375em;
+      text-decoration: none;
+    }
+  }
   li {
+    color: $g72;
     margin-top: 1em;
   }
   span {
-    color: $g72;
+    background-color: $g24;
+    border-radius: 2px;
+    color: $g99;
+    padding: 0 .375em .125em;
   }
 }
 
 .links {
-  font-size: $f18;
-  margin-top: 5em;
-
+  font-size: $f20;
+  margin-top: 4.5em;
   > h3 {
-    background: $g99;
-    border-bottom: 1px solid $g90;
-    border-bottom: .5px solid $g90;
     border-top: 1px solid $g90;
     border-top: .5px solid $g90;
-    flex: 0 0 50%;
-    font-size: $f18;
-    font-weight: 400;
-    margin: 1em 0;
+    font-size: $f20;
+    font-weight: 600;
+    margin: 4em 0 0;
     padding: 1em 0;
-    position: sticky;
-    top: -1px;
   }
-
   > dl {
     > dt {
-      margin: 1em 0 0;
+      margin: 2em 0 0;
+      @media all and (min-width: 41em) {
+        margin: 2em 1em 0 0;
+      }
+      @media all and (min-width: 56em) {
+        margin: 2em 2em 0 0;
+      }
     }
-
     > dd {
       color: $g48;
-      font-size: $f14;
+      font-size: $f16;
+      margin-right: 0;
+      @media all and (min-width: 41em) {
+        margin-right: 1em;
+      }
+      @media all and (min-width: 56em) {
+        margin-right: 2em;
+      }
     }
   }
 }
+
+.sources {
+  margin-top: 9.5em;
+  > dl
+  dd {
+    color: $g48;
+    font-size: .75em;
+  }
+}
+
+.source-header {
+  border-top: 1px solid $g90;
+  border-top: .5px solid $g90;
+  font-size: $f18;
+  padding: 1em 0 0;
+  dt {
+    margin: 0;
+  }
+  dd {
+    color: $g48;
+    font-size: $f14;
+  }
+}
+
+.source-title {
+  margin-top: 1em;
+}
+
+.source-archive {
+  display: flex;
+  a, .source-off {
+    flex: 1 1 auto;
+    font-weight: 600;
+    text-align: center;
+  }
+  .source-off {
+    font-weight: 400;
+  }
+}
+
+.source-subtitle {
+    flex: 0 0 50%;
+  }
 
 .footer {
   color: $g48;
