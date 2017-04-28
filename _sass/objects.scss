@@ -256,43 +256,83 @@
     font-size: $f20;
     font-weight: 600;
     margin: 4em 0 0;
-    padding: 1em 0 0;
+    padding: 1em 0;
+    background-color: $g99;
+    position: -webkit-sticky;
+    top: 0;
   }
   > dl {
     > dt {
       margin: 2em 0 0;
+      @media all and (min-width: 41em) {
+        margin: 2em 1em 0 0;
+      }
+      @media all and (min-width: 56em) {
+        margin: 2em 2em 0 0;
+      }
     }
     > dd {
       color: $g48;
       font-size: $f16;
+      margin-right: 0;
+      @media all and (min-width: 41em) {
+        margin-right: 1em;
+      }
+      @media all and (min-width: 56em) {
+        margin-right: 2em;
+      }
     }
   }
 }
 
 .sources {
   margin-top: 9.5em;
-  .source-header {
-    border-top: 1px solid $g90;
-    border-top: .5px solid $g90;
-    font-size: $f18;
-    padding: 1em 0 0;
-    dt {
-      margin: 0;
-    }
-    dd {
-      color: $g48;
-      font-size: $f14;
-    }
-  }
   > dl
-  dt {
-    margin-top: 1em;
-  }
   dd {
     color: $g48;
     font-size: .75em;
   }
 }
+
+.source-header {
+  border-top: 1px solid $g90;
+  border-top: .5px solid $g90;
+  font-size: $f18;
+  padding: 1em 0 0;
+  dt {
+    margin: 0;
+  }
+  dd {
+    color: $g48;
+    font-size: $f14;
+  }
+}
+
+.sticky-archive {
+  background-color: $g99;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.source-title {
+  margin-top: 1em;
+}
+
+.source-archive {
+  display: flex;
+  a, .source-off {
+    flex: 1 1 auto;
+    font-weight: 600;
+    text-align: center;
+  }
+  .source-off {
+    font-weight: 400;
+  }
+}
+
+.source-subtitle {
+    flex: 0 0 50%;
+  }
 
 .footer {
   color: $g48;

@@ -7,22 +7,23 @@ layout: default
     {{ content }}
   </div>
   <div class="sources grid-33">
-    <dl class="source-header">
+    <dl class="source-header sticky-archive">
       <dt>Archive</dt>
-      <dd>
-        {% assign links_by_year = site.links %}
-        {% for link in links_by_year reversed %}
-        {% if page.url == link.permalink %}
-        {{ link.year }}
-        {% else %}
-        <a href="{{ link.permalink }}">{{ link.year }}</a> 
-        {% endif %}
-        {% endfor %}
+      <dd class="source-archive">
+          <span class="source-subtitle">by year</span>
+          {% assign links_by_year = site.links %}
+          {% for link in links_by_year reversed %}
+          {% if page.url == link.permalink %}
+          <span class="source-off">{{ link.year }}</span>
+          {% else %}
+          <a href="{{ link.permalink }}">{{ link.year }}</a> 
+          {% endif %}
+          {% endfor %}
       </dd>
     </dl>
     <dl class="source-header">
       <dt>Subscribe</dt>
-      <dd>Get a <a href="https://refind.com/adrianolatorre/newsletter">weekly newsletter</a> with every link</dd>
+      <dd>Get a <a href="{{ site.alt.newsletter }}">weekly newsletter</a> with links</dd>
     </dl>
     <dl class="source-header">
       <dt>Sources</dt>
@@ -31,8 +32,8 @@ layout: default
     <dl>
       {% for all in site.sources %}
       {% for source in all.sources %}
-      <dt><a href="{{ source.www }}">{{ source.title }}</a></dt>
-      <dd>{% for tag in source.tags %}<a href="#{{ tag }}" class="tag-{{ tag }}">#{{ tag }}</a> {% endfor %}</dd>
+      <dt class="source-title"><a href="{{ source.www }}">{{ source.title }}</a></dt>
+      <dd>{% for tag in source.tags %}<!-- <a href="#{{ tag }}" class="tag-{{ tag }}">#{{ tag }}</a> -->#{{ tag }}&nbsp;&nbsp;{% endfor %}</dd>
       {% endfor %}
       {% endfor %}
     </dl>
