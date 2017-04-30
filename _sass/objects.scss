@@ -528,11 +528,6 @@
     margin: 0 .5em .3125em 0;
     padding: .25em 1.5em;
     transition: all .25s ease-out;
-    &:hover {
-      background-color: $g90;
-      box-shadow: inset 0 0 1px $g80;
-      color: $g32;
-    }
   }
   .title-label,
   .title-label:hover {
