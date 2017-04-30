@@ -10,13 +10,12 @@ layout: default
     <dl class="source-header">
       <dt>Archive</dt>
       <dd class="source-archive">
-          <span class="source-subtitle">by year</span>
-          {% assign links_by_year = site.links %}
+      {% assign links_by_year = site.links %}
           {% for link in links_by_year reversed %}
           {% if page.url == link.permalink %}
-          <span class="source-off">{{ link.year }}</span>
+          <span class="source-off">20{{ link.year }}</span>
           {% else %}
-          <a href="{{ link.permalink }}">{{ link.year }}</a> 
+          <a href="{{ link.permalink }}">20{{ link.year }}</a>
           {% endif %}
           {% endfor %}
       </dd>
@@ -27,7 +26,6 @@ layout: default
     </dl>
     <dl class="source-header">
       <dt>Sources</dt>
-      <dd>A collection of sites</dd>
     </dl>
     <dl>
       {% for all in site.sources %}
