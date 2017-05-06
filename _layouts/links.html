@@ -20,21 +20,8 @@ layout: default
   </div>
   <div class="sources grid-33">
     <dl class="source-header">
-      <dt>Archive</dt>
-      <dd class="source-archive">
-        {% assign links_by_year = site.links %}
-        {% for link in links_by_year reversed %}
-        {% if page.url == link.permalink %}
-        <span class="source-off">20{{ link.year }}</span>
-        {% else %}
-        <a href="{{ link.permalink }}">20{{ link.year }}</a>
-        {% endif %}
-        {% endfor %}
-      </dd>
-    </dl>
-    <dl class="source-header">
-      <dt>Subscribe</dt>
-      <dd>Get a <a href="{{ site.alt.newsletter }}">weekly newsletter</a> with links</dd>
+      <dt><a href="{{ site.alt.newsletter }}">Subscribe</a></dt>
+      <dd>Get a <a href="{{ site.alt.newsletter }}/archive">weekly newsletter</a> with selected links</dd>
     </dl>
     <dl class="source-header">
       <dt>Sources</dt>

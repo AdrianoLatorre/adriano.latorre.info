@@ -314,17 +314,6 @@
   margin-top: 1em;
 }
 
-.source-archive {
-  display: flex;
-  a,.source-off {
-    flex: 1 0 auto;
-    font-weight: 600;
-  }
-  .source-off {
-    font-weight: 400;
-  }
-}
-
 .footer {
   color: $g48;
   font-size: $f12;
