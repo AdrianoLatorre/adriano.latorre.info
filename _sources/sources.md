@@ -43,6 +43,12 @@ sources:
       - apple
       - blog
       - technology
+  - title: "Ethan Marcotte"
+    www: "https://ethanmarcotte.com/wrote/"
+    tags:
+      - blog
+      - design
+      - web
   - title: "Every Frame a Painting"
     www: "https://www.youtube.com/user/everyframeapainting"
     tags:

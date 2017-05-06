@@ -5,19 +5,31 @@ layout: default
 <div class="grid gutter">
   <div class="links grid-66">
     {{ content }}
+    <nav>
+      <ol class="decades grid gutter">
+        {% assign links_by_year = site.links %}
+        {% for link in links_by_year reversed %}
+        {% if page.url == link.permalink %}
+        <li class="grid-eights"><span class="source-off">20{{ link.year }}</span></li>
+        {% else %}
+        <li class="grid-eights"><a href="{{ link.permalink }}">20{{ link.year }}</a></li>
+        {% endif %}
+        {% endfor %}
+      </ol>
+    </nav>
   </div>
   <div class="sources grid-33">
     <dl class="source-header">
       <dt>Archive</dt>
       <dd class="source-archive">
-      {% assign links_by_year = site.links %}
-          {% for link in links_by_year reversed %}
-          {% if page.url == link.permalink %}
-          <span class="source-off">20{{ link.year }}</span>
-          {% else %}
-          <a href="{{ link.permalink }}">20{{ link.year }}</a>
-          {% endif %}
-          {% endfor %}
+        {% assign links_by_year = site.links %}
+        {% for link in links_by_year reversed %}
+        {% if page.url == link.permalink %}
+        <span class="source-off">20{{ link.year }}</span>
+        {% else %}
+        <a href="{{ link.permalink }}">20{{ link.year }}</a>
+        {% endif %}
+        {% endfor %}
       </dd>
     </dl>
     <dl class="source-header">

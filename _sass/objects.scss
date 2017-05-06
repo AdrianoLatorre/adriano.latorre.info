@@ -217,9 +217,14 @@
 }
 
 .decades {
+  font-size: $f16;
   margin-top: 2em;
   padding-left: 0;
   font-weight: 600;
+  border-top: 1px solid $g90;
+  border-top: .5px solid $g90;
+  margin: 4em 0 0;
+  padding: .75em 0;
   a {
     border: 1px solid $g99;
     border: .5px solid $g99;
@@ -248,19 +253,14 @@
 }
 
 .links {
-  h3:first-child {
-    border-top: 0;
-    margin-bottom: -4em;
-    margin-top: 1em;
-  }
   font-size: $f20;
   margin-top: 4.5em;
   > h3 {
     border-top: 1px solid $g90;
     border-top: .5px solid $g90;
-    font-size: $f20;
+    font-size: $f16;
     font-weight: 600;
-    margin: 4em 0 0;
+    margin: 5em 0 0;
     padding: .75em 0;
   }
   > dl {
