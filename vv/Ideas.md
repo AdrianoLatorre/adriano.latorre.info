@@ -1,9 +1,8 @@
 
-# www
+# Ideas
 
-## adriano.latorre.info
 
-### Tareas
+## Tareas
 
 	Mostrar también en el listado la imagen de UI en móvil si el sitio está offline? Online? Both? Mostrar cuando min-width adecuado?
 
@@ -25,7 +24,8 @@
 
 + Contact: Send me a postcard. Upload a photo, write your message. Also: mail, twitter.
 
-### Lista de trabajos
+
+## Lista de trabajos
 
 + ADD MORE HERE
 
@@ -42,7 +42,8 @@ Médicos Sin Fronteras
 httpcomunicació teaser
 - Cibernarium Barcelona Activa
 
-### Languages
+
+## Languages
 
 Cookie?
 	1: readCookie
@@ -64,27 +65,8 @@ Selector?
 	ca?: => /ca/
 	readCookie
 
-### Profile
 
-Adriano Latorre    Profile
-
-UX, copywriting and web design
-
-
-
-<h1>A Japan based interaction designer at FutureLearn, the open education platform.</h1>
-
-	font-size: 4em;
-	line-height: 1.125em;
-	max-width: 12em;
-	margin: 1.5em 0 .5em 4em;
-
-+ Inverted/Horizontal order. A limit of 5 items?
-
-+ a communication system —a wave or abstract figures reacting to your mouse or touch?— and a link to learn/read more (goes to the profile).
-
-
-### Lab
+## Lab
 
 The Lab is secret.
 : No link to /lab/.
@@ -103,7 +85,7 @@ Here now
 224708
 
 
-### Inspiration
+## Inspiration
 
 Inspiration
 : https://area17.com
@@ -115,57 +97,3 @@ Inspiration
 : http://danielgray.com/blog/words-we-dont-say
 : http://www.itsnicethat.com
 : Links like http://the-talks.com/interview/yann-tiersen/
-
-
----
-
-
-## twm
-
-
----
-
-
-## wrror
-
-
----
-
-
-## TAP
-
-+ A blocks website like http://heydays.no
-
-+ Multi idioma: castellano y catalán http://sylvaindurand.org/making-jekyll-multilingual/
-
-+ Imagen gallo vintage https://www.google.es/search?q=vintage+chicken&client=safari&rls=en&source=lnms&tbm=isch&sa=X&ei=a3qQVciSGMGqUf-qgKAH&ved=0CAcQ_AUoAQ&biw=1280&bih=722
-
-+ Dirección con link a mapa
-
-+ Mail de contacto y pedidos
-
-+ vcard descargable?
-
-+ Horario
-
-+ Alerta bajo el header para horarios especiales. csv en GitHub: si el fichero no está vacío, se muestra. Obrim el 25 i 26 de Juny de 10h a 15h.
-
-+ Menu as csv data on jekyll. http://jekyllrb.com/docs/datafiles/
-
-+ Aviso de vacaciones en lugar del menú utilizando el mismo fichero.
-
-+ Texto blanco sobre foto o carrusel. Hacer fotos de TAP
-
-+ Recuadro de Social. Última foto de instagram? Último post o like/comment de Facebook?
-
-+ Tot al mail o Mail al punt: lista de correo con novedades y menú semanal.
-
-+ Mapa de TAP https://snazzymaps.com/
-
-+ 404 Needs a custom domain: https://help.github.com/articles/custom-404-pages/
-
-+ Make /team/ or similar folders work in Jekyll.
-
-+ Página de equipo con nice foto.
-
-+ Documento con cuentas y passwords de todo TAP.
