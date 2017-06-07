@@ -1,11 +1,16 @@
 
 # Profile
 
-Adriano Latorre    Profile
+Adriano Latorre    Profile    UX, copywriting and web design
 
-UX, copywriting and web design
+Adriano Latorre  Perfil  UX, redacción creativa y diseño web
 
 
+
+
+## Fake layout
+
++ Inverted/Horizontal order. A limit of 5 items?
 
 <h1>A Japan based interaction designer at FutureLearn, the open education platform.</h1>
 
@@ -14,6 +19,7 @@ UX, copywriting and web design
 	max-width: 12em;
 	margin: 1.5em 0 .5em 4em;
 
-+ Inverted/Horizontal order. A limit of 5 items?
+
+## Ideas
 
 + a communication system —a wave or abstract figures reacting to your mouse or touch?— and a link to learn/read more (goes to the profile).
