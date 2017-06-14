@@ -145,7 +145,7 @@
 19700000. Superlópez. Jan.
 19700000. El sulfato atómico. Francisco Ibáñez.
 
-
+---
 
 > http://mobile.nytimes.com/2016/08/07/books/review/joy-williams-ninety-nine-stories-of-god.html?smid=tw-nytbooks&smtyp=cur&_r=0&referer=
 
@@ -164,34 +164,3 @@ https://www.amazon.com/exec/obidos/ASIN/1250005981/ref=nosim/themill0b-20
 
 > The Art of the Short Story
 https://www.amazon.com/Art-Short-Story-Dana-Gioia/dp/0321363639/ref=pd_sim_14_1?_encoding=UTF8&psc=1&refRID=7QK3ZHTQZVPPWF1F30XD
-
-> The best books of 2016
-http://kottke.org/16/12/the-best-books-of-2016
-
-> The Book: A Cover-to-Cover Exploration of the Most Powerful Object of Our Time – Shady Characters
-http://www.shadycharacters.co.uk/books/the-book/
-
-> The Elements of Eloquence: How to Turn the Perfect English Phrase
-https://www.amazon.es/dp/B00KFEJN3Q/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
-
-> SPQR: A History of Ancient Rome – Mary Beard
-https://www.amazon.com/gp/aw/d/1631492225/ref=mp_s_a_1_1?ie=UTF8&qid=1485606538&sr=8-1&pi=AC_SX236_SY340_QL65&keywords=mary+beard&dpPl=1&dpID=51m0LJAmyRL&ref=plSrch
-
-## Movies
-
-> Hercules (1997) – http://m.imdb.com/title/tt0119282/
-
-> http://www.imdb.com/title/tt3544112/
-
-> The best films of 2016 so far
-https://www.theguardian.com/film/filmblog/2016/jun/08/best-films-of-2016-anomalisa-spotlight-revenant-nice-guys-jungle-book
-
-> How We Got To Now (The PBS Series)
-https://stevenberlinjohnson.com/how-we-got-to-now-the-pbs-series-2f48ccea1fc
-
-> Sexy Beast
-http://www.imdb.com/title/tt0203119/
-
-> ‎2016 Year in Review • Letterboxd
-http://letterboxd.com/2016/
-
