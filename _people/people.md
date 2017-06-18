@@ -12,7 +12,7 @@ people:
   - name: "Jesús Cuadra"
     site: "jesuscuadra.es"
     link: "http://www.jesuscuadra.es/"
-    twitter: "gorilas"
+    twitter: "jesuscuadraes"
   - name: "Joana Filizola"
     site: "joanafilizola.com"
     link: "http://joanafilizola.com/"
