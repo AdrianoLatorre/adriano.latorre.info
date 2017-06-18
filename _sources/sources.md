@@ -108,6 +108,12 @@ sources:
     tags:
       - collection
       - link
+  - title: "Quanta Magazine"
+    www: "https://www.quantamagazine.org/"
+    tags:
+      - magazine
+      - science
+      - technology
   - title: "Refind"
     www: "https://refind.com/"
     tags:
