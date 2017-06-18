@@ -66,6 +66,9 @@ Clicking on a tag hides or displays the tagged links.
 [Pinboard popular bookmarks](http://pinboard.in/popular/)
 #collection #link
 
+[Quanta Magazine](https://www.quantamagazine.org/)
+#magazine #science #technology
+
 [Refind](https://refind.com/)
 #collection #link
 
