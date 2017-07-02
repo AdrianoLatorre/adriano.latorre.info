@@ -1,7 +1,9 @@
 ---
-layout: page
-title: Hello!
+layout: default
+title: Hello
 permalink: /w/hello/
 ---
 
-<p>I have just sent you an email to confirm your subscription.</p>
+# {{ page.title }}
+
+Please, check your mail to confirm your subscription.
