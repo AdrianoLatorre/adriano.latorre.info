@@ -1,10 +1,12 @@
 ---
-layout: page
-title: The Wick Newsletter
+layout: default
+title: The Wick newsletter
 permalink: /w/newsletter/
 ---
 
-<p>Three wonderful links, once a week.</p>
+# {{ page.title }}
+
+A collection of wonderful links.
 
 <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup">
