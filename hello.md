@@ -6,4 +6,4 @@ permalink: /w/hello/
 
 # {{ page.title }}
 
-Please, check your mail to confirm your subscription.
+Check your mail to confirm your subscription.
