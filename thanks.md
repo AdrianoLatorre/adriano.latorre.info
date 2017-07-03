@@ -6,6 +6,6 @@ permalink: /w/thanks/
 
 # {{ page.title }}
 
-You are now subscribed to The Wick newsletter.
+You are now subscribed to the newsletter.
 
-[Find the archive of previous editions](https://twitter.com/thewick_) or [follow @thewick\_](https://twitter.com/thewick_) on Twitter.
+[See previous editions](http://adriano.latorre.info/w/) or [follow @thewick\_](https://twitter.com/thewick_) for more.
