@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Thank you
+title: Nicely done
 permalink: /w/thanks/
 ---
 
 # {{ page.title }}
 
-You are now subscribed to the newsletter.
+You are now subscribed to [The Wick](/w/).
 
-[See previous editions](http://adriano.latorre.info/w/) or [follow @thewick\_](https://twitter.com/thewick_) for more.
+[See previous editions](/w/) or [follow @thewick\_](https://twitter.com/thewick_) for updates.

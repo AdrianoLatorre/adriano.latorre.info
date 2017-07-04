@@ -1,13 +1,11 @@
 ---
 layout: default
-title: Bye
+title: Goodbye
 permalink: /w/bye/
 ---
 
 # {{ page.title }}
 
-That's it, no more messages from [The Wick](http://adriano.latorre.info/w/).
+That's it, you'll get no more messages from [The Wick](/w/).
 
 See you!
-
-😊
