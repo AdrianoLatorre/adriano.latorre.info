@@ -12,10 +12,11 @@ layout: default
   {% assign counter = counter | plus:1 %}
   <dl class="grid-thirds">
     <dt><a href="{{ edition.link }}"><img src="/-/w/{{ edition.number }}.jpg"/></a></dt>
+    <dd>#{{ edition.number }}</dd>
     <dd><a href="{{ edition.link }}">{{ edition.title }}</a></dd>
     <dd>{{ edition.info }}</dd>
-    <dd><a href="{{ edition.link }}">{{ edition.link }}</a></dd>
-    <dd>{{ edition.emoji }}</dd>
+    <dd><a href="{{ edition.link }}">{{ edition.domain }}</a></dd>
+    <dd><a href="https://twitter.com/intent/tweet?text={{ edition.info | url_param_escape }}%0A{{ edition.link }}%0A{{ edition.emoji }}%20%40thewick_" target="_blank">{{ edition.emoji }}</a></dd>
   </dl>
   {% endif %}
   {% endfor %}
@@ -24,10 +25,11 @@ layout: default
   {% for edition in page.editions %}
   <dl class="grid-thirds">
     <dt><a href="{{ edition.link }}"><img src="/-/w/{{ edition.number }}.jpg"/></a></dt>
+    <dd>#{{ edition.number }}</dd>
     <dd><a href="{{ edition.link }}">{{ edition.title }}</a></dd>
     <dd>{{ edition.info }}</dd>
-    <dd><a href="{{ edition.link }}">{{ edition.link }}</a></dd>
-    <dd>{{ edition.emoji }}</dd>
+    <dd><a href="{{ edition.link }}">{{ edition.domain }}</a></dd>
+    <dd><a href="https://twitter.com/intent/tweet?text={{ edition.info | url_param_escape }}%0A{{ edition.link }}%0A{{ edition.emoji }}%20%40thewick_" target="_blank">{{ edition.emoji }}</a></dd>
   </dl>
   {% endfor %}
   {% endif %}
