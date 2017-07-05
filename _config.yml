@@ -30,6 +30,9 @@ collections:
   work:
     output: true
     permalink: /work/:path/
+  w:
+    output: true
+    permalink: /w/:path/
 
 # Build settings
 markdown: kramdown
