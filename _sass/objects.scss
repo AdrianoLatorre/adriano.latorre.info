@@ -111,20 +111,6 @@
   }
 }
 
-.header-nav {
-  font-size: $f18;
-  margin-top: 3em;
-  a {
-    font-weight: 600;
-  }
-  > ul {
-    padding: 0;
-  }
-  > li {
-    display: inline-block;
-    padding: 0;
-  }
-}
 
 .index {
   font-size: $f18;
@@ -310,13 +296,6 @@
 
 .source-title {
   margin-top: 1em;
-}
-
-.footer {
-  color: $g48;
-  font-size: $f12;
-  margin: 10em 0 0;
-  padding: 2em 0 0;
 }
 
 .portfolio-item {

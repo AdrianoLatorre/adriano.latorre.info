@@ -1,2 +1,45 @@
-// items.scss: cosmetic-free design patterns (OOCSS).
 
+.header-nav {
+  font-size: $f18;
+  margin-top: 3em;
+  a {
+    font-weight: 600;
+  }
+  li {
+    display: inline-block;
+    padding: 0;
+  }
+}
+
+.flexbox-header {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 0 -1em;
+  padding: 0;
+  > .fx-25 {
+    flex: 0 0 100%;
+    padding: 0 0 0 1em;
+    @media all and (min-width: 41em) {
+      flex: 0 0 33.3333%;
+    }
+    @media all and (min-width: 56em) {
+      flex: 0 0 25%;
+    }
+  }
+  > .fx-75 {
+    flex: 0 0 100%;
+    padding: 0 0 0 1em;
+    @media all and (min-width: 41em) {
+      flex: 0 0 66.6666%;
+    }
+    @media all and (min-width: 56em) {
+      flex: 0 0 75%;
+    }
+  }
+}
+
+.global-footer {
+  color: $g48;
+  font-size: $f12;
+  margin: 12em 0 0;
+}
