@@ -10,7 +10,7 @@ nav: "UX, copywriting and web design"
     {% assign work_offset = site.work.size | minus: 4 %}
     {% for work in work_by_date reversed limit: 4 offset:work_offset %}
     <dt><a href="{{ work.permalink }}">{{ work.title }}</a>
-</dt>
+    </dt>
     <dd>{% if work.brief_index %}{{ work.brief_index }}{% else %}{{ work.brief }}{% endif %}</dd>
     {% endfor %}
     {% if site.work.size > 4 %}
