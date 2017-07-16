@@ -1,5 +1,5 @@
 ---
-layout: profile
+layout: default
 nav: Profile
 permalink: /profile/
 ---
