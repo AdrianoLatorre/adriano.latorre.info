@@ -1,11 +1,45 @@
 ---
 sources:
+  - title: "Adactio"
+    www: "https://adactio.com/"
+    tags:
+      - blog
+      - collection
+      - css
+      - link
+      - web
+  - title: "A List Apart"
+    www: "http://alistapart.com/"
+    tags:
+      - css
+      - design
+      - magazine
+      - tutorial
+  - title: "A Working Library"
+    www: "http://aworkinglibrary.com/"
+    tags:
+      - blog
+      - book
+      - essay
+      - collection
   - title: "Aeon"
     www: "https://aeon.co/"
     tags:
       - magazine
       - science
       - technology
+  - title: "An Event Apart"
+    www: "https://aneventapart.com/"
+    tags:
+      - css
+      - design
+      - tutorial
+      - video
+  - title: "Arts & Letters Daily"
+    www: "http://www.aldaily.com/"
+    tags:
+      - collection
+      - link
   - title: "Belong"
     www: "http://belong.io/"
     tags:
@@ -55,12 +89,13 @@ sources:
       - analysis
       - film
       - video
-  - title: "The Exponential View"
-    www: "https://www.getrevue.co/profile/azeem"
+  - title: "FormFiftyFive"
+    www: "https://formfiftyfive.com/"
     tags:
-      - ai
-      - future
-      - newsletter
+      - collection
+      - design
+      - inspiration
+      - link
   - title: "httpster"
     www: "https://httpster.net/"
     tags:
@@ -73,12 +108,6 @@ sources:
     www: "http://kottke.org/"
     tags:
       - blog
-      - collection
-      - link
-  - title: "The Latest"
-    www: "http://latest.is/"
-    tags:
-      - bot
       - collection
       - link
   - title: "Longform"
@@ -99,10 +128,6 @@ sources:
       - magazine
       - science
       - technology
-  - title: "The Nerdwriter"
-    www: "https://www.youtube.com/user/Nerdwriter1/"
-    tags:
-      - video
   - title: "Pinboard popular bookmarks"
     www: "http://pinboard.in/popular/"
     tags:
@@ -127,6 +152,22 @@ sources:
       - inspiration
       - link
       - web
+  - title: "The Exponential View"
+    www: "https://www.getrevue.co/profile/azeem"
+    tags:
+      - ai
+      - future
+      - newsletter
+  - title: "The Latest"
+    www: "http://latest.is/"
+    tags:
+      - bot
+      - collection
+      - link
+  - title: "The Nerdwriter"
+    www: "https://www.youtube.com/user/Nerdwriter1/"
+    tags:
+      - video
   - title: "Things magazine"
     www: "http://www.thingsmagazine.net/"
     tags:
