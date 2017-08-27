@@ -78,6 +78,9 @@ Clicking on a tag hides or displays the tagged links.
 [siteinspire](https://www.siteinspire.com/websites)
 #collection #design #link #inspiration #web
 
+[The Electric Typewriter](http://tetw.org/)
+#article #essay #collection
+
 [The Exponential View](https://www.getrevue.co/profile/azeem)
 #ai #future #newsletter #technology
 

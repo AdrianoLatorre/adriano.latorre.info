@@ -152,6 +152,12 @@ sources:
       - inspiration
       - link
       - web
+  - title: "The Electric Typewriter"
+    www: "http://tetw.org/"
+    tags:
+      - article
+      - essay
+      - collection
   - title: "The Exponential View"
     www: "https://www.getrevue.co/profile/azeem"
     tags:
