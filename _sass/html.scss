@@ -1,8 +1,3 @@
-// elements.scss: unclassed HTML elements (type selectors).
-
-// *:hover { background-color: $red !important; }
-
-
 html {
   box-sizing: border-box;
   font: 100%/1.5 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -19,10 +14,15 @@ html {
   box-sizing: inherit;
 }
 
+// *:hover { background-color: $red !important; }
+
 body {
   background-color: $g99;
   color: $g24;
+  margin: 0 auto 6em;
+  max-width: 64em;
   min-height: 100%;
+  padding: 0 1em;
 }
 
 a {
@@ -39,5 +39,5 @@ dd {
 }
 
 iframe {
-  
+
 }

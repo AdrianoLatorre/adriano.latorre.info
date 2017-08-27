@@ -1,8 +1,9 @@
 ---
 ---
 
-@import 'vars'; // vars.scss: variables, mixins and functions.
+@import 'var'; // var.scss: variables, mixins and functions.
 @import 'reset'; // reset.scss: ground-zero styles (resets, box-sizing).
-@import 'elements'; // elements.scss: unclassed HTML elements (type selectors).
+@import 'html'; // html.scss: unclassed HTML elements (type selectors).
 @import 'objects'; // objects.scss: cosmetic-free design patterns (OOCSS).
-@import 'ui'; // ui.scss: designed components, chunks of UI.
+@import 'items'; // items.scss: cosmetic-free design patterns (OOCSS).
+@import 'layout'; // layout.scss: designed components, chunks of UI.
