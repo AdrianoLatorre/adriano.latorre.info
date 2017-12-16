@@ -22,6 +22,21 @@ UX, redacción creativa y diseño web.
 Cada pieza del portfolio debería reflejar esta misión: el objetivo siempre es que el uso intuitivo de la tecnología del cliente mejore tu vida.
 El mensaje más claro es el que se omite.
 
+## A Quick Draft
+
+> Big font, colors?, links a todo.
+
+Diseñador UX. Me encanta la redacción creativa y el diseño web.
+
+Trabajo con [Spines](#) en su [aplicación web](#), [website](#) y [extensión](#) para comunicar un futuro mejor forever yes.
+
+Previamente trabajé en [Arista](#), donde desarrollé [tal cosa](#), [tal otra](#) y [esta también](#). Awesome.
+Antes de eso, estuve en [httpcomunicació](#), donde malgasté mi juventud con [esto](#), [esto](#) y [esto](#). Fuck yeah.
+
+Interesado en [tal](#) y [cual](#), me encanta [esto](#) y [aquello](#), y hacer [cosas](#).
+
+[Ponte en contacto conmigo](#) or else.
+
 
 ## Fake layout
 
