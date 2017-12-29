@@ -1,8 +1,8 @@
 <header>
   <nav class="header-nav">
     <ul class="flexbox-header">
-      <li class="fx-25"><a href="/{% if page.nav contains 'UX' %}profile/{% endif %}">Adriano Latorre</a></li>
-      <li class="fx-75">{{ page.nav }}</li>
+      <li class="fx-25"><a href="/{% if page.nav contains 'Home' %}profile/{% endif %}">Adriano Latorre</a></li>
+      <li class="fx-75">{% if page.nav contains 'Home' %} {% else %}{{ page.nav }}{% endif %}</li>
     </ul>
   </nav>
 </header>
