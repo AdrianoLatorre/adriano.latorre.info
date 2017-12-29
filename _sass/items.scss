@@ -45,10 +45,14 @@
 }
 
 .home-index {
+  font-size: 1.5em;
   a {
+    background-color: $yellow;
     font-weight: 600;
   }
-  font-size: 1.5em;
+  a:visited {
+    background-color: $g99;
+  }
 }
 
 .home-index .header-index {
