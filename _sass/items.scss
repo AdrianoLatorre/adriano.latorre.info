@@ -43,3 +43,70 @@
   font-size: $f12;
   margin: 12em 0 0;
 }
+
+.home-index {
+  a {
+    font-weight: 600;
+  }
+  font-size: 1.5em;
+}
+
+.home-index .header-index {
+  h1 {
+    font-size: 4rem;
+    line-height: 1.125em;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 1.125em;
+  }
+}
+
+.home-index section {
+  h2 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-top: 3em;
+    text-transform: uppercase;
+  }
+  ul {
+    line-height: 1.75em;
+    list-style-position: outside;
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    line-height: 1.375em;
+    margin: .75em 0;
+  }
+}
+
+.home-index .grid-33 {
+  border-top: 1px solid $g95;
+  border-top: .5px solid $g90;
+  margin-top: 4em;
+}
+
+.home-index .grid-66 {
+  border-top: 0;
+  margin-top: 0;
+  @media all and (min-width: 41em) {
+    border-top: 1px solid $g95;
+    border-top: .5px solid $g90;
+    margin-top: 4em;
+  }
+}
+
+.home-index .h-i {
+  border-top: 0;
+  margin-top: 0;
+}
+
+  .home-index .grid-33 {
+  h1 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 1.625em 0;
+  }
+}

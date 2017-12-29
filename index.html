@@ -3,93 +3,53 @@ layout: default
 nav: "Home"
 ---
 
-<article>
-    <header>
-        <h1>UX, copywriter and web designer</h1>
-        <h2>vv</h2>
-    </header>
-    <section>
-        {% assign work_by_date = site.work | sort: 'date' %}
-        {% assign last_work = work_by_date | last %}
-        {% assign work_offset = 1 %}
-        <h1>Work</h1>
-        <p>Right now I'm busy with <a href="{{ last_work.permalink }}">{{ last_work.title }}</a>, a learning tool that helps educational institutions, companies and people to build deep, enduring knowledge.</p>
-        <h2>Previous and selected work</h2>
-        <ul>
-        {% for work in work_by_date reversed %}
-        {% if work != last_work %}
-            <li><a href="{{ work.permalink }}">{{ work.title }}</a> —{{ work.brief }}</li>
-        {% endif %}
-        {% endfor %}
-        </ul>
-    </section>
-    <section>
-        <h1>Info</h1>
-        <p>See my full <a href="/profile/">profile</a> or find me on <a href="{{ site.alt.twitter }}">Twitter</a>, <a href="{{ site.alt.refind }}">Refind</a> and <a href="{{ site.alt.linkedin }}">LinkedIn</a>.</p>
-    </section>
-    <section>
-        <h1>Special</h1>
-        <p>Some <a href="/people/">really nice people</a> I’ve found along the way.</p>
-        <p><a href="/books/">Books</a> I enjoyed reading.</p>
-        <p><a href="/links/">Links</a> to other places.</p>
-    </section>
+<article class="home-index">
+    <div class="grid gutter">
+        <div class="grid-33 h-i"></div>
+        <div class="grid-66 h-i">
+            <header class="header-index">
+                <h1>UX, copywriter and web designer</h1>
+                <h2>Whatever brief or medium thing I may want to explain about myself here.</h2>
+            </header>
+        </div>
+        <div class="grid-33">
+            <h1>Work</h1>
+        </div>
+        <div class="grid-66">
+            <section class="work-index">
+                {% assign work_by_date = site.work | sort: 'date' %}
+                {% assign last_work = work_by_date | last %}
+                {% assign work_offset = 1 %}
+                <p>Right now I'm busy working on <a href="{{ last_work.permalink }}">{{ last_work.title }}</a>, a learning tool that helps educational institutions, companies and people to build deep, enduring knowledge.</p>
+                <h2>Previous and selected work</h2>
+                <ul>
+                    {% for work in work_by_date reversed %}
+                    {% if work != last_work %}
+                    <li><a href="{{ work.permalink }}">{{ work.title }}</a> —{{ work.brief }}</li>
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </section>
+        </div>
+        <div class="grid-33">
+            <h1>Info</h1>
+        </div>
+        <div class="grid-66">
+            <section class="profile-index">
+                <p>See my full <a href="/profile/">profile</a> or find me on <a href="{{ site.alt.twitter }}">Twitter</a>, <a href="{{ site.alt.refind }}">Refind</a> and <a href="{{ site.alt.linkedin }}">LinkedIn</a>.</p>
+            </section>
+        </div>
+        <div class="grid-33">
+            <h1>Special</h1>
+        </div>
+        <div class="grid-66">
+            <section class="special-index">
+                <ul>
+                    <li>Some <a href="/people/">really nice people</a> I have found along the way.</li>
+                    <li><a href="/books/">Books</a> I enjoyed reading.</li>
+                    <li><a href="/links/">Links</a> to other places.</li>
+                </ul>
+            </section>
+        </div>
+    </div>
 </article>
-
-<nav class="index grid gutter">
-  <dl class="grid-fourths">
-    <lh>Work</lh>
-    {% assign work_by_date = site.work | sort: 'date' %}
-    {% assign work_offset = site.work.size | minus: 4 %}
-    {% for work in work_by_date reversed limit: 4 offset:work_offset %}
-    <dt><a href="{{ work.permalink }}">{{ work.title }}</a>
-    </dt>
-    <dd>{% if work.brief_index %}{{ work.brief_index }}{% else %}{{ work.brief }}{% endif %}</dd>
-    {% endfor %}
-    {% if site.work.size > 4 %}
-    <dt class="all-items"><a href="/work/">All work</a>&rarr;</dt>
-    {% endif %}
-</dl>
-
-<dl class="grid-fourths">
-    <lh>Projects</lh>
-    {% assign project_by_date = site.projects | sort: 'date' %}
-    {% assign projects_offset = site.projects.size | minus: 4 %}
-    {% for project in project_by_date reversed limit:4 offset:projects_offset %}
-    <dt><a href="{{ project.permalink }}">{{ project.title }}</a></dt>
-    <dd>{% if project.brief_index %}{{ project.brief_index }}{% else %}{{ project.brief }}{% endif %}</dd>
-    {% endfor %}
-    {% if site.projects.size > 4 %}
-    <dt class="all-items"><a href="/projects/">All projects</a> &rarr;</dt>
-    {% endif %}
-</dl>
-
-<dl class="grid-fourths">
-    <lh>Info</lh>
-    <dt><a href="/profile/">Profile</a></dt>
-    <dd>About me</dd>
-    <!-- <dt><a href="/profile/#contact">Contact</a></dt>
-    <dd>Say <script type="text/javascript">
-//<![CDATA[
-<!--
-var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
-"=105){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return " +
-"o.substr(0,ol);}f(\")4,\\\"k771\\\\udnuh520\\\\i&**410\\\\~6\\\"\\\\%U\\\\\\"+
-"\\HO400\\\\U_V^030\\\\PFA]EQCnBBJC[LF430\\\\JPOK@M=B z~hq8v*7<}~tdf|z\\\"\\" +
-"\\771\\\\dlerej`\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirt" +
-"S=+o;721=%y;2=*y))y+4(>i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y" +
-",x(f noitcnuf\")"                                                            ;
-while(x=eval(x));
-//-->
-<!-- //]]>
-</script>hello</a></dd> -->
-</dl>
-<dl class="grid-fourths">
-    <lh>Special</lh>
-    <dt><a href="/people/">People</a></dt>
-    <dd>Really nice ones</dd>
-    <dt><a href="/books/">Books</a></dt>
-    <dd>Recommended reading</dd>
-    <dt><a href="/links/">Links</a></dt>
-    <dd>Hypertext all the things!</dd>
-</dl>
-</nav>

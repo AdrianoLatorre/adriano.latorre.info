@@ -8,9 +8,9 @@ date: 2016-03-01
 title: "Spines"
 brief: "Notes for learning"
 description:
-  ca: "Català"
-  es: "Castellano"
-  en: "A series of different landing pages that welcome people to Spines and explain its philosophy, the reasons to use the application and some note-taking techniques that anyone can use."
+  ca: "Spines és una eina d'aprenentatge que ajuda a institucions educatives, empreses i persones a construir coneixement profund i durador."
+  es: "Spines es una herramienta de aprendizaje que ayuda a instituciones educativas, empresas y personas a construir conocimiento profundo y duradero."
+  en: "Spines is a learning tool that helps educational institutions, companies and people to build deep, enduring knowledge."
 tasks:
   - "UX"
   - "Copywriting"
