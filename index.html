@@ -20,12 +20,12 @@ nav: "Home"
                 {% assign work_by_date = site.work | sort: 'date' %}
                 {% assign last_work = work_by_date | last %}
                 {% assign work_offset = 1 %}
-                <p>Right now I'm busy working on <a href="{{ last_work.permalink }}">{{ last_work.title }}</a>, a learning tool that helps educational institutions, companies and people to build deep, enduring knowledge.</p>
+                <p>Right now I'm busy working on <a href="{{ last_work.permalink }}" class="yellow">{{ last_work.title }}</a>, a learning tool that helps educational institutions, companies and people to build deep, enduring knowledge.</p>
                 <h2>Previous and selected work</h2>
                 <ul>
                     {% for work in work_by_date reversed %}
                     {% if work != last_work %}
-                    <li><a href="{{ work.permalink }}">{{ work.title }}</a> —{{ work.brief }}</li>
+                    <li><a href="{{ work.permalink }}" class="yellow">{{ work.title }}</a> —{{ work.brief }}</li>
                     {% endif %}
                     {% endfor %}
                 </ul>

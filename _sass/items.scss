@@ -47,10 +47,12 @@
 .home-index {
   font-size: 1.5em;
   a {
-    background-color: $yellow;
     font-weight: 600;
   }
-  a:visited {
+  a.yellow {
+    background-color: $yellow;
+  }
+  a.yellow:visited {
     background-color: $g99;
   }
 }
