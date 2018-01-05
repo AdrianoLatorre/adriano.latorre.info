@@ -113,8 +113,8 @@ permalink: /profile/
     </div>
     <div class="grid-66">
       <section>
-                <ul>
-                    <li>Say <script type="text/javascript">
+<ul>
+<li>Say <script type="text/javascript">
 //<![CDATA[
 <!--
 var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
