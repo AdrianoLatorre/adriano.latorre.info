@@ -21,21 +21,38 @@ permalink: /profile/
         {% assign work_by_date = site.work | sort: 'date' %}
         {% assign last_work = work_by_date | last %}
         {% assign work_offset = 1 %}
-        <p>This is my experience.</p>
-        <br>
-        <dl>
-          <dt>2014 – Today</dt>
-          <dd>Spines —Build deep, enduring knowledge</dd>
-          <dd>UX, copywriting, graphic design and web design.</dd>
-          <dt>2009 – 2014</dt>
-          <dd>Arista Barcelona <span class="nazgul">—Mordor Pedralbes</span></dd>
-          <dd>Web architecture, copywriting and web design.</dd>
-          <dt>2007 – 2009</dt>
-          <dd>Freelance —independent web consulting work</dd>
-          <dd>Web architecture, copywriting and web design.</dd>
-          <dt>2000 – 2007</dt>
-          <dd>httpcomunicació —una agència de comunicació</dd>
-          <dd>Web architecture, copywriting, web design and video editing.</dd>
+        <p>I feel at home working in a team with agile methodologies. I have an analytical profile and an instinct for synthesis. I am imaginative, curious and always willing to learn.</p>
+        <dl class="profile-experience">
+          <div class="grid gutter">
+            <div class="grid-33 h-i">
+              <dt>2014 – Today</dt>
+            </div>
+            <div class="grid-66 h-i">
+              <dd>Spines —Build deep, enduring knowledge</dd>
+              <dd>UX, copywriting, graphic design and web design.</dd>
+            </div>
+            <div class="grid-33 h-i">
+              <dt>2009 – 2014</dt>
+            </div>
+            <div class="grid-66 h-i">
+              <dd>Arista Barcelona <span class="nazgul">—Mordor Pedralbes</span></dd>
+              <dd>Web architecture, copywriting and web design.</dd>
+            </div>
+            <div class="grid-33 h-i">
+              <dt>2007 – 2009</dt>
+            </div>
+            <div class="grid-66 h-i">
+              <dd>Freelance —independent web consulting work</dd>
+              <dd>Web architecture, copywriting and web design.</dd>
+            </div>
+            <div class="grid-33 h-i">
+              <dt>2000 – 2007</dt>
+            </div>
+            <div class="grid-66 h-i">
+              <dd>httpcomunicació —una agència de comunicació</dd>
+              <dd>Web architecture, copywriting, web design and video editing.</dd>
+            </div>
+          </div>
         </dl>
       </section>
     </div>
