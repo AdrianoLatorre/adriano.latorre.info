@@ -10,7 +10,7 @@ permalink: /profile/
     <div class="grid-33 h-i"></div>
     <div class="grid-66 h-i">
       <header class="header-index">
-        <h2>I feel at home working in a team with agile methodologies. I have an analytical profile and an instinct for synthesis. I am imaginative, curious and always willing to learn.</h2>
+        <h2>UX, copywriter and web designer in love with new media and deeply interested in communication, design and technology.</h2>
       </header>
     </div>
     <div class="grid-33">
@@ -21,7 +21,7 @@ permalink: /profile/
         {% assign work_by_date = site.work | sort: 'date' %}
         {% assign last_work = work_by_date | last %}
         {% assign work_offset = 1 %}
-        <p>I feel at home working in a team with agile methodologies. I have an analytical profile and an instinct for synthesis. I am imaginative, curious and always willing to learn.</p>
+        <p><br></p>
         <dl class="profile-experience">
           <div class="grid gutter">
             <div class="grid-33 h-i">
@@ -113,21 +113,8 @@ permalink: /profile/
     </div>
     <div class="grid-66">
       <section>
-<ul>
-<li>Say <script type="text/javascript">
-//<![CDATA[
-<!--
-var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
-"=105){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return " +
-"o.substr(0,ol);}f(\")4,\\\"k771\\\\udnuh520\\\\i&**410\\\\~6\\\"\\\\%U\\\\\\"+
-"\\HO400\\\\U_V^030\\\\PFA]EQCnBBJC[LF430\\\\JPOK@M=B z~hq8v*7<}~tdf|z\\\"\\" +
-"\\771\\\\dlerej`\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirt" +
-"S=+o;721=%y;2=*y))y+4(>i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y" +
-",x(f noitcnuf\")"                                                            ;
-while(x=eval(x));
-//-->
-//]]>
-</script>hello</a> or find me on <a href="{{ site.alt.twitter }}">Twitter</a>, <a href="{{ site.alt.refind }}">Refind</a> and <a href="{{ site.alt.linkedin }}">LinkedIn</a>.</li>
+        <ul>
+          <li>Find me on <a href="{{ site.alt.twitter }}">Twitter</a>, <a href="{{ site.alt.refind }}">Refind</a> and <a href="{{ site.alt.linkedin }}">LinkedIn</a>.</li>
 </ul>
 </section>
 </div>
