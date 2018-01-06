@@ -8,9 +8,9 @@ date: 2016-03-01
 title: "Spines"
 brief: "Notes for learning"
 description:
-  ca: "Spines és una eina d'aprenentatge que ajuda a institucions educatives, empreses i persones a construir coneixement profund i durador."
-  es: "Spines es una herramienta de aprendizaje que ayuda a instituciones educativas, empresas y personas a construir conocimiento profundo y duradero."
-  en: "Spines is a learning tool that helps educational institutions, companies and people to build deep, enduring knowledge."
+  ca: "<p>Spines és una eina d'aprenentatge que ajuda a institucions educatives, empreses i persones a construir coneixement profund i durador.</p>"
+  es: "<p>Spines es una herramienta de aprendizaje que ayuda a instituciones educativas, empresas y personas a construir conocimiento profundo y duradero.</p>"
+  en: "<p>Spines is a learning tool that helps educational institutions, companies and people to build deep, enduring knowledge.</p>"
 tasks:
   - "UX"
   - "Copywriting"
