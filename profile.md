@@ -132,7 +132,7 @@ var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
 while(x=eval(x));
 //-->
 //]]>
-</script>hello</a> or find me on <a href="{{ site.alt.twitter }}">Twitter</a>, <a href="{{ site.alt.refind }}">Refind</a> and <a href="{{ site.alt.linkedin }}">LinkedIn</a>.</li>
+</script>hello<a></a> or find me on <a href="{{ site.alt.twitter }}">Twitter</a>, <a href="{{ site.alt.refind }}">Refind</a> and <a href="{{ site.alt.linkedin }}">LinkedIn</a>.</li>
 </ul>
 </section>
 </div>
