@@ -30,7 +30,7 @@ permalink: /profile/
             <div class="grid-66 h-i">
               <dd>Spines —Build deep, enduring knowledge</dd>
               <dd class="subtitle">UX, copywriting, graphic design and web design.</dd>
-              <dd>Using agile methodologies in a self-organized team, I have helped to build the user experience and the design, functionality and appearance of both the application and the <a href="/work/spines.me/">Spines website</a>. I have also been in charge of writing —in Spanish and English— most of the Spines message in a multitude of web pages, blog articles, publications in social media and in <em>Conexiones</em>, the Spines newsletter.</dd>
+              <dd>Using agile methodologies in a self-organized team, I have helped to build the user experience and the design, functionality and appearance of both the <a href="/work/spines/">application</a> and the <a href="/work/spines.me/">Spines website</a>. I have also been in charge of writing —in Spanish and English— most of the Spines message in a multitude of web pages, blog articles, publications in social media and in <em>Conexiones</em>, the Spines newsletter.</dd>
             </div>
             <div class="grid-33 h-i">
               <dt>2009 – 2014</dt>
