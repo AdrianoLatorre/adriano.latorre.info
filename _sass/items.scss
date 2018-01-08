@@ -152,8 +152,17 @@ ul.happy-clients {
 
 .profile-experience {
   font-size: .75em;
+  dd {
+    margin-bottom: 1em;
+  }
   dt,
   dd:first-child {
     font-weight: 600;
+    margin-bottom: 0;
+  }
+  .subtitle {
+    color: $g40;
+    font-size: .75em;
+    margin-bottom: 1em;
   }
 }

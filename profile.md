@@ -29,28 +29,33 @@ permalink: /profile/
             </div>
             <div class="grid-66 h-i">
               <dd>Spines —Build deep, enduring knowledge</dd>
-              <dd>UX, copywriting, graphic design and web design.</dd>
+              <dd class="subtitle">UX, copywriting, graphic design and web design.</dd>
+              <dd>Using agile methodologies in a self-organized team, I have helped to build the user experience and the design, functionality and appearance of both the application and the <a href="/work/spines.me/">Spines website</a>. I have also been in charge of writing —in Spanish and English— most of the Spines message in a multitude of web pages, blog articles, publications in social media and in <em>Conexiones</em>, the Spines newsletter.</dd>
             </div>
             <div class="grid-33 h-i">
               <dt>2009 – 2014</dt>
             </div>
             <div class="grid-66 h-i">
               <dd>Arista Barcelona <span class="nazgul">—Mordor Pedralbes</span></dd>
-              <dd>Web architecture, copywriting and web design.</dd>
+              <dd class="subtitle">Web architecture, copywriting and web design.</dd>
+              <dd>Regular collaborator in brainstorming sessions to generate campaigns and creative concepts and consultant for the social media strategy of clients such as Nissan, SEAT, <a href="/work/oxfamintermon/">Oxfam Intermón</a>, Ajuntament de Barcelona, Caprabo, Danone Yoghourtería, Dentaid, Iris Barcelona and Autopistas.com.</dd>
             </div>
             <div class="grid-33 h-i">
               <dt>2007 – 2009</dt>
             </div>
             <div class="grid-66 h-i">
               <dd>Freelance —independent web consulting work</dd>
-              <dd>Web architecture, copywriting and web design.</dd>
+              <dd class="subtitle">Web architecture, copywriting and web design.</dd>
+              <dd>Independent consulting, web architecture, copywriting and web design for clients such as <a href="/work/msf/">Médicos Sin Fronteras</a> and Gnoss.</dd>
             </div>
             <div class="grid-33 h-i">
               <dt>2000 – 2007</dt>
             </div>
             <div class="grid-66 h-i">
               <dd>httpcomunicació —una agència de comunicació</dd>
-              <dd>Web architecture, copywriting, web design and video editing.</dd>
+              <dd class="subtitle">Web architecture, copywriting, web design and video editing.</dd>
+              <dd>Website and interactive CD developer in the early years. Gradually, I grew more interested in web architecture and copywriting. Regular participant in brainstorming sessions and responsible for projects from beginning to delivery.</dd>
+              <dd>Clients: Abertis, Grupo Husa, <a href="/work/msf/">Médicos Sin Fronteras</a>, <a href="/work/oxfamintermon/">Oxfam Intermón</a>, Arsys, Piensa Solutions, <a href="/work/butxaca/">butxaca</a>, <a href="/work/queridacarmen/">Querida Carmen</a>, Buff, Cibernàrium, Barcelona Activa and many more.</dd>
             </div>
           </div>
         </dl>
@@ -114,7 +119,20 @@ permalink: /profile/
     <div class="grid-66">
       <section>
         <ul>
-          <li>Find me on <a href="{{ site.alt.twitter }}">Twitter</a>, <a href="{{ site.alt.refind }}">Refind</a> and <a href="{{ site.alt.linkedin }}">LinkedIn</a>.</li>
+          <li>Say <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=105){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return " +
+"o.substr(0,ol);}f(\")4,\\\"k771\\\\udnuh520\\\\i&**410\\\\~6\\\"\\\\%U\\\\\\"+
+"\\HO400\\\\U_V^030\\\\PFA]EQCnBBJC[LF430\\\\JPOK@M=B z~hq8v*7<}~tdf|z\\\"\\" +
+"\\771\\\\dlerej`\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirt" +
+"S=+o;721=%y;2=*y))y+4(>i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y" +
+",x(f noitcnuf\")"                                                            ;
+while(x=eval(x));
+//-->
+//]]>
+</script>hello</a> or find me on <a href="{{ site.alt.twitter }}">Twitter</a>, <a href="{{ site.alt.refind }}">Refind</a> and <a href="{{ site.alt.linkedin }}">LinkedIn</a>.</li>
 </ul>
 </section>
 </div>
