@@ -25,6 +25,10 @@ body {
   padding: 0 1em;
 }
 
+::selection {
+  background: $yellow;
+}
+
 a {
   color: $g24;
   text-decoration: none;

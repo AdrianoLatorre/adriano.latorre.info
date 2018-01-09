@@ -10,7 +10,7 @@ permalink: /profile/
     <div class="grid-33 h-i"></div>
     <div class="grid-66 h-i">
       <header class="header-index">
-        <h2>UX, copywriter and web designer in love with new media and deeply interested in communication, design and technology.</h2>
+        <h2>UX, copywriter and web designer in love with internet and new media.</h2>
       </header>
     </div>
     <div class="grid-33">
@@ -21,7 +21,7 @@ permalink: /profile/
         {% assign work_by_date = site.work | sort: 'date' %}
         {% assign last_work = work_by_date | last %}
         {% assign work_offset = 1 %}
-        <p><br></p>
+        <p>UX, copywriter and web designer in love with new media and deeply interested in communication, design and technology. Copywriter and web designer in love with internet and new media.</p>
         <dl class="profile-experience">
           <div class="grid gutter">
             <div class="grid-33 h-i">
@@ -54,6 +54,8 @@ permalink: /profile/
             <div class="grid-66 h-i">
               <dd>httpcomunicació —una agència de comunicació</dd>
               <dd class="subtitle">Web architecture, copywriting, web design and video editing.</dd>
+              <dd>Website and interactive CD developer in the early years. Gradually, I grew more interested in web architecture and copywriting. Regular participant in brainstorming sessions and responsible for projects from beginning to delivery.</dd>
+              <dd>Clients: Abertis, Grupo Husa, <a href="/work/msf/">Médicos Sin Fronteras</a>, <a href="/work/oxfamintermon/">Oxfam Intermón</a>, Arsys, Piensa Solutions, <a href="/work/butxaca/">butxaca</a>, <a href="/work/queridacarmen/">Querida Carmen</a>, Buff, Cibernàrium, Barcelona Activa and many more.</dd>
             </div>
             <div class="grid-33 h-i">
               <dt>1997 – 2000</dt>
@@ -61,6 +63,7 @@ permalink: /profile/
             <div class="grid-66 h-i">
               <dd>Freelance —independent web consulting work</dd>
               <dd class="subtitle">Multimedia development, copywriting and web design.</dd>
+              <dd>First freelance professional projects and stable collaborations with companies such as MDK Servimedia and Spectra.</dd>
             </div>
           </div>
         </dl>
