@@ -38,7 +38,7 @@ permalink: /profile/
             <div class="grid-66 h-i">
               <dd>Arista Barcelona <span class="nazgul">—Mordor Pedralbes</span></dd>
               <dd class="subtitle">Web architecture, copywriting and web design.</dd>
-              <dd>Regular collaborator in brainstorming sessions to generate campaigns and creative concepts and consultant for the social media strategy of clients such as Nissan, SEAT, <a href="/work/oxfamintermon/">Oxfam Intermón</a>, Ajuntament de Barcelona, Caprabo, Danone Yoghourtería, Dentaid, Iris Barcelona and Autopistas.com.</dd>
+              <dd>Regular collaborator in brainstorming sessions to generate campaigns, creative concepts, UI flows and sketches for clients such as Nissan, SEAT, <a href="/work/oxfamintermon/">Oxfam Intermón</a>, Ajuntament de Barcelona, Caprabo, Danone Yoghourtería, Dentaid, Iris Barcelona and Autopistas.</dd>
             </div>
             <div class="grid-33 h-i">
               <dt>2007 – 2009</dt>
@@ -54,8 +54,13 @@ permalink: /profile/
             <div class="grid-66 h-i">
               <dd>httpcomunicació —una agència de comunicació</dd>
               <dd class="subtitle">Web architecture, copywriting, web design and video editing.</dd>
-              <dd>Website and interactive CD developer in the early years. Gradually, I grew more interested in web architecture and copywriting. Regular participant in brainstorming sessions and responsible for projects from beginning to delivery.</dd>
-              <dd>Clients: Abertis, Grupo Husa, <a href="/work/msf/">Médicos Sin Fronteras</a>, <a href="/work/oxfamintermon/">Oxfam Intermón</a>, Arsys, Piensa Solutions, <a href="/work/butxaca/">butxaca</a>, <a href="/work/queridacarmen/">Querida Carmen</a>, Buff, Cibernàrium, Barcelona Activa and many more.</dd>
+            </div>
+            <div class="grid-33 h-i">
+              <dt>1997 – 2000</dt>
+            </div>
+            <div class="grid-66 h-i">
+              <dd>Freelance —independent web consulting work</dd>
+              <dd class="subtitle">Multimedia development, copywriting and web design.</dd>
             </div>
           </div>
         </dl>
