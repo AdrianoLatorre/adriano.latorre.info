@@ -21,7 +21,6 @@ permalink: /profile/
         {% assign work_by_date = site.work | sort: 'date' %}
         {% assign last_work = work_by_date | last %}
         {% assign work_offset = 1 %}
-        <p>UX, copywriter and web designer in love with new media and deeply interested in communication, design and technology. Copywriter and web designer in love with internet and new media.</p>
         <dl class="profile-experience">
           <div class="grid gutter">
             <div class="grid-33 h-i">

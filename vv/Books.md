@@ -57,7 +57,8 @@
 
 ### 2010 – 46
 
-20170409. The Handmaid's Tale. Margaret Atwood
+20170909. A Mind at Play. Jimmy Soni.
+20170409. The Handmaid's Tale. Margaret Atwood.
 20170330. The Gene: An Intimate History. Siddhartha Mukherjee.
 20170310. Reality Is Not What It Seems: The Journey to Quantum Gravity. Carlo Rovelli.
 20170202. Homo Deus. Yuval Noah Harari.
