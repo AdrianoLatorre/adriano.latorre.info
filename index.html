@@ -12,7 +12,7 @@ nav: "Home"
                 <h2>In love with new media and deeply interested in communication, design and technology.</h2>
             </header>
         </div>
-        <div class="grid-33">
+        <div id="work" class="grid-33">
             <h1>Work</h1>
         </div>
         <div class="grid-66">
@@ -20,18 +20,18 @@ nav: "Home"
                 {% assign work_by_date = site.work | sort: 'date' %}
                 {% assign last_work = work_by_date | last %}
                 {% assign work_offset = 1 %}
-                <p>Right now I'm busy working on <a href="{{ last_work.permalink }}">{{ last_work.title }}</a>, a learning tool that helps educational institutions, companies and people to build deep, enduring knowledge.</p>
+                <p>Right now I'm busy working on <a href="{{ last_work.permalink }}" class="highlighted">{{ last_work.title }}</a>, a learning tool that helps educational institutions, companies and people to build deep, enduring knowledge.</p>
                 <h2>Previous and selected work</h2>
                 <ul>
                     {% for work in work_by_date reversed %}
                     {% if work != last_work %}
-                    <li><a href="{{ work.permalink }}">{{ work.title }}</a> —{{ work.brief }}</li>
+                    <li><a href="{{ work.permalink }}" class="highlighted">{{ work.title }}</a> —{{ work.brief }}</li>
                     {% endif %}
                     {% endfor %}
                 </ul>
             </section>
         </div>
-        <div class="grid-33">
+        <div id="info" class="grid-33">
             <h1>Info</h1>
         </div>
         <div class="grid-66">
@@ -56,7 +56,7 @@ while(x=eval(x));
 </ul>
 </section>
 </div>
-<div class="grid-33">
+<div id="special" class="grid-33">
     <h1>Special</h1>
 </div>
 <div class="grid-66">

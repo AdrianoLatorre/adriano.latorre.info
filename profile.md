@@ -29,7 +29,7 @@ permalink: /profile/
             <div class="grid-66 h-i">
               <dd>Spines —Build deep, enduring knowledge</dd>
               <dd class="subtitle">UX, copywriting, graphic design and web design.</dd>
-              <dd>Using agile methodologies in a self-organized team, I have helped to build the user experience and the design, functionality and appearance of both the <a href="/work/spines/">application</a> and the <a href="/work/spines.me/">Spines website</a>. I have also been in charge of writing —in Spanish and English— most of the Spines message in a multitude of web pages, blog articles, publications in social media and in <em>Conexiones</em>, the Spines newsletter.</dd>
+              <dd>Using agile methodologies in a self-organized team, I have helped to build the user experience and the design, functionality and appearance of both the <a href="/work/spines/" class="highlighted">application</a> and the <a href="/work/spines.me/" class="highlighted">Spines website</a>. I have also been in charge of writing —in Spanish and English— most of the Spines message in a multitude of web pages, blog articles, publications in social media and in <em>Conexiones</em>, the Spines newsletter.</dd>
             </div>
             <div class="grid-33 h-i">
               <dt>2009 – 2014</dt>
@@ -37,7 +37,7 @@ permalink: /profile/
             <div class="grid-66 h-i">
               <dd>Arista Barcelona <span class="nazgul">—Mordor Pedralbes</span></dd>
               <dd class="subtitle">Web architecture, copywriting and web design.</dd>
-              <dd>Regular collaborator in brainstorming sessions to generate campaigns, creative concepts, UI flows and sketches for clients such as Nissan, SEAT, <a href="/work/oxfamintermon/">Oxfam Intermón</a>, Ajuntament de Barcelona, Caprabo, Danone Yoghourtería, Dentaid, Iris Barcelona and Autopistas.</dd>
+              <dd>Regular collaborator in brainstorming sessions to generate campaigns, creative concepts, UI flows and sketches for clients such as Nissan, SEAT, <a href="/work/oxfamintermon/" class="highlighted">Oxfam Intermón</a>, Ajuntament de Barcelona, Caprabo, Danone Yoghourtería, Dentaid, Iris Barcelona and Autopistas.</dd>
             </div>
             <div class="grid-33 h-i">
               <dt>2007 – 2009</dt>
@@ -45,7 +45,7 @@ permalink: /profile/
             <div class="grid-66 h-i">
               <dd>Freelance —independent web consulting work</dd>
               <dd class="subtitle">Web architecture, copywriting and web design.</dd>
-              <dd>Independent consulting, web architecture, copywriting and web design for clients such as <a href="/work/msf/">Médicos Sin Fronteras</a> and Gnoss.</dd>
+              <dd>Independent consulting, web architecture, copywriting and web design for clients such as <a href="/work/msf/" class="highlighted">Médicos Sin Fronteras</a> and Gnoss.</dd>
             </div>
             <div class="grid-33 h-i">
               <dt>2000 – 2007</dt>
@@ -54,7 +54,7 @@ permalink: /profile/
               <dd>httpcomunicació —una agència de comunicació</dd>
               <dd class="subtitle">Web architecture, copywriting, web design and video editing.</dd>
               <dd>Website and interactive CD developer in the early years. Gradually, I grew more interested in web architecture and copywriting. Regular participant in brainstorming sessions and responsible for projects from beginning to delivery.</dd>
-              <dd>Clients: Abertis, Grupo Husa, <a href="/work/msf/">Médicos Sin Fronteras</a>, <a href="/work/oxfamintermon/">Oxfam Intermón</a>, Arsys, Piensa Solutions, <a href="/work/butxaca/">butxaca</a>, <a href="/work/queridacarmen/">Querida Carmen</a>, Buff, Cibernàrium, Barcelona Activa and many more.</dd>
+              <dd>Clients: Abertis, Grupo Husa, <a href="/work/msf/" class="highlighted">Médicos Sin Fronteras</a>, <a href="/work/oxfamintermon/" class="highlighted">Oxfam Intermón</a>, Arsys, Piensa Solutions, <a href="/work/butxaca/" class="highlighted">butxaca</a>, <a href="/work/queridacarmen/" class="highlighted">Querida Carmen</a>, Buff, Cibernàrium, Barcelona Activa and many more.</dd>
             </div>
             <div class="grid-33 h-i">
               <dt>1997 – 2000</dt>
@@ -105,18 +105,18 @@ permalink: /profile/
           <li>Autopistas</li>
           <li>Barcelona Activa</li>
           <li>Buff</li>
-          <li><a href="/work/butxaca/">butxaca</a></li>
+          <li><a href="/work/butxaca/" class="highlighted">butxaca</a></li>
           <li>Caprabo</li>
           <li>Cibernàrium</li>
           <li>Dentaid</li>
-          <li><a href="/work/httpcomunicacio/">httpcomunicació</a></li>
+          <li><a href="/work/httpcomunicacio/" class="highlighted">httpcomunicació</a></li>
           <li>Husa</li>
-          <li><a href="/work/msf/">Médicos Sin Fronteras</a></li>
+          <li><a href="/work/msf/" class="highlighted">Médicos Sin Fronteras</a></li>
           <li>Nissan</li>
-          <li><a href="/work/oxfamintermon/">Oxfam Intermón</a></li>
-          <li><a href="/work/queridacarmen/">Querida Carmen</a></li>
+          <li><a href="/work/oxfamintermon/" class="highlighted">Oxfam Intermón</a></li>
+          <li><a href="/work/queridacarmen/" class="highlighted">Querida Carmen</a></li>
           <li>SEAT</li>
-          <li><a href="/work/spines.me/">Spines</a></li>
+          <li><a href="/work/spines.me/" class="highlighted">Spines</a></li>
         </ul>
       </section>
     </div>

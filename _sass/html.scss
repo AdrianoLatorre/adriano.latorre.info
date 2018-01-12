@@ -26,7 +26,7 @@ body {
 }
 
 ::selection {
-  background: $yellow;
+  background-color: $yellow;
 }
 
 a {
@@ -36,6 +36,13 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.highlighted {
+  background-color: $yellow;
+  &:visited {
+    background-color: $g99;
+  }
 }
 
 dd {
