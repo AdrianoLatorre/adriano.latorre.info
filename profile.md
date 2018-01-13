@@ -7,20 +7,16 @@ permalink: /profile/
 <article class="home-index"><br><br>
   <img src="/-/profile/profile.png"/>
   <div class="grid gutter">
-    <div class="grid-33 h-i"></div>
-    <div class="grid-66 h-i">
-      <header class="header-index">
-        <h2>UX, copywriter and web designer in love with internet and new media.</h2>
-      </header>
-    </div>
-    <div class="grid-33">
+    <div class="grid-33 h-i">
       <h1>Experience</h1>
     </div>
-    <div class="grid-66">
+    <div class="grid-66 h-i">
       <section class="work-index">
         {% assign work_by_date = site.work | sort: 'date' %}
         {% assign last_work = work_by_date | last %}
         {% assign work_offset = 1 %}
+        <p>vv, copywriter and web designer in love with new media and deeply interested in communication, design and technology. Copywriter and web designer in love with internet and new media.</p>
+        <br>
         <dl class="profile-experience">
           <div class="grid gutter">
             <div class="grid-33 h-i">
@@ -53,7 +49,7 @@ permalink: /profile/
             <div class="grid-66 h-i">
               <dd>httpcomunicació —una agència de comunicació</dd>
               <dd class="subtitle">Web architecture, copywriting, web design and video editing.</dd>
-              <dd>Website and interactive CD developer in the early years. Gradually, I grew more interested in web architecture and copywriting. Regular participant in brainstorming sessions and responsible for projects from beginning to delivery.</dd>
+              <dd>Web designer and interactive CD developer in the early years. Gradually, I grew more interested in web architecture and copywriting. Regular participant in brainstorming sessions and responsible for projects from beginning to delivery.</dd>
               <dd>Clients: Abertis, Grupo Husa, <a href="/work/msf/" class="highlighted">Médicos Sin Fronteras</a>, <a href="/work/oxfamintermon/" class="highlighted">Oxfam Intermón</a>, Arsys, Piensa Solutions, <a href="/work/butxaca/" class="highlighted">butxaca</a>, <a href="/work/queridacarmen/" class="highlighted">Querida Carmen</a>, Buff, Cibernàrium, Barcelona Activa and many more.</dd>
             </div>
             <div class="grid-33 h-i">
