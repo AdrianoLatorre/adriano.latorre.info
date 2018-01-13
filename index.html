@@ -20,12 +20,12 @@ nav: "Home"
                 {% assign work_by_date = site.work | sort: 'date' %}
                 {% assign last_work = work_by_date | last %}
                 {% assign work_offset = 1 %}
-                <p>Right now I'm busy working on <a href="{{ last_work.permalink }}" class="highlighted">{{ last_work.title }}</a>, a learning tool that helps educational institutions, companies and people to build deep, enduring knowledge.</p>
-                <h2>Previous and selected work</h2>
+                <p>Right now I'm busy working on <a href="{{ last_work.permalink }}">{{ last_work.title }}</a>, a learning tool that helps educational institutions, companies and people to build deep, enduring knowledge.</p>
+                <h2>Selected work</h2>
                 <ul>
                     {% for work in work_by_date reversed %}
                     {% if work != last_work %}
-                    <li><a href="{{ work.permalink }}" class="highlighted">{{ work.title }}</a> —{{ work.brief }}</li>
+                    <li><a href="{{ work.permalink }}">{{ work.title }}</a> —{{ work.brief }}</li>
                     {% endif %}
                     {% endfor %}
                 </ul>
@@ -62,7 +62,7 @@ while(x=eval(x));
 <div class="grid-66">
     <section class="special-index">
         <ul>
-            <li>Some <a href="/people/">really nice people</a> I have met along the way.</li>
+            <li><a href="/people/">Really nice people</a> I have met along the way.</li>
             <li><a href="/books/">Books</a> I enjoyed reading.</li>
             <li><a href="/links/">Links</a> to other places.</li>
         </ul>
