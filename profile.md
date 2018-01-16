@@ -33,7 +33,7 @@ permalink: /profile/
             <div class="grid-66 h-i">
               <dd>Arista Barcelona <span class="nazgul">—Mordor Pedralbes</span></dd>
               <dd class="subtitle">Web architecture, copywriting and web design.</dd>
-              <dd>Regular collaborator in brainstorming sessions to generate campaigns, creative concepts, UI flows and sketches for clients such as Nissan, SEAT, <a href="/work/oxfamintermon/">Oxfam Intermón</a>, Ajuntament de Barcelona, Caprabo, Danone Yoghourtería, Dentaid, Iris Barcelona and Autopistas.</dd>
+              <dd>Regular collaborator in brainstorming sessions to generate campaigns, creative concepts, UI flows and wireframes for clients such as Nissan, SEAT, <a href="/work/oxfamintermon/">Oxfam Intermón</a>, Ajuntament de Barcelona, Caprabo, Danone Yoghourtería, Dentaid, Iris Barcelona and Autopistas.</dd>
             </div>
             <div class="grid-33 h-i">
               <dt>2007 – 2009</dt>
@@ -58,7 +58,7 @@ permalink: /profile/
             <div class="grid-66 h-i">
               <dd>Freelance —independent web consulting work</dd>
               <dd class="subtitle">Multimedia development, copywriting and web design.</dd>
-              <dd>First freelance professional projects and stable collaborations with companies such as MDK Servimedia and Spectra.</dd>
+              <dd>First freelance professional projects and frequent collaborations with companies such as MDK Servimedia and Spectra.</dd>
             </div>
           </div>
         </dl>
