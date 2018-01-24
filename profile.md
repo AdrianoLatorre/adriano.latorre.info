@@ -12,9 +12,6 @@ permalink: /profile/
     </div>
     <div class="grid-66 h-i">
       <section class="work-index">
-        {% assign work_by_date = site.work | sort: 'date' %}
-        {% assign last_work = work_by_date | last %}
-        {% assign work_offset = 1 %}
         <p>UX, copywriter and web designer in love with new media and deeply interested in communication, design and technology.</p>
         <br>
         <dl class="profile-experience">
