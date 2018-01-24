@@ -53,22 +53,31 @@
 
 .home-index .header-index {
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 1.125em;
+    @media all and (min-width: 41em) {
+      font-size: 4rem;
+    }
   }
   h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: normal;
     line-height: 1.25em;
+    @media all and (min-width: 41em) {
+      font-size: 2rem;
+    }
   }
 }
 
 .home-index section {
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.375rem;
     font-weight: bold;
     margin-top: 3em;
     text-transform: uppercase;
+    @media all and (min-width: 41em) {
+    font-size: .875em;
+  }
   }
   ul {
     line-height: 1.75em;
@@ -111,6 +120,15 @@
       font-size: 1.125rem;
       font-weight: 600;
       margin: 1.625em 0;
+    }
+  }
+}
+
+.work-index {
+  p {
+    font-size: .875em;
+    @media all and (min-width: 41em) {
+      font-size: 1em;
     }
   }
 }
@@ -160,9 +178,10 @@ ul.happy-clients {
     font-weight: 600;
     margin-bottom: 0;
   }
-  .subtitle {
-    color: $g40;
-    font-size: .75em;
-    margin-bottom: 1em;
-  }
+}
+
+.subtitle {
+  color: $g40;
+  font-size: .75em;
+  margin-bottom: 1em;
 }
