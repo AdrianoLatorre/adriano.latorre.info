@@ -27,22 +27,28 @@ body {
 
 ::selection {
   background-color: $yellow;
+  color: $g24;
 }
 
 a {
+  background-color: $g96;
   color: $g24;
   text-decoration: none;
+  transition: background-color .096s ease-in-out;
+}
+
+a:visited {
+  background-color: $g99;
 }
 
 a:hover {
+  background-color: $g99;
   text-decoration: underline;
 }
 
-.highlighted {
+a:active {
   background-color: $yellow;
-  &:visited {
-    background-color: $g99;
-  }
+  text-decoration: none;
 }
 
 dd {
