@@ -36,7 +36,7 @@ permalink: /profile/
               <dt>2007 – 2009</dt>
             </div>
             <div class="grid-66 h-i">
-              <dd>Freelance —independent web consulting work</dd>
+              <dd>Freelance —independent consultant</dd>
               <dd class="subtitle">Web architecture, copywriting and web design.</dd>
               <dd>Independent consulting, web architecture, copywriting and web design for clients such as <a href="/work/msf/">Médicos Sin Fronteras</a> and Gnoss.</dd>
             </div>
@@ -44,7 +44,7 @@ permalink: /profile/
               <dt>2000 – 2007</dt>
             </div>
             <div class="grid-66 h-i">
-              <dd>httpcomunicació —una agència de comunicació</dd>
+              <dd>httpcomunicació —agència de comunicació</dd>
               <dd class="subtitle">Web architecture, copywriting, web design and video editing.</dd>
               <dd>Web designer and interactive CD developer in the early years. Gradually, I grew more interested in web architecture and copywriting. Regular participant in brainstorming sessions and responsible for projects from beginning to delivery.</dd>
               <dd>Clients: Abertis, Grupo Husa, <a href="/work/msf/">Médicos Sin Fronteras</a>, <a href="/work/oxfamintermon/">Oxfam Intermón</a>, Arsys, Piensa Solutions, <a href="/work/butxaca/">butxaca</a>, <a href="/work/queridacarmen/">Querida Carmen</a>, Buff, Cibernàrium, Barcelona Activa and many more.</dd>
@@ -53,7 +53,7 @@ permalink: /profile/
               <dt>1997 – 2000</dt>
             </div>
             <div class="grid-66 h-i">
-              <dd>Freelance —independent web consulting work</dd>
+              <dd>Freelance —independent consultant</dd>
               <dd class="subtitle">Multimedia development, copywriting and web design.</dd>
               <dd>First freelance professional projects and frequent collaborations with companies such as MDK Servimedia and Spectra.</dd>
             </div>

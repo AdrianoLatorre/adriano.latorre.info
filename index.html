@@ -25,7 +25,7 @@ nav: "Home"
                 <ul>
                     {% for work in work_by_date reversed %}
                     {% if work != last_work %}
-                    <li><a href="{{ work.permalink }}">{{ work.title }}</a> <span class="subtitle">—{{ work.brief }}</span></li>
+                    <li><a href="{{ work.permalink }}">{{ work.title }}</a> <span class="sidetitle">{{ work.brief }}</span></li>
                     {% endif %}
                     {% endfor %}
                 </ul>

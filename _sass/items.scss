@@ -185,3 +185,17 @@ ul.happy-clients {
   font-size: .75em;
   margin-bottom: 1em;
 }
+
+.sidetitle {
+  color: $g40;
+  display: block;
+  font-size: .75em;
+  margin-bottom: 1em;
+  margin-top: -.25em;
+  @media all and (min-width: 41em) {
+    display: inline;
+    &::before {
+      content: "—";
+    }
+  }
+}
