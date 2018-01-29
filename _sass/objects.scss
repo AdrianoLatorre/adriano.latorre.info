@@ -550,8 +550,6 @@
   }
 }
 
-
-
 .item-browser {
   margin-top: 3em;
   @media all and (min-width: 41em) {
@@ -632,4 +630,8 @@
       }
     }
   }
+}
+
+.xhid {
+  display: none;
 }

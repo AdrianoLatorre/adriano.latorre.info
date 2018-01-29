@@ -4,8 +4,8 @@ nav: Profile
 permalink: /profile/
 ---
 
-<article class="home-index"><br><br>
-  <img src="/-/profile/profile.png"/>
+<article class="home-index">
+  <div class="profile-image"><img src="/-/profile/profile.jpg"/></div>
   <div class="grid gutter">
     <div class="grid-33 h-i">
       <h1>Experience</h1>
@@ -30,7 +30,7 @@ permalink: /profile/
             <div class="grid-66 h-i">
               <dd>Arista Barcelona <span class="nazgul">—Mordor Pedralbes</span></dd>
               <dd class="subtitle">Web architecture, copywriting and web design.</dd>
-              <dd>Regular collaborator in brainstorming sessions to generate campaigns, creative concepts, UI flows and wireframes for clients such as Nissan, SEAT, <a href="/work/oxfamintermon/">Oxfam Intermón</a>, Ajuntament de Barcelona, Caprabo, Danone Yoghourtería, Dentaid, Iris Barcelona and Autopistas.</dd>
+              <dd class="hid">Regular collaborator in brainstorming sessions to generate campaigns, creative concepts, UI flows and wireframes for clients such as Nissan, SEAT, <a href="/work/oxfamintermon/">Oxfam Intermón</a>, Ajuntament de Barcelona, Caprabo, Danone Yoghourtería, Dentaid, Iris Barcelona and Autopistas.</dd>
             </div>
             <div class="grid-33 h-i">
               <dt>2007 – 2009</dt>
@@ -38,16 +38,16 @@ permalink: /profile/
             <div class="grid-66 h-i">
               <dd>Freelance —independent consultant</dd>
               <dd class="subtitle">Web architecture, copywriting and web design.</dd>
-              <dd>Independent consulting, web architecture, copywriting and web design for clients such as <a href="/work/msf/">Médicos Sin Fronteras</a> and Gnoss.</dd>
+              <dd class="hid">Independent consulting, web architecture, copywriting and web design for clients such as <a href="/work/msf/">Médicos Sin Fronteras</a> and Gnoss.</dd>
             </div>
             <div class="grid-33 h-i">
               <dt>2000 – 2007</dt>
             </div>
             <div class="grid-66 h-i">
               <dd>httpcomunicació —agència de comunicació</dd>
-              <dd class="subtitle">Web architecture, copywriting, web design and video editing.</dd>
-              <dd>Web designer and interactive CD developer in the early years. Gradually, I grew more interested in web architecture and copywriting. Regular participant in brainstorming sessions and responsible for projects from beginning to delivery.</dd>
-              <dd>Clients: Abertis, Grupo Husa, <a href="/work/msf/">Médicos Sin Fronteras</a>, <a href="/work/oxfamintermon/">Oxfam Intermón</a>, Arsys, Piensa Solutions, <a href="/work/butxaca/">butxaca</a>, <a href="/work/queridacarmen/">Querida Carmen</a>, Buff, Cibernàrium, Barcelona Activa and many more.</dd>
+              <dd class="subtitle">Web architecture, copywriting and web design.</dd>
+              <dd class="hid">Web designer and interactive CD developer in the early years. Gradually, I grew more interested in web architecture and copywriting. Regular participant in brainstorming sessions and responsible for projects from beginning to delivery.</dd>
+              <dd class="hid">Clients: Abertis, Grupo Husa, <a href="/work/msf/">Médicos Sin Fronteras</a>, <a href="/work/oxfamintermon/">Oxfam Intermón</a>, Arsys, Piensa Solutions, <a href="/work/butxaca/">butxaca</a>, <a href="/work/queridacarmen/">Querida Carmen</a>, Buff, Cibernàrium, Barcelona Activa and many more.</dd>
             </div>
             <div class="grid-33 h-i">
               <dt>1997 – 2000</dt>
@@ -55,7 +55,7 @@ permalink: /profile/
             <div class="grid-66 h-i">
               <dd>Freelance —independent consultant</dd>
               <dd class="subtitle">Multimedia development, copywriting and web design.</dd>
-              <dd>First freelance professional projects and frequent collaborations with companies such as MDK Servimedia and Spectra.</dd>
+              <dd class="hid">First freelance professional projects and frequent collaborations with companies such as MDK Servimedia and Spectra.</dd>
             </div>
           </div>
         </dl>
