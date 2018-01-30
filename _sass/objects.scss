@@ -176,6 +176,10 @@
   align-items: flex-end;
   font-size: $f18;
   margin-top: 8em;
+  a {
+    padding: 0;
+    margin: 0;
+  }
   > dl {
     > dt {
       margin: .5em 0;

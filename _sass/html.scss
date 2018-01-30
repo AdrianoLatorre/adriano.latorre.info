@@ -32,7 +32,10 @@ body {
 
 a {
   background-color: $g96;
+  border-radius: 2px;
   color: $g24;
+  padding: 1px 2px;
+  margin: -1px -2px;
   text-decoration: none;
   transition: background-color .096s ease-in-out;
 }
@@ -42,7 +45,7 @@ a:visited {
 }
 
 a:hover {
-  background-color: $g99;
+  background-color: $y48;
   text-decoration: underline;
 }
 
