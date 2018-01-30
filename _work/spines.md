@@ -32,4 +32,5 @@ media:
     - "05.png"
     - "06.png"
 online: 0
+selected: 1
 ---

@@ -24,4 +24,5 @@ media:
     - "00.mp4"
     - "01.png"
 online: 0
+selected: 1
 ---
