@@ -6,9 +6,11 @@ layout: default
 {% assign portfolio = site.work | sort: 'date' %}
 <div class="cards grid gutter">
   {% for work in portfolio reversed %}
+  {% if work.selected == 1 %}
   <dl class="card-item grid-33">
     <dt><a href="{{ work.permalink }}"><img src="/-{{ work.permalink }}{{ work.media.card }}"/></a></dt>
   </dl>
+  {% endif %}
   {% endfor %}
 </div>
 {% else %}
