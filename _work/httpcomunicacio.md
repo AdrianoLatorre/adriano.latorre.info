@@ -12,6 +12,7 @@ description:
   es: "<p>Borra tu antiguo sitio web. Deja la página en blanco. Demuestra que eres una agencia de comunicación.</p><p>Esta pequeña pieza fue premiada con un Sol de Plata, un Laus y un ADCE Gold entre 2006 y 2007.</p>"
 tasks:
   - "Copywriting"
+  - "Interaction design"
   - "Web design"
 meta_urls:
   - address: "httpcomunicacio.com"

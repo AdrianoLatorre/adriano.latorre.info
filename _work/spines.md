@@ -12,9 +12,13 @@ description:
   es: "<p>Spines es una herramienta de aprendizaje que ayuda a instituciones educativas, empresas y personas a construir conocimiento profundo y duradero.</p>"
   en: "<p>Spines is a learning tool that helps educational institutions, companies and people to build deep, enduring knowledge.</p>"
 tasks:
-  - "UX"
   - "Copywriting"
   - "Graphic design"
+  - "Interaction design"
+  - "Usability"
+  - "User experience"
+  - "User interface design"
+  - "Web architecture"
   - "Web design"
 meta_urls:
   - address: "web.spines.me"

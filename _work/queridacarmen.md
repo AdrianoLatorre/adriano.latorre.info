@@ -11,7 +11,10 @@ description:
   en: "<p>A fun website for a delicious project: <em>Querida Carmen</em> wants you to start cooking less and eating better.</p>"
   es: "<p>Una página web divertida para un proyecto delicioso: Querida Carmen quiere que cocines menos y comas mejor.</p>"
 tasks:
-  - "Information architecture"
+  - "Information design"
+  - "Interaction design"
+  - "User experience"
+  - "Web architecture"
   - "Web design"
 meta_urls:
   - address: "queridacarmen.com"

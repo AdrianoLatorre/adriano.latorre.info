@@ -11,8 +11,11 @@ description:
   en: "<p>A complete reorganization of the web structure and a redesign improve the access to information, the emergency warnings and the donations system.</p>"
   es: "<p>Una reorganización completa de la estructura de la web y un rediseño mejoran el acceso a la información, los avisos de emergencia y el sistema de donativos.</p>"
 tasks:
-  - "Information architecture"
   - "Copywriting"
+  - "Information design"
+  - "Usability"
+  - "User experience"
+  - "Web architecture"
   - "Web design"
 meta_urls:
   - address: "oxfamintermon.org"

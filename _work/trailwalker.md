@@ -11,7 +11,7 @@ description:
   en: "<p>Both the website and the mechanics of the Trailwalker are simple: you sign up, create a team with your friends and accept donations from people who want to support you. On competition day, your team walks 100 kilometers to help people who really need it.</p>"
   es: "<p>Tanto la web como la mecánica del <em>Trailwalker</em> son simples: te inscribes, creas un equipo con tus amigos y aceptas los donativos de las personas que te dan soporte. Cuando llega el día de la prueba, tu equipo camina 100 kilómetros para ayudar a personas que de verdad lo necesitan.</p>"
 tasks:
-  - "Information architecture"
+  - "Web architecture"
 meta_urls:
   - address: "trailwalker.oxfamintermon.org"
     main_url: "http://trailwalker.oxfamintermon.org/es"

@@ -12,8 +12,13 @@ description:
   en: "<p>The first online version of <em>butxaca</em>, a free, pocket-sized publication detailing the cultural agenda of Barcelona.</p>"
   es: "<p>La primera versión digital de <em>butxaca</em>, una publicación mensual gratuita que detalla cada mes la agenda cultural de Barcelona.</p>"
 tasks:
-  - "Information architecture"
   - "Copywriting"
+  - "Information design"
+  - "Interaction design"
+  - "Usability"
+  - "User interface design"
+  - "Web architecture"
+  - "Web design"
 meta_urls:
   - address: "butxaca.com"
     main_url: "http://www.butxaca.com/"

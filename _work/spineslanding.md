@@ -13,6 +13,9 @@ description:
 tasks:
   - "Copywriting"
   - "Graphic design"
+  - "Information design"
+  - "Interaction design"
+  - "User experience"
   - "Video editing"
   - "Web design"
 meta_urls:

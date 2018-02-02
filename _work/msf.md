@@ -11,7 +11,8 @@ description:
   en: "<p>A simple menu and a modular structure are the basis for organizing and distributing on each page the many initiatives, projects and news that <em>Médicos Sin Fronteras</em> publishes on its website.</p>"
   es: "<p>Un sencillo menú y una estructura modular son la base para organizar y distribuir en cada página las múltiples iniciativas solidarias, proyectos y noticias que Médicos Sin Fronteras publica en su web.</p>"
 tasks:
-  - "Information architecture"
+  - "Information design"
+  - "Web architecture"
   - "Web design"
 meta_urls:
   - address: "msf.es"

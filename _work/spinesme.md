@@ -13,6 +13,8 @@ description:
 tasks:
   - "Copywriting"
   - "Graphic design"
+  - "Information design"
+  - "Web architecture"
   - "Web design"
 meta_urls:
   - address: "spines.me"
