@@ -12,7 +12,8 @@ permalink: /profile/
     </div>
     <div class="grid-66 h-i">
       <section class="work-index">
-        <p>UX, copywriter and web designer in love with new media and deeply interested in communication, design and technology.</p>
+        <p>I am in love with new media and deeply interested in communication, design and technology.</p>
+        <p>I feel at home working in a team with agile methodologies. I have an analytical profile and an instinct for synthesis. I am imaginative, curious and always willing to learn.</p>
         <br>
         <dl class="profile-experience">
           <div class="grid gutter">
