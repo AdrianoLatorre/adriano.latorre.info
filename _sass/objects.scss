@@ -149,9 +149,6 @@
 
 .profile {
   margin-top: 8em;
-  a {
-    font-weight: 600;
-  }
 }
 
 .people {
@@ -209,24 +206,18 @@
 }
 
 .decades {
-  border-top: 1px solid $g90;
-  border-top: .5px solid $g90;
   font-size: $f16;
   font-weight: 600;
   margin: 4em 0 0;
   padding: .75em 0;
   a {
-    border: 1px solid $g99;
-    border: .5px solid $g99;
     border-radius: 2px;
-    transition: all .125s linear;
+    transition: all .125s ease-in-out;
     &:hover {
       color: $g8;
-      background-color: $g92;
-      border: 1px solid $g88;
-      border: .5px solid $g88;
-      padding: 0 .375em .125em;
-      margin-left: -.375em;
+      background-color: $yellow;
+      margin: -.1em -.375em;
+      padding: .1em .375em;
       text-decoration: none;
     }
   }
@@ -238,7 +229,7 @@
     background-color: $g24;
     border-radius: 2px;
     color: $g99;
-    padding: 0 .375em .125em;
+      padding: .1em .375em;
   }
 }
 
@@ -476,9 +467,6 @@
   }
   p {
     color: $g32;
-    a {
-      font-weight: 600;
-    }
   }
   @media all and (min-width: 41em) {
     flex: 0 0 45%;
@@ -607,9 +595,6 @@
 
 .error {
   margin-top: 12em;
-  a {
-    font-weight: 600;
-  }
 }
 
 .cards {

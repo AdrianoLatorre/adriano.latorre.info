@@ -2,9 +2,6 @@
 .header-nav {
   font-size: $f18;
   margin-top: 3em;
-  a {
-    font-weight: 600;
-  }
   li {
     display: inline-block;
     padding: 0;
@@ -42,13 +39,16 @@
   color: $g48;
   font-size: $f12;
   margin: 12em 0 0;
+  a {
+    color: $g48;
+    &:hover {
+      color: $g24;
+    }
+  }
 }
 
 .home-index {
   font-size: 1.5em;
-  a {
-    font-weight: 600;
-  }
 }
 
 .home-index .header-index {
