@@ -1,0 +1,76 @@
+---
+layout: default
+la: ca
+nav: "Home"
+permalink: /ca/
+---
+
+<article class="home-index">
+    <div class="grid gutter">
+        <div class="grid-33 h-i"></div>
+        <div class="grid-66 h-i">
+            <header class="header-index">
+                <h1>UX, copywriter i dissenyador web</h1>
+                <h2>Enamorat dels nous mitjans i profundament interessat en la comunicació, el disseny i la tecnologia.</h2>
+            </header>
+        </div>
+        <div id="work" class="grid-33">
+            <h1>Treball</h1>
+        </div>
+        <div class="grid-66">
+            <section class="work-index">
+                {% assign work_by_date = site.work | where:"la", page.la | sort: 'date' %}
+                {% assign last_work = work_by_date | last %}
+                {% assign work_offset = 1 %}
+                <p>Ara estic treballant en <a href="{{ last_work.permalink }}">{{ last_work.title }}</a>, una eina d'aprenentatge que ajuda a institucions educatives, empreses i persones a construir coneixement profund i durador.</p>
+                <h2>Treballs seleccionats</h2>
+                <ul>
+                    {% for work in work_by_date reversed %}
+                    {% if work != last_work %}
+                    {% if work.selected == 1 %}
+                    <li><a href="{{ work.permalink }}">{{ work.title }}</a> <span class="sidetitle">{{ work.brief }}</span></li>
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </section>
+        </div>
+        <div id="info" class="grid-33">
+            <h1>Info</h1>
+        </div>
+        <div class="grid-66">
+            <section class="profile-index">
+                <ul>
+                    <li>Llegeix el meu <a href="/perfil/">perfil</a>.</li>
+                    <li>Troba'm a <a href="{{ site.alt.twitter }}">Twitter</a>, <a href="{{ site.alt.refind }}">Refind</a> i <a href="{{ site.alt.linkedin }}">LinkedIn</a>.</li>
+                    <li>Digues <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",ol=x.length,l=ol;while(x.charCodeAt(l/13)!" +
+"=105){try{x+=x;l+=l;}catch(e){}}for(i=l-1;i>=0;i--){o+=x.charAt(i);}return " +
+"o.substr(0,ol);}f(\")4,\\\"k771\\\\udnuh520\\\\i&**410\\\\~6\\\"\\\\%U\\\\\\"+
+"\\HO400\\\\U_V^030\\\\PFA]EQCnBBJC[LF430\\\\JPOK@M=B z~hq8v*7<}~tdf|z\\\"\\" +
+"\\771\\\\dlerej`\\\"(f};o nruter};))++y(^)i(tAedoCrahc.x(edoCrahCmorf.gnirt" +
+"S=+o;721=%y;2=*y))y+4(>i(fi{)++i;l<i;0=i(rof;htgnel.x=l,\\\"\\\"=o,i rav{)y" +
+",x(f noitcnuf\")"                                                            ;
+while(x=eval(x));
+//-->
+//]]>
+</script>hola</a>.</li>
+</ul>
+</section>
+</div>
+<div id="special" class="grid-33">
+    <h1>Especial</h1>
+</div>
+<div class="grid-66">
+    <section class="special-index">
+        <ul>
+            <li><a href="/persones/">Persones encantadores</a> que he conegut en el camí.</li>
+            <li><a href="/llibres/">Llibres</a> que m'ha agradat llegir.</li>
+            <li><a href="/enllaços/">Enllaços</a> a altres llocs.</li>
+        </ul>
+    </section>
+</div>
+</div>
+</article>

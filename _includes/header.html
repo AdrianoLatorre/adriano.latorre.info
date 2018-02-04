@@ -1,7 +1,7 @@
 <header>
   <nav class="header-nav">
     <ul class="flexbox-header">
-      <li class="fx-25"><a href="/{% if page.nav contains 'Home' %}profile/{% endif %}">Adriano Latorre</a></li>
+      <li class="fx-25"><a href="/{% if page.nav == 'Home' %}{% if page.la == 'ca' %}perfil/{% endif %}{% if page.la == 'en' %}profile/{% endif %}{% if page.la == 'es' %}perfil/{% endif %}{% else %}{% if page.la == 'ca' %}ca/{% endif %}{% if page.la == 'es' %}es/{% endif %}{% endif %}">Adriano Latorre</a></li>
       <li class="fx-75">{% if page.nav contains 'Home' %} {% else %}{{ page.nav }}{% endif %}</li>
     </ul>
   </nav>

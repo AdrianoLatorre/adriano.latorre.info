@@ -1,6 +1,8 @@
 ---
 layout: default
+la: en
 nav: "Home"
+permalink: /
 ---
 
 <article class="home-index">
@@ -17,7 +19,7 @@ nav: "Home"
         </div>
         <div class="grid-66">
             <section class="work-index">
-                {% assign work_by_date = site.work | sort: 'date' %}
+                {% assign work_by_date = site.work | where:"la", page.la | sort: 'date' %}
                 {% assign last_work = work_by_date | last %}
                 {% assign work_offset = 1 %}
                 <p>Right now I'm busy working on <a href="{{ last_work.permalink }}">{{ last_work.title }}</a>, a learning tool that helps educational institutions, companies and people to build deep, enduring knowledge.</p>

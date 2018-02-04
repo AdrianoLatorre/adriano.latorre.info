@@ -21,7 +21,7 @@ layout: default
       <div class="item-description">
         <h1>{{ page.title }}</h1>
         <h2>{{ page.brief }}</h2>
-        {{ page.description.en }}
+        {{ page.description }}
         {% for metaurl in page.meta_urls %}
         <h3><a href="{{ metaurl.main_url }}">{{ metaurl.address }}</a></h3>
         {% endfor %}
@@ -30,24 +30,24 @@ layout: default
       {% if page.online == 1 %}
       <div class="ui-frame"><iframe src="{% if page.meta_urls[0].demo_url %}{{ page.meta_urls[0].demo_url }}{% else %}{{ page.meta_urls[0].main_url }}{% endif %}"></iframe></div>
       {% else %}
-      <div class="ui-image"><img src="/-{{ page.permalink }}{{ page.media.ui }}"/></div>
+      <div class="ui-image"><img src="/-/work/{{ page.id }}/{{ page.media.ui }}"/></div>
       {% endif %}
     </div>
   </header>
   <div class="item-media">
-    <img src="/-{{ page.permalink }}{{ page.media.ui }}"/>
+    <img src="/-/work/{{ page.id }}/{{ page.media.ui }}"/>
     {% for image in page.media.images %}
     {% if image contains '.mp4' %}
-    <video src="/-{{ page.permalink }}{{ image }}" loop autoplay poster="/-{{ page.permalink }}{{ page.media.cover }}"></video>
+    <video src="/-/work/{{ page.id }}/{{ image }}" loop autoplay poster="/-/work/{{ page.id }}/{{ page.media.cover }}"></video>
     {% elsif image contains 'youtube.com' %}
     <div width="853" height="480" class="responsive-video"><iframe src="{{ image }}?rel=0" frameborder="0" allowfullscreen></iframe></div>
     {% else %}
-    <img src="/-{{ page.permalink }}{{ image }}"/>
+    <img src="/-/work/{{ page.id }}/{{ image }}"/>
     {% endif %}
     {% endfor %}
   </div>
   <nav class="item-browser grid gutter">
-    {% assign works = site.work | sort: 'date' %}
+    {% assign works = site.work | where:"la", page.la | sort: 'date' %}
     {% for work in works %}
     {% if work.id == page.id %}
     {% assign next_i = forloop.index0 | plus: 1 %}
@@ -62,7 +62,7 @@ layout: default
     {% endif %}
     {% endif %}
     {% endfor %}
-    {% assign works = site.work | sort: 'date' %}
+    {% assign works = site.work | where:"la", page.la | sort: 'date' %}
     {% for work in works %}
     {% if work.id == page.id %}
     {% assign prev_i = forloop.index0 | minus: 1 %}
