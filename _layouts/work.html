@@ -49,7 +49,7 @@ layout: default
   <nav class="item-browser grid gutter">
     {% assign works = site.work | where:"la", page.la | sort: 'date' %}
     {% for work in works %}
-    {% if work.id == page.id %}
+    {% if work.wid == page.wid %}
     {% assign next_i = forloop.index0 | plus: 1 %}
     {% if forloop.last == false %}
     <div class="item-next grid-50">
@@ -64,7 +64,7 @@ layout: default
     {% endfor %}
     {% assign works = site.work | where:"la", page.la | sort: 'date' %}
     {% for work in works %}
-    {% if work.id == page.id %}
+    {% if work.wid == page.wid %}
     {% assign prev_i = forloop.index0 | minus: 1 %}
     {% if forloop.first == false %}
     <div class="item-previous grid-50">
