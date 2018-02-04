@@ -16,7 +16,7 @@ tasks:
   - "Experiència d'usuari"
 meta_urls:
   - address: "queridacarmen.com"
-    main_url: "http://queridacarmen.com/"
+    main_url: "0"
 media:
   card: "card.jpg"
   cover: "00.png"

@@ -6,13 +6,13 @@ nav: "Work"
 permalink: /work/trailwalker/
 date: 2010-03-01
 title: "Oxfam Trailwalker"
-brief: "100 kilómetros, una causa"
+brief: "100 kilometers, one cause"
 description: "<p>Both the website and the mechanics of the Trailwalker are simple: you sign up, create a team with your friends and accept donations from people who want to support you. On competition day, your team walks 100 kilometers to help people who really need it.</p>"
 tasks:
   - "Web architecture"
 meta_urls:
   - address: "trailwalker.oxfamintermon.org"
-    main_url: "http://trailwalker.oxfamintermon.org/es"
+    main_url: "http://trailwalker.oxfamintermon.org/en"
 media:
   card: "card.jpg"
   cover: "00.png"

@@ -6,7 +6,7 @@ nav: "Treball"
 permalink: /treball/spines.me/
 date: 2015-01-01
 title: "Spines website"
-brief: "Connected learning"
+brief: "Aprendizaje conectado"
 description: "<p>El lloc web presenta i explica l'aplicació de Spines i la filosofia d'aprenentatge que defensa: <em>captura, elabora i comparteix</em> el que vols aprendre per convertir aquesta informació en coneixement profund i durador.</p>"
 tasks:
   - "Arquitectura web"
@@ -16,7 +16,7 @@ tasks:
   - "Disseny web"
 meta_urls:
   - address: "spines.me"
-    main_url: "https://spines.me/"
+    main_url: "https://spines.me/es/"
 media:
   card: "card.jpg"
   cover: "00.png"

@@ -20,7 +20,7 @@ tasks:
   - "Web design"
 meta_urls:
   - address: "web.spines.me"
-    main_url: "https://web.spines.me/"
+    main_url: "https://api.spines.me/api/v1/users/sign_in?locale=en-US"
 media:
   card: "card.jpg"
   cover: "00.png"

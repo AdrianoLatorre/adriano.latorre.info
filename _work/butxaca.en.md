@@ -8,7 +8,7 @@ date: 2009-02-01
 title: "butxaca"
 brief: "L'agenda cultural de Barcelona"
 brief_index: "L'agenda cultural"
-description: "<p>The first online version of <em>butxaca</em>, a free, pocket-sized publication detailing the cultural agenda of Barcelona.</p>"
+description: "<p>The first digital version of <em>butxaca</em>, a free, pocket-sized publication detailing the cultural agenda of Barcelona.</p>"
 tasks:
   - "Copywriting"
   - "Information design"
@@ -19,7 +19,7 @@ tasks:
   - "Web design"
 meta_urls:
   - address: "butxaca.com"
-    main_url: "http://www.butxaca.com/"
+    main_url: "0"
 media:
   card: "card.jpg"
   cover: "00.png"

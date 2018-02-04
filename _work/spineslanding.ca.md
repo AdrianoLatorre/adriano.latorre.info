@@ -6,7 +6,7 @@ nav: "Treball"
 permalink: /treball/spineslanding/
 date: 2015-09-01
 title: "Spines landing"
-brief: "Todos somos estudiantes"
+brief: "Bienvenidos a Spines"
 description: "<p>Una sèrie de pàgines que donen la benvinguda a Spines i expliquen <a href='https://spines.me/es/welcome/'>la seva filosofia</a>, els <a href='https://spines.me/es/learn/connections/'>motius per utilitzar l'aplicació</a> i algunes <a href='https://spines.me/es/learn/efficient-techniques-for-note-taking/'>tècniques eficaces de presa de notes</a> que qualsevol persona pot posar en pràctica.</p>"
 tasks:
   - "Copywriting"
@@ -17,12 +17,12 @@ tasks:
   - "Experiència d'usuari"
   - "Edició de vídeo"
 meta_urls:
-  - address: "Learning is connecting"
-    main_url: "https://spines.me/learn/connections/"
-  - address: "Welcome to Spines"
-    main_url: "https://spines.me/welcome/"
-  - address: "Efficient techniques for note-taking"
-    main_url: "https://spines.me/learn/efficient-techniques-for-note-taking/"
+  - address: "Aprender es conectar"
+    main_url: "https://spines.me/es/learn/connections/"
+  - address: "Todos somos estudiantes"
+    main_url: "https://spines.me/es/welcome/"
+  - address: "Técnicas eficaces para tomar notas"
+    main_url: "https://spines.me/es/learn/efficient-techniques-for-note-taking/"
 media:
   card: "card.jpg"
   cover: "00.png"

@@ -14,7 +14,7 @@ tasks:
   - "Disseny web"
 meta_urls:
   - address: "msf.es"
-    main_url: "https://www.msf.es/"
+    main_url: "0"
 media:
   card: "card.jpg"
   cover: "00.png"

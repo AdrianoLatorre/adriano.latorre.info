@@ -17,7 +17,7 @@ tasks:
   - "Usabilidad"
 meta_urls:
   - address: "oxfamintermon.org"
-    main_url: "http://www.oxfamintermon.org/"
+    main_url: "0"
 media:
   card: "card.jpg"
   cover: "00.jpg"

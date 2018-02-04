@@ -69,21 +69,21 @@ permalink: /perfil/
       <section class="profile-index">
         <ul class="skill-pills">
           <li>Accesibilidad</li>
+          <li>Arquitectura web</li>
           <li>Copywriting</li>
           <li>CSS</li>
-          <li>Front-end</li>
-          <li>Diseño gráfico</li>
-          <li>HTML</li>
           <li>Diseño de información</li>
           <li>Diseño de interacción</li>
-          <li>JavaScript</li>
-          <li>Edición de audio</li>
-          <li>Usabilidad</li>
-          <li>Experiencia de usuario</li>
-          <li>Diseño de interfaz de usuario</li>
-          <li>Edición de vídeo</li>
-          <li>Arquitectura web</li>
+          <li>Diseño de interfaz</li>
+          <li>Diseño gráfico</li>
           <li>Diseño web</li>
+          <li>Edición de audio</li>
+          <li>Edición de vídeo</li>
+          <li>Experiencia de usuario</li>
+          <li>Front-end</li>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>Usabilidad</li>
         </ul>
       </section>
     </div>

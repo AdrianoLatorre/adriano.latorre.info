@@ -14,7 +14,7 @@ tasks:
   - "Diseño web"
 meta_urls:
   - address: "httpcomunicacio.com"
-    main_url: "http://httpcomunicacio.com/"
+    main_url: "0"
 media:
   card: "card.png"
   cover: "00.png"

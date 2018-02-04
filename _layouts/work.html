@@ -23,7 +23,11 @@ layout: default
         <h2>{{ page.brief }}</h2>
         {{ page.description }}
         {% for metaurl in page.meta_urls %}
+        {% if metaurl.main_url != "0" %}
         <h3><a href="{{ metaurl.main_url }}">{{ metaurl.address }}</a></h3>
+        {% else %}
+        <h3><span class="ex-link">{{ metaurl.address }}</span></h3>
+        {% endif %}
         {% endfor %}
         <ul class="item-labels">{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
       </div>

@@ -22,7 +22,7 @@ permalink: /ca/
                 {% assign work_by_date = site.work | where:"la", page.la | sort: 'date' %}
                 {% assign last_work = work_by_date | last %}
                 {% assign work_offset = 1 %}
-                <p>Ara estic treballant en <a href="{{ last_work.permalink }}">{{ last_work.title }}</a>, una eina d'aprenentatge que ajuda a institucions educatives, empreses i persones a construir coneixement profund i durador.</p>
+                <p>En aquest moment estic treballant en <a href="{{ last_work.permalink }}">{{ last_work.title }}</a>, una eina d'aprenentatge personal per construir coneixement profund i durador.</p>
                 <h2>Treballs seleccionats</h2>
                 <ul>
                     {% for work in work_by_date reversed %}

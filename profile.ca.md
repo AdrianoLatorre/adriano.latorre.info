@@ -69,21 +69,21 @@ permalink: /perfilca/
       <section class="profile-index">
         <ul class="skill-pills">
           <li>Accesibilitat</li>
+          <li>Arquitectura web</li>
           <li>Copywriting</li>
           <li>CSS</li>
-          <li>Front-end</li>
-          <li>Disseny gràfic</li>
-          <li>HTML</li>
           <li>Disseny d'informació</li>
           <li>Disseny d'interacció</li>
-          <li>JavaScript</li>
-          <li>Edició de so</li>
-          <li>Usabilitat</li>
-          <li>Experiència d'usuari</li>
-          <li>Disseny d'interfície d'usuari</li>
-          <li>Edició de vídeo</li>
-          <li>Arquitectura web</li>
+          <li>Disseny d'interfície</li>
+          <li>Disseny gràfic</li>
           <li>Disseny web</li>
+          <li>Edició de so</li>
+          <li>Edició de vídeo</li>
+          <li>Experiència d'usuari</li>
+          <li>Front-end</li>
+          <li>HTML</li>
+          <li>JavaScript</li>
+          <li>Usabilitat</li>
         </ul>
       </section>
     </div>

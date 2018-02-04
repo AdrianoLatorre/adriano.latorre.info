@@ -12,15 +12,15 @@ description: "<p>Spines es una herramienta de aprendizaje que ayuda a institucio
 tasks:
   - "Arquitectura web"
   - "Copywriting"
-  - "Diseño gráfico"
   - "Diseño de interacción"
-  - "Diseño de interfaz de usuario"
+  - "Diseño de interfaz"
+  - "Diseño gráfico"
   - "Diseño web"
   - "Experiencia de usuario"
   - "Usabilidad"
 meta_urls:
   - address: "web.spines.me"
-    main_url: "https://web.spines.me/"
+    main_url: "https://api.spines.me/api/v1/users/sign_in?locale=es-ES"
 media:
   card: "card.jpg"
   cover: "00.png"

@@ -6,7 +6,7 @@ nav: "Work"
 permalink: /work/spineslanding/
 date: 2015-09-01
 title: "Spines landing"
-brief: "We are all students"
+brief: "Welcome to Spines"
 description: "<p>A series of different landing pages that welcome people to Spines and explain <a href='https://spines.me/welcome/'>its philosophy</a>, the <a href='https://spines.me/learn/connections/'>reasons to use the application</a> and some <a href='https://spines.me/learn/efficient-techniques-for-note-taking/'>note-taking techniques</a> that anyone can use.</p>"
 tasks:
   - "Copywriting"
@@ -19,7 +19,7 @@ tasks:
 meta_urls:
   - address: "Learning is connecting"
     main_url: "https://spines.me/learn/connections/"
-  - address: "Welcome to Spines"
+  - address: "We are all students"
     main_url: "https://spines.me/welcome/"
   - address: "Efficient techniques for note-taking"
     main_url: "https://spines.me/learn/efficient-techniques-for-note-taking/"

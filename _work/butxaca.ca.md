@@ -14,12 +14,12 @@ tasks:
   - "Copywriting"
   - "Disseny d'informació"
   - "Disseny d'interacció"
-  - "Disseny d'interfície d'usuari"
+  - "Disseny d'interfície"
   - "Disseny web"
   - "Usabilitat"
 meta_urls:
   - address: "butxaca.com"
-    main_url: "http://www.butxaca.com/"
+    main_url: "0"
 media:
   card: "card.jpg"
   cover: "00.png"
