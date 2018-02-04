@@ -1,6 +1,6 @@
 ---
 layout: work
-id: "httpcomunicacio"
+wid: "httpcomunicacio"
 la: ca
 nav: "Treball"
 permalink: /treball/httpcomunicacio/

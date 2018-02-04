@@ -30,19 +30,18 @@ layout: default
       {% if page.online == 1 %}
       <div class="ui-frame"><iframe src="{% if page.meta_urls[0].demo_url %}{{ page.meta_urls[0].demo_url }}{% else %}{{ page.meta_urls[0].main_url }}{% endif %}"></iframe></div>
       {% else %}
-      <div class="ui-image"><img src="/-/work/{{ page.id }}/{{ page.media.ui }}"/></div>
+      <div class="ui-image"><img src="/-/work/{{ page.wid }}/{{ page.media.ui }}"/></div>
       {% endif %}
     </div>
   </header>
   <div class="item-media">
-    <img src="/-/work/{{ page.id }}/{{ page.media.ui }}"/>
+    <img src="/-/work/{{ page.wid }}/{{ page.media.ui }}"/>
     {% for image in page.media.images %}
     {% if image contains '.mp4' %}
-    <video src="/-/work/{{ page.id }}/{{ image }}" loop autoplay poster="/-/work/{{ page.id }}/{{ page.media.cover }}"></video>
+    <video src="/-/work/{{ page.wid }}/{{ image }}" loop autoplay poster="/-/work/{{ page.wid }}/{{ page.media.cover }}"></video>
     {% elsif image contains 'youtube.com' %}
     <div width="853" height="480" class="responsive-video"><iframe src="{{ image }}?rel=0" frameborder="0" allowfullscreen></iframe></div>
     {% else %}
-    page.id = {{ page.wid }} | image = {{ image }}
     <img src="/-/work/{{ page.wid }}/{{ image }}"/>
     {% endif %}
     {% endfor %}

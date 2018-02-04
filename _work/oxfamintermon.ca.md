@@ -1,6 +1,6 @@
 ---
 layout: work
-id: "oxfamintermon"
+wid: "oxfamintermon"
 la: ca
 nav: "Treball"
 permalink: /treball/oxfamintermon/

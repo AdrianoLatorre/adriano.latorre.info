@@ -1,6 +1,6 @@
 ---
 layout: work
-id: "msf"
+wid: "msf"
 la: ca
 nav: "Treball"
 permalink: /treball/msf/

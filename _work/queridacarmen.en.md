@@ -1,6 +1,6 @@
 ---
 layout: work
-id: "queridacarmen"
+wid: "queridacarmen"
 la: en
 nav: "Work"
 permalink: /work/queridacarmen/

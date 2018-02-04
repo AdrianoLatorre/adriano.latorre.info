@@ -1,6 +1,6 @@
 ---
 layout: work
-id: "butxaca"
+wid: "butxaca"
 la: ca
 nav: "Treball"
 permalink: /treball/butxaca/

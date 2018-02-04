@@ -1,6 +1,6 @@
 ---
 layout: work
-id: "spineslanding"
+wid: "spineslanding"
 la: es
 nav: "Trabajo"
 permalink: /trabajo/spineslanding/

@@ -1,6 +1,6 @@
 ---
 layout: work
-id: "msf"
+wid: "msf"
 la: es
 nav: "Trabajo"
 permalink: /trabajo/msf/

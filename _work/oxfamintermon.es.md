@@ -1,6 +1,6 @@
 ---
 layout: work
-id: "oxfamintermon"
+wid: "oxfamintermon"
 la: es
 nav: "Trabajo"
 permalink: /trabajo/oxfamintermon/

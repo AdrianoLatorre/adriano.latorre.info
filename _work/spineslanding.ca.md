@@ -1,6 +1,6 @@
 ---
 layout: work
-id: "spineslanding"
+wid: "spineslanding"
 la: ca
 nav: "Treball"
 permalink: /treball/spineslanding/

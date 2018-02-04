@@ -1,6 +1,6 @@
 ---
 layout: work
-id: "trailwalker"
+wid: "trailwalker"
 la: es
 nav: "Trabajo"
 permalink: /trabajo/trailwalker/

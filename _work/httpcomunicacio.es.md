@@ -1,6 +1,6 @@
 ---
 layout: work
-id: "httpcomunicacio"
+wid: "httpcomunicacio"
 la: es
 nav: "Trabajo"
 permalink: /trabajo/httpcomunicacio/
