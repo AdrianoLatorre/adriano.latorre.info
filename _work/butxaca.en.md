@@ -1,6 +1,6 @@
 ---
 layout: work
-id: "butxaca"
+wid: "butxaca"
 la: en
 nav: "Work"
 permalink: /work/butxaca/

@@ -42,8 +42,8 @@ layout: default
     {% elsif image contains 'youtube.com' %}
     <div width="853" height="480" class="responsive-video"><iframe src="{{ image }}?rel=0" frameborder="0" allowfullscreen></iframe></div>
     {% else %}
-    page.id = {{ page.id }} | image = {{ image }}
-    <img src="/-/work/{{ page.id }}/{{ image }}"/>
+    page.id = {{ page.wid }} | image = {{ image }}
+    <img src="/-/work/{{ page.wid }}/{{ image }}"/>
     {% endif %}
     {% endfor %}
   </div>
