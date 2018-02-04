@@ -30,6 +30,7 @@ layout: default
       {% if page.online == 1 %}
       <div class="ui-frame"><iframe src="{% if page.meta_urls[0].demo_url %}{{ page.meta_urls[0].demo_url }}{% else %}{{ page.meta_urls[0].main_url }}{% endif %}"></iframe></div>
       {% else %}
+      /-/work/{{ page.id }}/{{ page.media.ui }}
       <div class="ui-image"><img src="/-/work/{{ page.id }}/{{ page.media.ui }}"/></div>
       {% endif %}
     </div>
@@ -42,6 +43,7 @@ layout: default
     {% elsif image contains 'youtube.com' %}
     <div width="853" height="480" class="responsive-video"><iframe src="{{ image }}?rel=0" frameborder="0" allowfullscreen></iframe></div>
     {% else %}
+    /-/work/{{ page.id }}/{{ image }}
     <img src="/-/work/{{ page.id }}/{{ image }}"/>
     {% endif %}
     {% endfor %}
