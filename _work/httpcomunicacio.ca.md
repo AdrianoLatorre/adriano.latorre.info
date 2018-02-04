@@ -10,8 +10,8 @@ brief: "Una agència de comunicació"
 description: "<p>Esborra la teva antiga web. Deixa la pàgina en blanc. Demostra que ets una agència de comunicació.</p><p>Aquesta petita peça va ser premiada amb un Sol de Plata, un Laus i un ADCE Gold entre 2006 i 2007.</p>"
 tasks:
   - "Copywriting"
-  - "Interaction design"
-  - "Web design"
+  - "Disseny d'interacció"
+  - "Disseny web"
 meta_urls:
   - address: "httpcomunicacio.com"
     main_url: "http://httpcomunicacio.com/"

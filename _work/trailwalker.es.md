@@ -9,7 +9,7 @@ title: "Oxfam Trailwalker"
 brief: "100 kilómetros, una causa"
 description: "<p>Tanto la web como la mecánica del <em>Trailwalker</em> son simples: te inscribes, creas un equipo con tus amigos y aceptas los donativos de las personas que te dan soporte. Cuando llega el día de la prueba, tu equipo camina 100 kilómetros para ayudar a personas que de verdad lo necesitan.</p>"
 tasks:
-  - "Web architecture"
+  - "Arquitectura web"
 meta_urls:
   - address: "trailwalker.oxfamintermon.org"
     main_url: "http://trailwalker.oxfamintermon.org/es"

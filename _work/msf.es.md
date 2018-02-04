@@ -9,9 +9,9 @@ title: "Médicos Sin Fronteras"
 brief: "Acción médico-humanitaria"
 description: "<p>Un sencillo menú y una estructura modular son la base para organizar y distribuir en cada página las múltiples iniciativas solidarias, proyectos y noticias que Médicos Sin Fronteras publica en su web.</p>"
 tasks:
-  - "Information design"
-  - "Web architecture"
-  - "Web design"
+  - "Arquitectura web"
+  - "Diseño de información"
+  - "Diseño web"
 meta_urls:
   - address: "msf.es"
     main_url: "https://www.msf.es/"

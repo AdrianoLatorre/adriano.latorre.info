@@ -10,8 +10,8 @@ brief: "Una agencia de comunicación"
 description: "<p>Borra tu antiguo sitio web. Deja la página en blanco. Demuestra que eres una agencia de comunicación.</p><p>Esta pequeña pieza fue premiada con un Sol de Plata, un Laus y un ADCE Gold entre 2006 y 2007.</p>"
 tasks:
   - "Copywriting"
-  - "Interaction design"
-  - "Web design"
+  - "Diseño de interacción"
+  - "Diseño web"
 meta_urls:
   - address: "httpcomunicacio.com"
     main_url: "http://httpcomunicacio.com/"
