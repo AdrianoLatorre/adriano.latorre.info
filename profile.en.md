@@ -13,7 +13,7 @@ permalink: /profile/
     </div>
     <div class="grid-66 h-i">
       <section class="work-index">
-        <p>UX, copywriter and web designer in love with new media and deeply interested in communication, design and technology.</p>
+        <p><span class="mark-yellow">UX, copywriter and web designer in love with new media and deeply interested in communication, design and technology</span>.</p>
         <br>
         <dl class="profile-experience">
           <div class="grid gutter">

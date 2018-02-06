@@ -200,6 +200,9 @@
 
       > .info {
         color: $g48;
+        &:hover {
+          color: $g24;
+        }
       }
     }
   }
@@ -623,4 +626,9 @@
 
 .xhid {
   display: none;
+}
+
+.mark-yellow {
+  background-color: $y80;
+  display: inline;
 }

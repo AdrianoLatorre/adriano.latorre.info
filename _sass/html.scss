@@ -26,7 +26,7 @@ body {
 }
 
 ::selection {
-  background-color: $yellow;
+  background-color: $y80;
   color: $g24;
 }
 
@@ -46,7 +46,8 @@ a:visited {
 }
 
 a:hover {
-  background-color: $y48;
+  background-color: $y80;
+  color: $g24;
   text-decoration: underline;
 }
 
