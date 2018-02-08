@@ -2,7 +2,7 @@
 layout: default
 la: ca
 nav: Perfil
-permalink: /perfilca/
+permalink: /perfil/ca/
 ---
 
 <article class="home-index">
@@ -13,7 +13,7 @@ permalink: /perfilca/
     </div>
     <div class="grid-66 h-i">
       <section class="work-index">
-        <p>Català.</p>
+        <p>Fascinat pels nous mitjans i profundament interessat en comunicació, disseny i tecnologia.</p>
         <br>
         <dl class="profile-experience">
           <div class="grid gutter">

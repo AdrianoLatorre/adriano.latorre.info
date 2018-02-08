@@ -13,7 +13,7 @@ permalink: /perfil/
     </div>
     <div class="grid-66 h-i">
       <section class="work-index">
-        <p>Castellano.</p>
+        <p>Fascinado por los nuevos medios y profundamente interesado en comunicación, diseño y tecnología.</p>
         <br>
         <dl class="profile-experience">
           <div class="grid gutter">

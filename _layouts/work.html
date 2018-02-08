@@ -57,7 +57,7 @@ layout: default
     {% assign next_i = forloop.index0 | plus: 1 %}
     {% if forloop.last == false %}
     <div class="item-next grid-50">
-      <h4>Next</h4>
+      <h4>{% if page.la == "ca" %}Següent{% endif %}{% if page.la == "en" %}Next{% endif %}{% if page.la == "es" %}Siguiente{% endif %}</h4>
       <a href="{{ works[next_i].permalink }}">{{ works[next_i].title }}</a><br>
       {{ works[next_i].brief }}
     </div>
@@ -72,7 +72,7 @@ layout: default
     {% assign prev_i = forloop.index0 | minus: 1 %}
     {% if forloop.first == false %}
     <div class="item-previous grid-50">
-      <h4>Previous</h4>
+      <h4>{% if page.la == "ca" %}Anterior{% endif %}{% if page.la == "en" %}Previous{% endif %}{% if page.la == "es" %}Anterior{% endif %}</h4>
       <a href="{{ works[prev_i].permalink }}">{{ works[prev_i].title }}</a><br>
       {{ works[prev_i].brief }}
     </div>
