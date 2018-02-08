@@ -11,7 +11,7 @@ permalink: /ca/
         <div class="grid-66 h-i">
             <header class="header-index">
                 <h1>UX, copywriter i dissenyador web</h1>
-                <h2>Enamorat dels nous mitjans i profundament interessat en la comunicació, el disseny i la tecnologia.</h2>
+                <h2>Fascinat pels nous mitjans i profundament interessat en comunicació, disseny i tecnologia.</h2>
             </header>
         </div>
         <div id="work" class="grid-33">
@@ -22,7 +22,7 @@ permalink: /ca/
                 {% assign work_by_date = site.work | where:"la", page.la | sort: 'date' %}
                 {% assign last_work = work_by_date | last %}
                 {% assign work_offset = 1 %}
-                <p>En aquest moment estic treballant en <a href="{{ last_work.permalink }}">{{ last_work.title }}</a>, una eina d'aprenentatge personal per construir coneixement profund i durador.</p>
+                <p>Ara estic treballant en <a href="{{ last_work.permalink }}">{{ last_work.title }}</a>, una eina d'aprenentatge personal per construir coneixement profund i durador.</p>
                 <h2>Treballs seleccionats</h2>
                 <ul>
                     {% for work in work_by_date reversed %}
@@ -66,7 +66,7 @@ while(x=eval(x));
 <div class="grid-66">
     <section class="special-index">
         <ul>
-            <li><a href="/persones/">Persones encantadores</a> que he conegut en el camí.</li>
+            <li><a href="/persones/">Persones</a> que he conegut en el camí.</li>
             <li><a href="/llibres/">Llibres</a> que m'ha agradat llegir.</li>
             <li><a href="/enllaços/">Enllaços</a> a altres llocs.</li>
         </ul>
