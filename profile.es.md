@@ -18,7 +18,7 @@ permalink: /perfil/
         <dl class="profile-experience">
           <div class="grid gutter">
             <div class="grid-33 h-i">
-              <dt>2014 – Today</dt>
+              <dt>2014 – Hoy</dt>
             </div>
             <div class="grid-66 h-i">
               <dd>Spines —Construye conocimiento profundo y duradero</dd>

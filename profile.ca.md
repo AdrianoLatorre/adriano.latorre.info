@@ -18,7 +18,7 @@ permalink: /perfil/ca/
         <dl class="profile-experience">
           <div class="grid gutter">
             <div class="grid-33 h-i">
-              <dt>2014 – Today</dt>
+              <dt>2014 – Avui</dt>
             </div>
             <div class="grid-66 h-i">
               <dd>Spines —Build deep, enduring knowledge</dd>
@@ -63,7 +63,7 @@ permalink: /perfil/ca/
       </section>
     </div>
     <div class="grid-33">
-      <h1>Skills</h1>
+      <h1>Habilitats</h1>
     </div>
     <div class="grid-66">
       <section class="profile-index">
