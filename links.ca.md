@@ -1,7 +1,8 @@
 ---
 layout: links
-nav: "Links"
-permalink: /links/
+la: ca
+nav: "Enllaços"
+permalink: /enllaços/
 ---
 
 {% assign latest_links = site.links | last %}
