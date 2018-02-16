@@ -6,7 +6,7 @@ nav: "Treball"
 permalink: /treball/spines/
 # REAL date: 2014-03-01
 date: 2016-03-01
-title: "Spines"
+title: "Spines app"
 brief: "Notas para aprender"
 description: "<p>Spines és una eina d'aprenentatge que ajuda a institucions educatives, empreses i persones a construir coneixement profund i durador.</p>"
 tasks:

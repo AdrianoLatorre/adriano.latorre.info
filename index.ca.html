@@ -19,17 +19,13 @@ permalink: /ca/
         </div>
         <div class="grid-66">
             <section class="work-index">
-                {% assign work_by_date = site.work | where:"la", page.la | sort: 'date' %}
-                {% assign last_work = work_by_date | last %}
-                {% assign work_offset = 1 %}
-                <p>Ara estic treballant en <a href="{{ last_work.permalink }}">{{ last_work.title }}</a>, una eina d'aprenentatge personal per construir coneixement profund i durador.</p>
+                <p>Ara treballo a <a href="https://spines.me/es/">Spines</a>, on desenvolupem una eina d'aprenentatge personal per construir coneixement profund i durador.</p>
                 <h2>Treballs seleccionats</h2>
                 <ul>
+                    {% assign work_by_date = site.work | where:"la", page.la | sort: 'date' %}
                     {% for work in work_by_date reversed %}
-                    {% if work != last_work %}
                     {% if work.selected == 1 %}
                     <li><a href="{{ work.permalink }}">{{ work.title }}</a> <span class="sidetitle">{{ work.brief }}</span></li>
-                    {% endif %}
                     {% endif %}
                     {% endfor %}
                 </ul>

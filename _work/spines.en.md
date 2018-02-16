@@ -6,7 +6,7 @@ nav: "Work"
 permalink: /work/spines/
 # REAL date: 2014-03-01
 date: 2016-03-01
-title: "Spines"
+title: "Spines app"
 brief: "Notes for learning"
 description: "<p>Spines is a learning tool that helps educational institutions, companies and people to build deep, enduring knowledge.</p>"
 tasks:
