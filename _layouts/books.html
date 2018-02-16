@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="books grid gutter">
-  {% if page.url == '/books/' %}
+  {% if page.url == '/llibres/' or page.url == '/books/' or page.url == '/libros/' %}
   {% assign years = site.books | sort: 'decade' %}
   {% assign counter = 0 %}
   {% for decade in years reversed %}
@@ -31,7 +31,7 @@ layout: default
 
 <nav>
   <ol class="decades grid gutter">
-    {% if page.url == '/books/' %}
+    {% if page.url == '/llibres/' or page.url == '/books/' or page.url == '/libros/' %}
     <li class="grid-eights"><span>Recent</span></li>
     {% else %}
     <li class="grid-eights"><a href="/books/">Recent</a></li>
