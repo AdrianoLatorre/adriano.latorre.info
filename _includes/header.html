@@ -1,8 +1,13 @@
 <header>
+    <div class="language-selector-bar">{% if page.nav contains 'Home' %}{% if page.url != '/es/' %}<a href="/es/">ES</a> &nbsp;&middot;&nbsp; {% endif %}{% if page.url != '/ca/' %}<a href="/ca/">CA</a>{% if page.url != '/' %} &nbsp;&middot;&nbsp; {% endif %}{% endif %}{% if page.url != '/' %}<a href="/">EN</a>{% endif %}{% endif %}</div>
   <nav class="header-nav">
     <ul class="flexbox-header">
       <li class="fx-25"><a href="/{% if page.nav == 'Home' %}{% if page.la == 'ca' %}perfil/ca/{% endif %}{% if page.la == 'en' %}profile/{% endif %}{% if page.la == 'es' %}perfil/{% endif %}{% else %}{% if page.la == 'ca' %}ca/{% endif %}{% if page.la == 'es' %}es/{% endif %}{% endif %}">Adriano Latorre</a></li>
-      <li class="fx-75">{% if page.nav contains 'Home' %} {% else %}{{ page.nav }}{% endif %}</li>
+      {% if page.nav contains 'Home' %}
+      <li class="fx-75 language-selector">{% if page.url != '/es/' %}<a href="/es/">Castellano</a> &nbsp;&middot;&nbsp; {% endif %}{% if page.url != '/ca/' %}<a href="/ca/">Català</a>{% if page.url != '/' %} &nbsp;&middot;&nbsp; {% endif %}{% endif %}{% if page.url != '/' %}<a href="/">English</a>{% endif %}</li>
+      {% else %}
+      <li class="fx-75">{{ page.nav }}</li>
+      {% endif %}
     </ul>
   </nav>
 </header>

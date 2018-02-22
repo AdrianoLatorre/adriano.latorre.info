@@ -632,3 +632,41 @@
   background-color: $y80;
   display: inline;
 }
+
+.language-selector {
+  color: $g48;
+  a {
+    color: $g48;
+    &:hover {
+      color: $g24;
+    }
+  }
+  font-size: $f12;
+  font-weight: 600;
+  line-height: 2.25em;
+  text-align: right;
+  @media all and (max-width: 41em) {
+    display: none !important;
+  }
+}
+
+.language-selector-bar {
+  color: $g48;
+  a {
+    color: $g48;
+    &:hover {
+      color: $g24;
+    }
+  }
+  display: none;
+  font-size: $f16;
+  font-weight: 600;
+  line-height: 2.25em;
+  position: absolute;
+  top: .5em;
+  right: 1em;
+  text-align: right;
+  @media all and (max-width: 41em) {
+    display: block;
+  }
+}
