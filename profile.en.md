@@ -12,7 +12,7 @@ permalink: /profile/
       <h1>About me</h1>
     </div>
     <div class="grid-66 h-i">
-      <section>
+      <section class="work-index">
         <p>My profile is hybrid and my skills flexible: I have been working as UX specialist, information architect, copywriter and web designer most of my career.</p>
         <p>I have an analytical mind and an instinct for synthesis. I enjoy being involved in every phase of product development and feel at home working in a team with agile methodologies. I am imaginative, curious and always willing to learn. I appreciate both creativity and simplicity.</p>
       </section>
@@ -21,7 +21,7 @@ permalink: /profile/
       <h1>Experience</h1>
     </div>
     <div class="grid-66">
-      <section class="work-index">
+      <section>
         <dl class="profile-experience">
           <div class="grid gutter">
             <div class="grid-33 h-i">
