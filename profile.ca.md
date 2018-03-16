@@ -9,12 +9,19 @@ permalink: /perfil/ca/
   <div class="profile-image"><img src="/-/profile/profile.jpg"/></div>
   <div class="grid gutter">
     <div class="grid-33 h-i">
-      <h1>Experiència</h1>
+      <h1>Sobre mi</h1>
     </div>
     <div class="grid-66 h-i">
+      <section>
+        <p>El meu perfil és híbrid i les meves habilitats són flexibles: he treballat com a especialista en UX, arquitecte d'informació, <em>copywriter</em> i dissenyador web la major part de la meva carrera.</p>
+        <p>Tinc una ment analítica i instint per a la síntesi. Gaudeixo participant en totes les fases del desenvolupament de producte i em sento molt còmode treballant en equip amb metodologies àgils. Sóc imaginatiu, curiós i sempre estic disposat a aprendre. Aprecio la creativitat i la simplicitat.</p>
+      </section>
+    </div>
+    <div class="grid-33">
+      <h1>Experiència</h1>
+    </div>
+    <div class="grid-66">
       <section class="work-index">
-        <p>Fascinat pels nous mitjans i profundament interessat en comunicació, disseny i tecnologia.</p>
-        <br>
         <dl class="profile-experience">
           <div class="grid gutter">
             <div class="grid-33 h-i">
