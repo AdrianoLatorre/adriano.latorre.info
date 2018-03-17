@@ -14,7 +14,7 @@ permalink: /perfil/
     <div class="grid-66 h-i">
       <section class="work-index">
         <p>Mi perfil es híbrido y mis habilidades son flexibles: he trabajado como especialista en UX, arquitecto de información, <em>copywriter</em> y diseñador web la mayor parte de mi carrera.</p>
-        <p>Tengo una mente analítica e instinto para la síntesis. Disfruto participando en todas las fases del desarrollo de producto y me siento muy cómodo trabajando en equipo con metodologías ágiles. Soy imaginativo, curioso y siempre estoy dispuesto a aprender. Aprecio la creatividad y la simplicidad.</p>
+        <p>Disfruto participando en todas las fases del desarrollo de producto y me siento muy cómodo trabajando en equipo con metodologías ágiles. Aprecio la creatividad y la simplicidad.</p>
       </section>
     </div>
     <div class="grid-33">

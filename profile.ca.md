@@ -14,7 +14,7 @@ permalink: /perfil/ca/
     <div class="grid-66 h-i">
       <section class="work-index">
         <p>El meu perfil és híbrid i les meves habilitats són flexibles: he treballat com a especialista en UX, arquitecte d'informació, <em>copywriter</em> i dissenyador web la major part de la meva carrera.</p>
-        <p>Tinc una ment analítica i instint per a la síntesi. Gaudeixo participant en totes les fases del desenvolupament de producte i em sento molt còmode treballant en equip amb metodologies àgils. Sóc imaginatiu, curiós i sempre estic disposat a aprendre. Aprecio la creativitat i la simplicitat.</p>
+        <p>M'agrada participar en totes les fases del desenvolupament de producte i em sento molt còmode treballant en equip amb metodologies àgils. Aprecio la creativitat i la simplicitat.</p>
       </section>
     </div>
     <div class="grid-33">
