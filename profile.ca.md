@@ -25,7 +25,7 @@ permalink: /perfil/ca/
         <dl class="profile-experience">
           <div class="grid gutter">
             <div class="grid-33 h-i">
-              <dt>2014 – Avui</dt>
+              <dt>2014 – 2018</dt>
             </div>
             <div class="grid-66 h-i">
               <dd>Spines —Build deep, enduring knowledge</dd>
