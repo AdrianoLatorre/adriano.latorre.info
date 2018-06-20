@@ -63,7 +63,7 @@ permalink: /perfil/
             <div class="grid-66 h-i">
               <dd>Freelance —independent consultant</dd>
               <dd class="subtitle">Desarrollo multimedia, copywriting y diseño web.</dd>
-              <dd class="hid">Primeros proyectos profesionales desarrollados de manera independiente y colaboraciones frecuentes con empresas como MDK Servimedia y Spectra.</dd>
+              <dd class="hid">Primeros proyectos profesionales desarrollados de manera independiente y colaboraciones frecuentes con pequeñas empresas.</dd>
             </div>
           </div>
         </dl>

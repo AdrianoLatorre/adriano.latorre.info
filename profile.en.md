@@ -63,7 +63,7 @@ permalink: /profile/
             <div class="grid-66 h-i">
               <dd>Freelance —independent consultant</dd>
               <dd class="subtitle">Multimedia development, copywriting and web design.</dd>
-              <dd class="hid">First freelance professional projects and frequent collaborations with companies such as MDK Servimedia and Spectra.</dd>
+              <dd class="hid">First freelance professional projects and frequent collaborations with small companies.</dd>
             </div>
           </div>
         </dl>

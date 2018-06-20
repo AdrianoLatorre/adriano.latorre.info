@@ -63,7 +63,7 @@ permalink: /perfil/ca/
             <div class="grid-66 h-i">
               <dd>Freelance —independent consultant</dd>
               <dd class="subtitle">Desenvolupament multimèdia, copywriting and disseny web.</dd>
-              <dd class="hid">Primers projectes professionals desenvolupats de forma independent i col·laboracions freqüents amb empreses com MDK Servimedia i Spectra.</dd>
+              <dd class="hid">Primers projectes professionals desenvolupats de forma independent i col·laboracions freqüents amb petites empreses.</dd>
             </div>
           </div>
         </dl>
