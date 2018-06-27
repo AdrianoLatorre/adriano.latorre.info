@@ -1,3 +1,5 @@
+// *:hover { background-color: $red !important; }
+
 html {
   box-sizing: border-box;
   font: 100%/1.5 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -13,8 +15,6 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
-// *:hover { background-color: $red !important; }
 
 body {
   background-color: $g99;
