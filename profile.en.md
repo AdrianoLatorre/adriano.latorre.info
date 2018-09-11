@@ -25,7 +25,16 @@ permalink: /profile/
         <dl class="profile-experience">
           <div class="grid gutter">
             <div class="grid-33 h-i">
-              <dt>2014 – 2018</dt>
+              <dt>2018</dt>
+            </div>
+            <div class="grid-66 h-i">
+              <dd>Vilynx —Building the most powerful AI brain</dd>
+              <dd class="subtitle">UX, copywriting, graphic design and web design.</dd>
+              <dd>Vilynx is a startup that uses <em>machine learning</em> to develop an artificial intelligence capable of extracting, analyzing and understanding the existing concepts and relationships within any type of textual or audiovisual content.</dd>
+              <dd>Together with the design team, I have contributed to establish a good user experience with the redesign and subsequent continuous improvement of the <em>Dashboard</em> of Vilynx, the interface that allows programming, consulting and obtaining results from the information analysis that <em>Brain</em> —the artificial intelligence algorithm— makes. I have also taken part in the design of the corporate communication for the Vilynx website and for the company presentations.</dd>
+            </div>
+            <div class="grid-33 h-i">
+              <dt>2014 – 2017</dt>
             </div>
             <div class="grid-66 h-i">
               <dd>Spines —Build deep, enduring knowledge</dd>
@@ -52,7 +61,7 @@ permalink: /profile/
               <dt>2000 – 2007</dt>
             </div>
             <div class="grid-66 h-i">
-              <dd>httpcomunicació —agència de comunicació</dd>
+              <dd>httpcomunicació —<em>agència de comunicació</em></dd>
               <dd class="subtitle">Web architecture, copywriting and web design.</dd>
               <dd class="hid">Web designer and interactive CD developer in the early years. Gradually, I grew more interested in web architecture and copywriting. Regular participant in brainstorming sessions and responsible for projects from beginning to delivery.</dd>
               <dd class="hid">Clients: Abertis, Grupo Husa, <a href="/work/msf/">Médicos Sin Fronteras</a>, <a href="/work/oxfamintermon/">Oxfam Intermón</a>, Arsys, Piensa Solutions, <a href="/work/butxaca/">butxaca</a>, <a href="/work/queridacarmen/">Querida Carmen</a>, Buff, Cibernàrium, Barcelona Activa and many more.</dd>

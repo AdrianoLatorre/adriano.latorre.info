@@ -25,10 +25,19 @@ permalink: /perfil/ca/
         <dl class="profile-experience">
           <div class="grid gutter">
             <div class="grid-33 h-i">
-              <dt>2014 – 2018</dt>
+              <dt>2018</dt>
             </div>
             <div class="grid-66 h-i">
-              <dd>Spines —Build deep, enduring knowledge</dd>
+              <dd>Vilynx —<em>Building the most powerful AI brain</em></dd>
+              <dd class="subtitle">UX, copywriting, disseny gràfic i disseny web.</dd>
+              <dd>Vilynx és una startup que fa servir <em>machine learning</em> per desenvolupar una intel·ligència artificial capaç d'extreure, analitzar i comprendre els conceptes i relacions existents a qualsevol tipus de contingut de text o audiovisual.</dd>
+              <dd>Integrat a l'equip de disseny, he contribuït a establir una bona experiència d'usuari amb el redisseny i la posterior millora contínua del <em>Dashboard</em> de Vilynx, la interfície que permet programar, consultar i obtenir resultats de l'anàlisi d'informació que fa <em>Brain</em>, l'algoritme d'intel·ligència artificial. També he participat en el disseny de la comunicació corporativa a la pàgina web de Vilynx i en les seves presentacions d'empresa.</dd>
+            </div>
+            <div class="grid-33 h-i">
+              <dt>2014 – 2017</dt>
+            </div>
+            <div class="grid-66 h-i">
+              <dd>Spines —<em>Build deep, enduring knowledge</em></dd>
               <dd class="subtitle">UX, copywriting, disseny gràfic i disseny web.</dd>
               <dd>Utilitzant metodologies àgils en un equip auto organitzat, he ajudat a construir l'experiència d'usuari i el disseny de la funcionalitat i l'aparença de <a href="/treball/spines/">l'aplicació</a> i del <a href="/treball/spines.me/">lloc web de Spines</a>. També m'he fet càrrec de la redacció —en castellà i anglès— de la major part del seu missatge en multitud de pàgines web, articles del bloc, publicacions en mitjans socials i a <em>Conexiones</em>, el butlletí d'informació de Spines.</dd>
             </div>
@@ -61,7 +70,7 @@ permalink: /perfil/ca/
               <dt>1997 – 2000</dt>
             </div>
             <div class="grid-66 h-i">
-              <dd>Freelance —independent consultant</dd>
+              <dd>Freelance —consultor independent</dd>
               <dd class="subtitle">Desenvolupament multimèdia, copywriting and disseny web.</dd>
               <dd class="hid">Primers projectes professionals desenvolupats de forma independent i col·laboracions freqüents amb petites empreses.</dd>
             </div>
