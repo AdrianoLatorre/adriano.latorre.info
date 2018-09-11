@@ -30,7 +30,7 @@ permalink: /perfil/
             <div class="grid-66 h-i">
               <dd>Vilynx —<em>Building the most powerful AI brain</em></dd>
               <dd class="subtitle">UX, copywriting, diseño gráfico y diseño web.</dd>
-              <dd>Vilynx es una startup que utiliza <em>machine learning</em> para desarrollar una inteligencia artificial capaz de extraer, analizar y comprender los conceptos y relaciones existentes en cualquier tipo de contenido de texto o audiovisual.</dd>
+              <dd>Vilynx es una <em>startup</em> que utiliza <em>machine learning</em> para desarrollar una inteligencia artificial capaz de extraer, analizar y comprender los conceptos y relaciones existentes en cualquier tipo de contenido de texto o audiovisual.</dd>
               <dd>Integrado en el equipo de diseño, he contribuido a establecer una buena experiencia de usuario con el rediseño y la posterior mejora continua del <em>Dashboard</em> de Vilynx, la interfaz que permite programar, consultar y obtener resultados del análisis de información que hace <em>Brain</em>, el algoritmo de inteligencia artificial. También he participado en el diseño de la comunicación corporativa en la página web de Vilynx y en sus presentaciones de empresa.</dd>
             </div>
             <div class="grid-33 h-i">
