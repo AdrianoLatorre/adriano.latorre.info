@@ -1,0 +1,62 @@
+---
+---
+
+html {
+  box-sizing: border-box;
+  font: 100%/1.5 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  min-height: 100%;
+  @media all and (min-width: 96em) {
+    font-size: 150%;
+  }
+  @media all and (min-width: 144em) {
+    font-size: 200%;
+  }
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fff;
+  color: #21291C;
+  margin: 0 auto 6em;
+  max-width: 64em;
+  min-height: 100%;
+  padding: 0 1em;
+}
+
+::selection {
+  background-color: gold;
+  color: black;
+}
+
+a {
+  background-color: gold;
+  border-radius: 2px;
+  color: #21291C;
+  font-weight: 600;
+  margin: -.05em -.1em;
+  padding: .05em .1em;
+  text-decoration: none;
+  transition: background-color .125s ease-in-out;
+}
+
+a:visited {
+  background-color: red;
+}
+
+a:hover {
+  background-color: gold;
+  color: black;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: gold;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
