@@ -89,6 +89,10 @@ dl {
 
 dd {
 	margin-left: 0;
+
+	&:last-child {
+		margin-top: 1em;
+	}
 }
 
 .container {
