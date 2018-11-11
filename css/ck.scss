@@ -26,18 +26,20 @@ body {
 }
 
 ::selection {
-	background-color: gold;
+	background-color: #71B842;
 	color: black;
 }
 
 a {
 	background-color: transparent;
+	border-bottom: 2px solid #21291C;
 	border-radius: 2px;
 	color: #21291C;
 	font-weight: 600;
 	margin: -.05em -.1em;
 	padding: .05em .1em;
 	transition: background-color .1875s ease-in-out;
+	text-decoration: none;
 }
 
 a:visited {
@@ -45,12 +47,15 @@ a:visited {
 }
 
 a:hover {
-	background-color: gold;
-	color: black;
+	// background-color: #71B842;
+	border-bottom: 2px solid #71B842;
+	color: #71B842;
+	text-decoration: none;
 }
 
 a:active {
-	background-color: gold;
+	// background-color: #71B842;
+	color: #71B842;
 }
 
 img {
@@ -75,11 +80,11 @@ h3 {
 }
 
 h4 {
-	display: inline-block;
 	font-size: 1em;
 	font-weight: 700;
 	text-transform: uppercase;
-	border-bottom: 4px solid gold;
+	border-top: 2px solid #666;
+	padding-top: 16px;
 }
 
 dl {
