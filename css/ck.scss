@@ -32,13 +32,10 @@ body {
 
 a {
 	background-color: transparent;
-	border-bottom: 2px solid #21291C;
-	border-radius: 2px;
+	border-bottom: 1px solid #21291C;
 	color: #21291C;
 	font-weight: 600;
-	margin: -.05em -.1em;
-	padding: .05em .1em;
-	transition: background-color .1875s ease-in-out;
+	transition: all .125s ease-in-out;
 	text-decoration: none;
 }
 
@@ -47,14 +44,12 @@ a:visited {
 }
 
 a:hover {
-	// background-color: #71B842;
 	border-bottom: 2px solid #71B842;
 	color: #71B842;
 	text-decoration: none;
 }
 
 a:active {
-	// background-color: #71B842;
 	color: #71B842;
 }
 
@@ -83,8 +78,6 @@ h4 {
 	font-size: 1em;
 	font-weight: 700;
 	text-transform: uppercase;
-	border-top: 2px solid #666;
-	padding-top: 16px;
 }
 
 dl {
@@ -92,12 +85,18 @@ dl {
 	margin-top: 0;
 }
 
+dt {
+	margin-bottom: 1em;
+}
+
 dd {
 	margin-left: 0;
+}
 
-	&:last-child {
-		margin-top: 1em;
-	}
+footer {
+	border-bottom: 1px solid #666;
+	border-top: 1px solid #666;
+	padding: 16px 0 24px;
 }
 
 .container {
@@ -116,6 +115,14 @@ dd {
 	}
 }
 
+.image {
+	display: block;
+	line-height: 0;
+	margin: 64px 0;
+	border-radius: 2px;
+	overflow: hidden;
+}
+
 .ck-guilloche {
 	position: fixed;
 	bottom: 0;
@@ -127,6 +134,13 @@ dd {
 	img {
 		max-width: 900px;
 		animation: spin 180s infinite linear;
+	}
+}
+
+.ck-logo {
+
+	img {
+		max-width: 240px;
 	}
 }
 
@@ -142,12 +156,5 @@ dd {
 	100% {
 		transform: rotate(360deg);
 		opacity: .5;
-	}
-}
-
-.ck-logo {
-
-	img {
-		max-width: 240px;
 	}
 }
