@@ -118,7 +118,8 @@ footer {
 .image {
 	display: block;
 	line-height: 0;
-	margin: 64px 0;
+	margin: 64px 0 80px;
+	border: 1px solid #999;
 	border-radius: 2px;
 	overflow: hidden;
 }
