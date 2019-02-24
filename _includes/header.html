@@ -1,5 +1,5 @@
 <header>
-  <div class="language-selector-bar">{% if page.nav contains 'Home' %}{% if page.url != '/es/' %}<a href="/es/">ES</a> &nbsp;&middot;&nbsp; {% endif %}{% if page.url != '/ca/' %}<a href="/ca/">CA</a>{% if page.url != '/' %} &nbsp;&middot;&nbsp; {% endif %}{% endif %}{% if page.url != '/' %}<a href="/">EN</a>{% endif %}{% endif %}</div>
+  <div>{% if page.nav contains 'Home' %}{% if page.url != '/es/' %}<a href="/es/">ES</a> &nbsp;&middot;&nbsp; {% endif %}{% if page.url != '/ca/' %}<a href="/ca/">CA</a>{% if page.url != '/' %} &nbsp;&middot;&nbsp; {% endif %}{% endif %}{% if page.url != '/' %}<a href="/">EN</a>{% endif %}{% endif %}</div>
   <script>
     var langsel = document.getElementsByClassName('language-selector-bar');
     var langlink = langsel[0].getElementsByTagName('a');
@@ -7,11 +7,11 @@
       langlink[n].addEventListener('click', function(){storeLanguage(this.getAttribute('href'))});
     }
   </script>
-  <nav class="header-nav">
-    <ul class="flexbox-header">
-      <li class="fx-25"><a href="/{% if page.nav == 'Home' %}{% if page.la == 'ca' %}perfil/ca/{% endif %}{% if page.la == 'en' %}profile/{% endif %}{% if page.la == 'es' %}perfil/{% endif %}{% else %}{% if page.la == 'ca' %}ca/{% endif %}{% if page.la == 'es' %}es/{% endif %}{% endif %}">Adriano Latorre</a></li>
+  <nav>
+    <ul>
+      <li><a href="/{% if page.nav == 'Home' %}{% if page.la == 'ca' %}perfil/ca/{% endif %}{% if page.la == 'en' %}profile/{% endif %}{% if page.la == 'es' %}perfil/{% endif %}{% else %}{% if page.la == 'ca' %}ca/{% endif %}{% if page.la == 'es' %}es/{% endif %}{% endif %}">Adriano Latorre</a></li>
       {% if page.nav contains 'Home' %}
-      <li class="fx-75 language-selector" id="language-selector">{% if page.url != '/es/' %}<a href="/es/" id="/es/">Castellano</a> &nbsp;&middot;&nbsp; {% endif %}{% if page.url != '/ca/' %}<a href="/ca/" id="/ca/">Català</a>{% if page.url != '/' %} &nbsp;&middot;&nbsp; {% endif %}{% endif %}{% if page.url != '/' %}<a href="/" id="/">English</a>{% endif %}</li>
+      <li id="language-selector">{% if page.url != '/es/' %}<a href="/es/" id="/es/">Castellano</a> &nbsp;&middot;&nbsp; {% endif %}{% if page.url != '/ca/' %}<a href="/ca/" id="/ca/">Català</a>{% if page.url != '/' %} &nbsp;&middot;&nbsp; {% endif %}{% endif %}{% if page.url != '/' %}<a href="/" id="/">English</a>{% endif %}</li>
       <script>
         var langsel = document.getElementsByClassName('language-selector');
         var langlink = langsel[0].getElementsByTagName('a');
@@ -20,7 +20,7 @@
         }
       </script>
       {% else %}
-      <li class="fx-75">{{ page.nav }}</li>
+      <li>{{ page.nav }}</li>
       {% endif %}
     </ul>
   </nav>

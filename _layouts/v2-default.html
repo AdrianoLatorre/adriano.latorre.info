@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+  {% include header.html %}
+  {{ content }}
+  {% if page.la == 'ca' %}
+  {% include footer.ca.html %}
+  {% endif %}
+  {% if page.la == 'en' %}
+  {% include footer.en.html %}
+  {% endif %}
+  {% if page.la == 'es' %}
+  {% include footer.es.html %}
+  {% endif %}
+</body>
+</html>

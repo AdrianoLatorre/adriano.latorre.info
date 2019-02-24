@@ -4,21 +4,21 @@ layout: default
 
 {% if page.url == "/work/" %}
 {% assign portfolio = site.work | sort: 'date' %}
-<div>
+<div class="cards grid gutter">
   {% for work in portfolio reversed %}
   {% if work.selected == 1 %}
-  <dl>
+  <dl class="card-item grid-33">
     <dt><a href="{{ work.permalink }}"><img src="/-{{ work.permalink }}{{ work.media.card }}"/></a></dt>
   </dl>
   {% endif %}
   {% endfor %}
 </div>
 {% else %}
-<article>
+<article class="portfolio-item">
   <header>
     <!-- <img src="/-{{ page.permalink }}{{ page.media.cover }}"/> -->
-    <div>
-      <div>
+    <div class="item-info">
+      <div class="item-description">
         <h1>{{ page.title }}</h1>
         <h2>{{ page.brief }}</h2>
         {{ page.description }}
@@ -26,43 +26,43 @@ layout: default
         {% if metaurl.main_url != "0" %}
         <h3><a href="{{ metaurl.main_url }}">{{ metaurl.address }}</a></h3>
         {% else %}
-        <h3><span>{{ metaurl.address }}</span></h3>
+        <h3><span class="ex-link">{{ metaurl.address }}</span></h3>
         {% endif %}
         {% endfor %}
-        <ul>{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
+        <ul class="item-labels">{% for task in page.tasks %}<li>{{ task }}</li>{% endfor %}</ul>
       </div>
       {% if page.online == 1 %}
-      <div><iframe src="{% if page.meta_urls[0].demo_url %}{{ page.meta_urls[0].demo_url }}{% else %}{{ page.meta_urls[0].main_url }}{% endif %}"></iframe></div>
+      <div class="ui-frame"><iframe src="{% if page.meta_urls[0].demo_url %}{{ page.meta_urls[0].demo_url }}{% else %}{{ page.meta_urls[0].main_url }}{% endif %}"></iframe></div>
       {% else %}
-      <div><img src="/-/work/{{ page.wid }}/{{ page.media.ui }}"/></div>
+      <div class="ui-image"><img src="/-/work/{{ page.wid }}/{{ page.media.ui }}"/></div>
       {% endif %}
     </div>
   </header>
-  <div>
+  <div class="item-media">
     <img src="/-/work/{{ page.wid }}/{{ page.media.ui }}"/>
     {% for image in page.media.images %}
     {% if image contains '.mp4' %}
     <video src="/-/work/{{ page.wid }}/{{ image }}" loop autoplay poster="/-/work/{{ page.wid }}/{{ page.media.cover }}"></video>
     {% elsif image contains 'youtube.com' %}
-    <div width="853" height="480"><iframe src="{{ image }}?rel=0" frameborder="0" allowfullscreen></iframe></div>
+    <div width="853" height="480" class="responsive-video"><iframe src="{{ image }}?rel=0" frameborder="0" allowfullscreen></iframe></div>
     {% else %}
     <img src="/-/work/{{ page.wid }}/{{ image }}"/>
     {% endif %}
     {% endfor %}
   </div>
-  <nav>
+  <nav class="item-browser grid gutter">
     {% assign works = site.work | where:"la", page.la | sort: 'date' %}
     {% for work in works %}
     {% if work.wid == page.wid %}
     {% assign next_i = forloop.index0 | plus: 1 %}
     {% if forloop.last == false %}
-    <div>
+    <div class="item-next grid-50">
       <h4>{% if page.la == "ca" %}Següent{% endif %}{% if page.la == "en" %}Next{% endif %}{% if page.la == "es" %}Siguiente{% endif %}</h4>
       <a href="{{ works[next_i].permalink }}">{{ works[next_i].title }}</a><br>
       {{ works[next_i].brief }}
     </div>
     {% else %}
-    <div></div>
+    <div class="item-next grid-50"></div>
     {% endif %}
     {% endif %}
     {% endfor %}
@@ -71,7 +71,7 @@ layout: default
     {% if work.wid == page.wid %}
     {% assign prev_i = forloop.index0 | minus: 1 %}
     {% if forloop.first == false %}
-    <div>
+    <div class="item-previous grid-50">
       <h4>{% if page.la == "ca" %}Anterior{% endif %}{% if page.la == "en" %}Previous{% endif %}{% if page.la == "es" %}Anterior{% endif %}</h4>
       <a href="{{ works[prev_i].permalink }}">{{ works[prev_i].title }}</a><br>
       {{ works[prev_i].brief }}
