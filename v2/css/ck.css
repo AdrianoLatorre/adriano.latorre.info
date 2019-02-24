@@ -1,0 +1,128 @@
+html {
+  box-sizing: border-box;
+  font: 100%/1.5 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  min-height: 100%; }
+  @media all and (min-width: 96em) {
+    html {
+      font-size: 150%; } }
+  @media all and (min-width: 144em) {
+    html {
+      font-size: 200%; } }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  background-color: #fff;
+  color: #21291C;
+  margin: 0 auto 6em;
+  min-height: 100%;
+  padding: 0 1em; }
+
+::selection {
+  background-color: #71B842;
+  color: black; }
+
+a {
+  background-color: transparent;
+  border-bottom: 1px solid #21291C;
+  color: #21291C;
+  font-weight: 600;
+  transition: all .125s ease-in-out;
+  text-decoration: none; }
+
+a:visited {
+  background-color: transparent; }
+
+a:hover {
+  border-bottom: 2px solid #71B842;
+  color: #71B842;
+  text-decoration: none; }
+
+a:active {
+  color: #71B842; }
+
+img {
+  max-width: 100%; }
+
+strong {
+  font-weight: 600; }
+
+h1, h3 {
+  font-weight: 400;
+  line-height: 1.125; }
+
+h1 {
+  font-size: 2.5em; }
+
+h3 {
+  font-size: 1.5em; }
+
+h4 {
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+dl {
+  font-size: 1.25em;
+  margin-top: 0; }
+
+dt {
+  margin-bottom: 1em; }
+
+dd {
+  margin-left: 0; }
+
+footer {
+  border-bottom: 1px solid #666;
+  border-top: 1px solid #666;
+  padding: 16px 0 24px; }
+
+.container {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 16%; }
+  @media all and (min-width: 48em) {
+    .container {
+      width: 60%;
+      margin-left: 10%;
+      margin-top: 10%; } }
+  @media all and (min-width: 64em) {
+    .container {
+      width: 40%;
+      margin-left: 10%;
+      margin-top: 10%; } }
+
+.image {
+  display: block;
+  line-height: 0;
+  margin: 64px 0 80px;
+  border: 1px solid #999;
+  border-radius: 2px;
+  overflow: hidden; }
+
+.ck-guilloche {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 480px;
+  height: 480px;
+  overflow: hidden;
+  z-index: -10; }
+  .ck-guilloche img {
+    max-width: 900px;
+    animation: spin 180s infinite linear; }
+
+.ck-logo img {
+  max-width: 240px; }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    opacity: .5; }
+  50% {
+    transform: rotate(180deg);
+    opacity: 1; }
+  100% {
+    transform: rotate(360deg);
+    opacity: .5; } }
