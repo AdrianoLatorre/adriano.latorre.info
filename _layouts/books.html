@@ -2,17 +2,17 @@
 layout: default
 ---
 
-<div>
-  {% if page.url == '/books/' %}
-  {% assign years = site.data.books | sort: 'decade' %}
+<div class="books grid gutter">
+  {% if page.url == '/llibres/' or page.url == '/books/' or page.url == '/libros/' %}
+  {% assign years = site.books | sort: 'decade' %}
   {% assign counter = 0 %}
   {% for decade in years reversed %}
   {% for book in decade.books %}
   {% if counter < 8 %}
   {% assign counter = counter | plus:1 %}
-  <dl>
+  <dl class="grid-thirds">
     <dt><a href="{{ book.link }}"><img src="/-/books/{{ book.cover }}"/></a></dt>
-    <dd><a href="{{ book.info }}">{{ book.author }}</a></dd>
+    <dd class="author"><a href="{{ book.info }}" class="info">{{ book.author }}</a></dd>
     <dd><a href="{{ book.link }}">{{ book.title }}</a></dd>
   </dl>
   {% endif %}
@@ -20,9 +20,9 @@ layout: default
   {% endfor %}
   {% else %}
   {% for book in page.books %}
-  <dl>
+  <dl class="grid-thirds">
     <dt><a href="{{ book.link }}"><img src="/-/books/{{ book.cover }}"/></a></dt>
-    <dd><a href="{{ book.info }}">{{ book.author }}</a></dd>
+    <dd class="author"><a href="{{ book.info }}" class="info">{{ book.author }}</a></dd>
     <dd><a href="{{ book.link }}">{{ book.title }}</a></dd>
   </dl>
   {% endfor %}
@@ -30,17 +30,17 @@ layout: default
 </div>
 
 <nav>
-  <ol>
+  <ol class="decades grid gutter">
     {% if page.url == '/llibres/' or page.url == '/books/' or page.url == '/libros/' %}
-    <li><span>Recent</span></li>
+    <li class="grid-eights"><span>Recent</span></li>
     {% else %}
-    <li><a href="/books/">Recent</a></li>
+    <li class="grid-eights"><a href="/books/">Recent</a></li>
     {% endif %}
     {% for decade in site.books reversed %}
     {% if page.url == decade.url %}
-    <li><span>{{ decade.decade }}</span></li>
+    <li class="grid-eights"><span>{{ decade.decade }}</span></li>
     {% else %}
-    <li><a href="{{ decade.url }}">{{ decade.decade }}</a></li>
+    <li class="grid-eights"><a href="{{ decade.url }}">{{ decade.decade }}</a></li>
     {% endif %}
     {% endfor %}
   </ol>

@@ -2,9 +2,10 @@
 layout: default
 ---
 
-<div>
-    {% for person in site.data.people %}
-  <dl>
+<div class="people grid gutter">
+    {% for all in site.people %}
+    {% for person in all.people %}
+  <dl class="grid-thirds">
     <dt>{{ person.name }}</dt>
     {% if person.link %}
     <dd><a href="{{ person.link }}">{{ person.site }}</a></dd>
@@ -13,5 +14,6 @@ layout: default
     <dd><a href="https://twitter.com/{{ person.twitter }}">@{{ person.twitter }}</a></dd>
     {% endif %}
   </dl>
+    {% endfor %}
     {% endfor %}
 </div>
