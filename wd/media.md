@@ -2,25 +2,28 @@
 # Media
 
 
-+ Eric Fromm
++ El arte de amar. Eric Fromm.
 + Grid Systems in Graphic Design. Josef Muller-Brockmann.
 + The Vignelli Canon. Massimo Vignelli.
 + The Design of Everyday Things. Donald A. Norman.
 + 20120000. The Information. James Gleick.
 + Paul Auster.
 + Mi familia y otros animales. Gerald Durrell.
-+ Dune
++ Dune.
++ Fight CLub.
++ Memento.
 + Coetzee.
++ [The Garden and the Stream: A Technopastoral](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/)
 + Las edades de Lulú. Almudena Grandes.
 + E.T.
-+ Superman
-+ The Beatles
-+ The Ramones
-+ John Cleese creativity talk
++ Superman.
++ The Beatles.
++ The Ramones.
++ John Cleese creativity talk.
 +
 
 
-### 2010 – 46
+## 2010 – 46
 
 20170409. The Handmaid's Tale. Margaret Atwood.
 20160401. Sapiens: A Brief History of Humankind. Yuval Noah Harari.
@@ -33,7 +36,7 @@
 20130101. Hackers & Painters: Big Ideas from the Computer Age. Paul Graham.
 
 
-### 2000 – 36
+## 2000 – 36
 
 20090900. El arte de volar. Antonio Altarriba, Kim.
 20070501. Si menges una llimona sense fer ganyotes. Sergi Pàmies.
@@ -64,7 +67,7 @@
 20000101. El coronel no tiene quién le escriba. Gabriel García Márquez.
 
 
-### 1990 – 26
+## 1990 – 26
 
 19900101. Las personas del verbo. Jaime Gil de Biedma.
 19900101. Las ratas. Miguel Delibes.
@@ -89,7 +92,7 @@
 19900101. Memorias de Adriano. Marguerite Yourcenar.
 
 
-### 1980 – 16
+## 1980 – 16
 
 
 19800101. El camino. Miguel Delibes.
@@ -104,4 +107,52 @@
 19800101. El sulfato atómico. Francisco Ibáñez.
 
 
-### 1970 – 6
+## 1970 – 6
+
+---
+
+## File types
+
+0. Link — Title, [description], url.
+0. Image — Image, [Title], [description], [url].
+0. Book — Cover image, title, author, url, author-url.
+0. Video — [Title], [description], id, [url], video-platform.
+0. Quote — Quote, [author], [url].
+
+date: 2001-01-01
+type: link
+title: TEXT
+.description: TEXT
+url: URL
+
+date: 2001-01-01
+type: image
+.title: TEXT
+.description: TEXT
+image: FILE.*
+.url: URL
+
+date: 2001-01-01
+type: book
+author: TEXT
+author-url: URL
+cover: FILE.PNG
+title: TEXT
+url: URL
+
+date: 2001-01-01
+type: video
+.title: TEXT
+.description: TEXT
+id: ID
+.url: URL
+video-platform: youtube|vimeo
+
+date: 2001-01-01
+type: quote
+quote: TEXT
+.author: TEXT
+.url: URL
+
+
+---
