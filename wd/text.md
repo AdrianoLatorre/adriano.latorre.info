@@ -2,16 +2,13 @@
 # Text
 
 
-FONTS
-Crimson: https://github.com/skosch/Crimson/releases
-Cabin
 
-Cabin
+---
 
-Donegal One
+# Notes
 
-https://werklig.com/project/kuusamon-juusto/
 
+See https://werklig.com/project/kuusamon-juusto/
 
 
 HOME/WORK
