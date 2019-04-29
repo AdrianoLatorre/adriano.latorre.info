@@ -39,7 +39,20 @@ Inglés
 
 ## Experiencia laboral
 
-> Julio 2018 – Hoy
+> Noviembre 2018 – Hoy
+Suntransfers
+
+Arquitectura web
+Redacción creativa
+Diseño de interacción
+Experiencia de usuario
+Diseño gráfico
+Diseño web
+
+
+
+
+> Julio 2018 – Octubre 2018
 Vilynx
 
 Arquitectura web
@@ -181,7 +194,18 @@ Anglés
 
 ## Experiència laboral
 
-> Juliol 2018 – Avui
+> Novembre 2018 – Hoy
+Suntransfers
+
+Arquitectura web
+Redacció creativa
+Disseny d'interacció
+Experiència d'usuari
+Disseny gràfic
+Disseny web
+
+
+> Juliol 2018 – Octubre 2018
 Vilynx
 
 Arquitectura web
@@ -322,7 +346,19 @@ English
 
 ## Work experience
 
-> July 2018 – Today
+> November 2018 – Today
+Suntransfers
+
+Web architecture
+Copywriting
+Interaction design
+User experience
+Graphic design
+Web design
+
+
+
+> July 2018 – October 2018
 Spines
 
 Web architecture
