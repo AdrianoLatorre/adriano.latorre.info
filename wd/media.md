@@ -20,7 +20,9 @@
 + The Beatles.
 + The Ramones.
 + John Cleese creativity talk.
-+
++ 2001. Kubrick.
++ Woodstock.
++ 
 
 
 ## 2010 – 46
