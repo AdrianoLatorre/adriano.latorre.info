@@ -5,7 +5,7 @@
 
 Hello! I'm a [designer and copywriter][ABOUT] with a bent for effortless user experience, clean interfaces and simple solutions.
 
-I'm lucky to have worked with a bunch of wonderful [people][PEOPLE]. I keep a [media][MEDIA] collection and save interesting [links][LINKS] to send in my monthly [newsletter][NEWSLETTER].
+I'm lucky to have worked with a bunch of wonderful [people][PEOPLE] for the better part of my career. I keep a [media][MEDIA] collection and save interesting [links][LINKS] to send in my monthly [newsletter][NEWSLETTER].
 
 Read more [about me][ABOUT] or see examples of my [work][WORK].
 
