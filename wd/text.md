@@ -12,9 +12,9 @@ See https://werklig.com/project/kuusamon-juusto/
 
 
 HOME
-Hello! I'm a [designer and copywriter][ABOUT] with a bent for [user experience, clear interfaces and simple solutions][WORK].
+Hello! I'm a [designer and copywriter][ABOUT] with a bent for [user experience, clean interfaces and simple solutions][WORK].
 
-I enjoy working with wonderful [people][PEOPLE]. I keep a [media][MEDIA] collection for my own amusement and save interesting [links][LINKS] to send them in my monthly [newsletter][NEWSLETTER].
+I'm lucky to have worked with wonderful [people][PEOPLE] most of my career. I keep a [media][MEDIA] collection and save interesting [links][LINKS] to send in my monthly [newsletter][NEWSLETTER].
 
 Read more [about me][ABOUT] or see examples of my [work][WORK].
 
