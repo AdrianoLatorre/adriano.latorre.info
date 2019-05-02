@@ -3,13 +3,13 @@
 
 ## HOME - INICIO - INICI
 
-Hello! I'm a [designer and copywriter][ABOUT] with a bent for [effortless user experience, clean interfaces and simple solutions][WORK].
+Hello! I'm a [designer and copywriter][ABOUT] with a bent for effortless user experience, clean interfaces and simple solutions.
 
 I'm lucky to have worked with a bunch of wonderful [people][PEOPLE]. I keep a [media][MEDIA] collection and save interesting [links][LINKS] to send in my monthly [newsletter][NEWSLETTER].
 
 Read more [about me][ABOUT] or see examples of my [work][WORK].
 
-You can [write][MAIL] or [tweet][TWITTER] to me. I also speak [Catalan][CA] and [Spanish][ES]. Nice to meet you.
+Say [hello][MAIL] or find me on [Twitter][TWITTER], [Refind][REFIND] and [LinkedIn][LINKEDIN]. I also speak [Catalan][CA] and [Spanish][ES]. Nice to meet you.
 
 ---
 
@@ -31,10 +31,20 @@ I'm lucky to have worked with these wonderful **people**.
 
 ## MEDIA
 
+Media
+
 ## LINKS
 
+Links
 
 ---
+
+Enlaces
+
+---
+
+Enllaços
+
 
 # Notes
 
