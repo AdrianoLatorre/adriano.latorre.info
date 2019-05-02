@@ -1,6 +1,37 @@
 
 # Text
 
+## HOME - INICIO - INICI
+
+Hello! I'm a [designer and copywriter][ABOUT] with a bent for [effortless user experience, clean interfaces and simple solutions][WORK].
+
+I'm lucky to have worked with a bunch of wonderful [people][PEOPLE]. I keep a [media][MEDIA] collection and save interesting [links][LINKS] to send in my monthly [newsletter][NEWSLETTER].
+
+Read more [about me][ABOUT] or see examples of my [work][WORK].
+
+You can [write][MAIL] or [tweet][TWITTER] to me. I also speak [Catalan][CA] and [Spanish][ES]. Nice to meet you.
+
+---
+
+## WORK
+
+Some examples of my **work** in user experience, copywriting and web design.
+
+---
+
+## ABOUT
+
+
+
+## PEOPLE
+
+I'm lucky to have worked with these wonderful **people**.
+
+---
+
+## MEDIA
+
+## LINKS
 
 
 ---
@@ -10,17 +41,6 @@
 
 See https://werklig.com/project/kuusamon-juusto/
 
-
-HOME
-Hello! I'm a [designer and copywriter][ABOUT] with a bent for [user experience, clean interfaces and simple solutions][WORK].
-
-I'm lucky to have worked with wonderful [people][PEOPLE] most of my career. I keep a [media][MEDIA] collection and save interesting [links][LINKS] to send in my monthly [newsletter][NEWSLETTER].
-
-Read more [about me][ABOUT] or see examples of my [work][WORK].
-
-You can [write][MAIL] or [tweet][TWITTER] to me. I also speak [Catalan][CA] and [Spanish][ES]. Nice to meet you.
-
----
 
 Hi, I am, work, language, about, contact, people, media, links.
 
