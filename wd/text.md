@@ -10,16 +10,26 @@
 
 See https://werklig.com/project/kuusamon-juusto/
 
+
 HOME
-I’m Adriano Latorre, UX designer. See examples of my work. I also speak Catalan and Spanish. Learn more about me. You can write or follow me.
+Hello! I'm a [designer and copywriter][ABOUT] with a bent for [user experience, clear interfaces and simple solutions][WORK].
+
+I enjoy working with wonderful [people][PEOPLE]. I keep a [media][MEDIA] collection for my own amusement and save interesting [links][LINKS] to send them in my monthly [newsletter][NEWSLETTER].
+
+Read more [about me][ABOUT] or see examples of my [work][WORK].
+
+You can [write][MAIL] or [tweet][TWITTER] to me. I also speak [Catalan][CA] and [Spanish][ES]. Nice to meet you.
+
+---
 
 Hi, I am, work, language, about, contact, people, media, links.
 
 
 WORK
+Some examples of my work in user experience, copywriting and web design.
+
 These are some examples of my work in user experience, copywriting and web design.
 
-Some examples of my work in user experience, copywriting and web design.
 
 ABOUT
 This is _me_, right there. I'm fascinated with etc…
