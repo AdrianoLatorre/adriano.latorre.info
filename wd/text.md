@@ -11,6 +11,7 @@ Read more [about me][ABOUT] or see examples of my [work][WORK].
 
 Say [hello][MAIL] or find me on [Twitter][TWITTER], [Refind][REFIND] and [LinkedIn][LINKEDIN]. I also speak [Catalan][CA] and [Spanish][ES]. Nice to meet you.
 
+
 ---
 
 ## WORK
@@ -50,6 +51,13 @@ Enllaços
 
 
 See https://werklig.com/project/kuusamon-juusto/
+
+Descriptive project text could also go in a half measure rectangle from the grid of images, like werklig.
+
+Loupe effect demo: https://www.jqueryscript.net/demo/jQuery-CSS3-Based-Image-Magnifying-Effect-For-Touch-Devices-Touch-Zoom/
+
+A beatiful archive of articles: https://jon.gold/archive
+
 
 
 Hi, I am, work, language, about, contact, people, media, links.
