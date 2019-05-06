@@ -31,18 +31,26 @@ Si lo que buscas es de madera…
 
 ---
 
-
-
 ## HOME - INICIO - INICI
 
-Hello! I'm a [designer and copywriter][ABOUT] with a bent for clean interfaces, precise wording and simple solutions. I love to build effortless user experiences.
 
-I'm lucky to have worked with a bunch of wonderful [people][PEOPLE] for the better part of my career. Here I keep a portfolio of my [work][WORK], a [media][MEDIA] collection and a growing page of interesting [links][LINKS]. I publish the best ones in my monthly [newsletter][NEWSLETTER].
+### No cookie message
 
-Read more [about me][ABOUT] and say [hello][MAIL] or find me on [Twitter][TWITTER], [Refind][REFIND] and [LinkedIn][LINKEDIN]. Since I'm from [Barcelona][MAP], I also speak [Catalan][CA] and [Spanish][ES]. Nice to meet you.
+> This page is also available in [Catalan][CA] and [Spanish][ES].
+
+[CA] [EN] [ES]
+
+I'm a [UX designer and copywriter][ABOUT] with a bent for effortless user experiences. I love clean interfaces, precise wording and simple solutions.
+
+Here I keep [a portfolio of my work][WORK], a [media][MEDIA] and [links][LINKS] collection and [notes][NOTES] about anything.
+
+I'm lucky to have worked with [wonderful people][PEOPLE] most of my career. Read more [about me][ABOUT] and say [hello][MAIL] or [follow me][TWITTER].
+
+Nice to meet you.
 
 
 ---
+
 
 ## WORK
 
@@ -52,11 +60,11 @@ Some examples of my **work** in user experience, copywriting and web design.
 
 ## ABOUT
 
-
+---
 
 ## PEOPLE
 
-I'm lucky to have worked with these wonderful **people**.
+I'm lucky to have worked with all these wonderful **people**.
 
 ---
 
