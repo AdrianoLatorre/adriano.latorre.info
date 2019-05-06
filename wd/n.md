@@ -13,4 +13,4 @@
 **Iowan Old Style**, _Lora_, **Georgia**, serif.
 
 ### Sans-serif font stack
-_Fira Sans_, Source Sans Pro, Lato, **Avenir**, **Helvetica Neue**, serif.
+_Fira Sans_, _Lato_, **Avenir**, **Helvetica Neue**, serif.
