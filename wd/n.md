@@ -7,10 +7,10 @@
 - Look for an Iowan and Fira replacement, specially on Android: Iowan, Georgia, serif & Fira, Source Sans Pro, sans-serif. Read https://templates.mailchimp.com/design/typography/
 
 ### Template font stack
-**Pretty system font**, _Google Font_, Alt font, **System font**, sans or serif.
+**Best system font**, Best Alt font, _Google Font_, **System font**, sans or serif.
 
 ### Serif font stack
-**Iowan Old Style**, _Lora_, **Georgia**, serif.
+**Iowan Old Style**, Crimson, Palatino, Lora, _Crimson-gf_, _Lora-gf_, **Georgia**, serif.
 
 ### Sans-serif font stack
-_Fira Sans_, _Lato_, **Avenir**, **Helvetica Neue**, serif.
+Fira Sans, Lato, _Fira Sans-gf_, _Lato-gf_, **Avenir**, **Helvetica Neue**, serif.
