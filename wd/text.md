@@ -36,6 +36,8 @@ Si lo que buscas es de madera…
 
 ### No cookie message
 
+If no cookie, set EN and display this message:
+
 > This page is also available in [Catalan][CA] and [Spanish][ES].
 
 [CA] [EN] [ES]
