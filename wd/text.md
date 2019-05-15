@@ -1,35 +1,6 @@
 
 # Text
 
-# EN MANO
-
-Hay brujas cobardes y brujas valientes,
-hay brujas petardas y brujas corrientes.
-Si quieres ser una bruja excelente,
-busca entre limones la pista siguiente.
-
----
-
-# EN EL LIMONERO
-
-Convertirse en una bruja no es un juego.
-¿Has mirado en el lugar donde vive el fuego?
-
----
-
-# EN LA CHIMENEA
-
-En la oscuridad, entre las ratas, hay un agujero.
-Encuentra la pista que soluciona este misterio.
-
----
-
-# EN EL AGUJERO
-
-Si lo que buscas es de madera…
-¿le has preguntado a la morera?
-
----
 
 ## HOME - INICIO - INICI
 
