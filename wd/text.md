@@ -5,11 +5,12 @@
 ## HOME - INICIO - INICI
 
 
-### No cookie message
+### No cookie or JavaScript message
 
 If no cookie, set EN and display this message:
 
 > This page is also available in [Catalan][CA] and [Spanish][ES].
+
 
 [CA] [EN] [ES]
 
@@ -29,6 +30,11 @@ Nice to meet you.
 
 Some examples of my **work** in user experience, copywriting and web design.
 
+Alguns exemples del meu **treball** en experiència d'usuari, _copywriting_ i disseny web.
+
+Algunos ejemplos de mi **trabajo** en experiencia de usuario, _copywriting_ y diseño web.
+
+
 ---
 
 ## NOTES
@@ -43,6 +49,10 @@ Some examples of my **work** in user experience, copywriting and web design.
 
 I'm lucky to have worked with all these wonderful **people**.
 
+He tingut la sort de col·laborar amb totes aquestes **persones** meravelloses.
+
+He tenido la suerte de colaborar con todas estas **personas** maravillosas.
+
 ---
 
 ## MEDIA
@@ -52,42 +62,48 @@ Media
 ## LINKS
 
 Links
+Sources
 
 ---
 
 Enlaces
+Fuentes
 
 ---
 
 Enllaços
+Fonts
 
 
 # Routes
+
+What if urls are the same for all languages?
 
 /
 /ca/
 /es/
 
-/work/ — /work/all/
-/projectes/ — /projectes/tots/
-/proyectos/ — /proyectos/todos/
+/work/ — /work/httpcomunicacio/
+/treball/ — /treball/httpcomunicacio/
+/trabajo/ — /trabajo/httpcomunicacio/
+
+/about/
+/perfil/ca/
+/perfil/
 
 /notes/ — /notes/19/ — /notes/19/5/
-/notes/ca/
-/notas/
+/apunts/  — /apunts/19/ — /apunts/19/5/
+/notas/ — /notas/19/ — /notas/19/5/
 
 /people/
 /persones/
 /personas/
 
-/media/ — /media/70/ — media/00/
-/media/ca/
-/media/es/
+/media/ — /media/90/
 
-/links/ — /links/2015/
-/enllaços/
-/enlaces/
-
+/links/ — /links/15/
+/enllaços/ — /enllaços/19/
+/enlaces/ — /enlaces/18/
 
 
 # Notes
