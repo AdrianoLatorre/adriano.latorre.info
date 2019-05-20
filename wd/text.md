@@ -15,9 +15,9 @@ If no cookie, set EN and display this message:
 
 I'm a [UX designer and copywriter][ABOUT] with a bent for effortless user experiences. I love clean interfaces, precise wording and simple solutions.
 
-Here I keep [a portfolio of my work][WORK], a [media][MEDIA] and [links][LINKS] collection and [notes][NOTES] about anything.
+Here I keep [a portfolio of my work][WORK], a [media][MEDIA] and [links][LINKS] collection and [notes][NOTES] about what I have learned.
 
-I'm lucky to have worked with [wonderful people][PEOPLE] most of my career. Read more [about me][ABOUT] and say [hello][MAIL] or [follow me][TWITTER].
+I'm lucky to have worked with [wonderful people][PEOPLE] most of my career. Learn more [about me][ABOUT] and say [hello][MAIL] or [follow me][TWITTER].
 
 Nice to meet you.
 
@@ -28,6 +28,10 @@ Nice to meet you.
 ## WORK
 
 Some examples of my **work** in user experience, copywriting and web design.
+
+---
+
+## NOTES
 
 ---
 
@@ -56,6 +60,34 @@ Enlaces
 ---
 
 Enllaços
+
+
+# Routes
+
+/
+/ca/
+/es/
+
+/work/ — /work/all/
+/projectes/ — /projectes/tots/
+/proyectos/ — /proyectos/todos/
+
+/notes/ — /notes/19/ — /notes/19/5/
+/notes/ca/
+/notas/
+
+/people/
+/persones/
+/personas/
+
+/media/ — /media/70/ — media/00/
+/media/ca/
+/media/es/
+
+/links/ — /links/2015/
+/enllaços/
+/enlaces/
+
 
 
 # Notes
