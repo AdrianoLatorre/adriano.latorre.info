@@ -35,3 +35,8 @@ collections:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Exclusions
+
+exclude:
+  - wd/
