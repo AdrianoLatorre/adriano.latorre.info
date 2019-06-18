@@ -40,6 +40,8 @@ Nice to meet you.
 
 ## WORK
 
+> Show a one second hand cursor moving in a circle to indicate that you can drag the image around. If there's no interaction? At the beginning?
+
 Some examples of my **work** in user experience, copywriting and web design.
 
 Alguns exemples del meu **treball** en experiència d'usuari, _copywriting_ i disseny web.
