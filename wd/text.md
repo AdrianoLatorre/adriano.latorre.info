@@ -15,6 +15,14 @@ Adriano Latorre
 
 [CA] [EN] [ES]
 
+I’m a [UX designer and copywriter][PROFILE] with a bent for effortless user experiences. I love clean interfaces, precise wording and simple solutions.
+
+Here I keep [a portfolio of my work][WORK], a [media][MEDIA] and [links][LINKS] collection and the [wonderful people][PEOPLE] I have been lucky enough to work with.
+
+[Hello][MAIL]. Nice to meet you.
+
+---
+
 I'm a [UX designer and copywriter][PROFILE] with a bent for effortless user experiences. I love clean interfaces, precise wording and simple solutions.
 
 Here I keep [a portfolio of my work][WORK], a [media][MEDIA] and [links][LINKS] collection and [notes][NOTES] about what I have learned. I'm lucky to have worked and learned with [wonderful people][PEOPLE] most of my career.
