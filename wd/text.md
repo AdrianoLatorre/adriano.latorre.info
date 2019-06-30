@@ -13,6 +13,14 @@ If no cookie, set EN and display this message:
 
 Adriano Latorre
 
+I’m a [UX designer and copywriter][PROFILE] with a bent for effortless user experiences. I love clean interfaces, precise wording and simple solutions.
+
+Here I keep [a portfolio of my work][WORK] and a [media][MEDIA] and [links][LINKS] collection.
+
+[Hello][MAIL]. Nice to meet [you][PEOPLE].
+
+---
+
 [CA] [EN] [ES]
 
 I’m a [UX designer and copywriter][PROFILE] with a bent for effortless user experiences. I love clean interfaces, precise wording and simple solutions.
