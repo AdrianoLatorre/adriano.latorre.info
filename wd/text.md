@@ -9,15 +9,17 @@
 
 If no cookie, set EN and display this message:
 
-> This page is also available in [Catalan][CA] and [Spanish][ES].
+> Also available in [Catalan][CA] and [Spanish][ES].
 
-Adriano Latorre
+> També en [Català][CA] o en [Castellano][ES].
 
 I’m a [UX designer and copywriter][PROFILE] with a bent for effortless user experiences. I love clean interfaces, precise wording and simple solutions.
 
 Here I keep [a portfolio of my work][WORK] and a [media][MEDIA] and [links][LINKS] collection.
 
 [Hello][MAIL]. Nice to meet [you][PEOPLE].
+
+Adriano Latorre
 
 ---
 
@@ -29,6 +31,8 @@ Here I keep [a portfolio of my work][WORK], a [media][MEDIA] and [links][LINKS] 
 
 [Hello][MAIL]. Nice to meet you.
 
+Adriano Latorre
+
 ---
 
 I'm a [UX designer and copywriter][PROFILE] with a bent for effortless user experiences. I love clean interfaces, precise wording and simple solutions.
@@ -39,6 +43,7 @@ Read my [profile][PROFILE], get in [contact][MAIL] or find me on [Twitter][TWITT
 
 Nice to meet you.
 
+Adriano Latorre
 
 ---
 
@@ -50,6 +55,7 @@ I'm lucky to have worked with [wonderful people][PEOPLE] most of my career. Lear
 
 Nice to meet you.
 
+Adriano Latorre
 
 ---
 
